@@ -1,2 +1,3 @@
-rpm-ostree --apply-live install rofi dmenu unity-gtk2-module unity-gtk3-module libdbusmenu-gtk3 libdbusmenu-gtk2 libdbusmenu libdbusmenu-jsonloader libdbusmenu-tools python3-setproctitle girl gtk-3 appmenu-qt appmenu-qt5 bamf-daemon keybinder3
-rpm-ostree --reboot install gnome-desktop
+rpm-ostree --apply-live install rofi dmenu unity-gtk2-module unity-gtk3-module libdbusmenu-gtk3 libdbusmenu-gtk2 libdbusmenu libdbusmenu-jsonloader libdbusmenu-tools python3-setproctitle girl gtk-3 appmenu-qt appmenu-qt5 snapd python3-pip fish github-cli xprop jq wmctrl i3-gaps feh alacritty chromium aria2 axel youtube-dl
+#bamf-daemon keybinder3
+#rpm-ostree --reboot install gnome-desktop
