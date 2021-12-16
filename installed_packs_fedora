@@ -1,6 +1,6 @@
-rpm-ostree --apply-live install rofi dmenu unity-gtk2-module unity-gtk3-module libdbusmenu-gtk3 libdbusmenu-gtk2 libdbusmenu libdbusmenu-jsonloader libdbusmenu-tools python3-setproctitle girl gtk-3 appmenu-qt appmenu-qt5 snapd python3-pip fish github-cli gitui vim tmux xprop xsel jq wmctrl i3-gaps feh alacritty qutebrowser aria2 axel youtube-dl snapper dnf-plugin-snapper fedora-workstation-repositories google-chrome-stable
+rpm-ostree --apply-live install rofi dmenu unity-gtk2-module unity-gtk3-module libdbusmenu-gtk3 libdbusmenu-gtk2 libdbusmenu libdbusmenu-jsonloader libdbusmenu-tools python3-setproctitle girl gtk-3 appmenu-qt appmenu-qt5 snapd python3-pip fish github-cli gitui vim tmux xprop xsel jq wmctrl i3-gaps feh alacritty qutebrowser aria2 axel youtube-dl snapper dnf-plugin-snapper fedora-workstation-repositories google-chrome-stable 
 rpm-ostree --apply-live install xbindkeys xautomation xdotool 3mux dejavu-fonts-all weston krusader kompare emacs ripgrep fd-find nodejs npm cargo dotnet-sdk-3.1
-rpm-ostree --apply-live install glibc-all-langpacks langpacks-en --allow-inactive 
+rpm-ostree --apply-live install glibc-all-langpacks langpacks-en NetworkManager-tui pipewire-pulseaudio --allow-inactive 
 zap install motrix neovim
 flatpak install nextcloud obsidian
 snap install p3x-onenote 
