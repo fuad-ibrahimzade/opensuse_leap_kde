@@ -1,9 +1,9 @@
 rpm-ostree --apply-live install rofi dmenu unity-gtk2-module unity-gtk3-module libdbusmenu-gtk3 libdbusmenu-gtk2 libdbusmenu libdbusmenu-jsonloader libdbusmenu-tools python3-setproctitle girl gtk-3 appmenu-qt appmenu-qt5 snapd python3-pip fish github-cli gitui vim tmux xprop xsel jq wmctrl i3-gaps feh alacritty qutebrowser aria2 axel youtube-dl snapper dnf-plugin-snapper fedora-workstation-repositories google-chrome-stable qt5ct kvantum gdm 
-rpm-ostree --apply-live install xbindkeys xautomation xdotool brightnessctl ImageMagick util-linux dejavu-fonts-all weston krusader kompare emacs ripgrep fd-find aria2 fzf procps-ng xdg-utils nodejs npm cargo dotnet-sdk-3.1
+rpm-ostree --apply-live install xbindkeys xautomation xdotool brightnessctl ImageMagick util-linux dunst exa dejavu-fonts-all weston krusader kompare emacs ripgrep fd-find aria2 fzf procps-ng xdg-utils nodejs npm cargo dotnet-sdk-3.1
 rpm-ostree --apply-live install glibc-all-langpacks langpacks-en NetworkManager-tui pipewire-pulseaudio gawk --allow-inactive 
 zap install motrix neovim vlc
 flatpak install nextcloud obsidian
 snap install p3x-onenote mpv 
-pip3 install --user poetry pyperclip i3-py PytQt5 PyQt5-Qt5 PyQt5-sip quickswitch-i3 yt-dlp youtube-dl bilvet bilvet-gui dbus-python PyGObject
+pip3 install --user poetry pyperclip i3-py PytQt5 PyQt5-Qt5 PyQt5-sip quickswitch-i3 yt-dlp youtube-dl icdiff bilvet bilvet-gui dbus-python PyGObject
 #bamf-daemon keybinder3
 #rpm-ostree --reboot install gnome-desktop
