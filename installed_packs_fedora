@@ -4,6 +4,6 @@ rpm-ostree --apply-live install glibc-all-langpacks langpacks-en NetworkManager-
 zap install motrix neovim vlc
 flatpak install nextcloud obsidian
 snap install p3x-onenote mpv 
-pip3 install --user poetry pyperclip i3-py PytQt5 PyQt5-Qt5 PyQt5-sip quickswitch-i3 yt-dlp youtube-dl icdiff bilvet bilvet-gui dbus-python PyGObject
+pip3 install --user poetry pyperclip i3-py PytQt5 PyQt5-Qt5 PyQt5-sip quickswitch-i3 yt-dlp youtube-dl icdiff bilvet bilvet-gui dbus-python PyGObject i3-workspace-names-daemon
 #bamf-daemon keybinder3
 #rpm-ostree --reboot install gnome-desktop
