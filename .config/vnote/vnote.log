@@ -1,0 +1,80 @@
+Info:(main.cpp:211) VNote started "2.10" "Sun Dec 5 14:29:58 2021"
+Info:(main.cpp:223) openGL 0
+Warning:(:0) QSslSocket: cannot resolve CRYPTO_num_locks
+Warning:(:0) QSslSocket: cannot resolve CRYPTO_set_id_callback
+Warning:(:0) QSslSocket: cannot resolve CRYPTO_set_locking_callback
+Warning:(:0) QSslSocket: cannot resolve ERR_free_strings
+Warning:(:0) QSslSocket: cannot resolve EVP_CIPHER_CTX_cleanup
+Warning:(:0) QSslSocket: cannot resolve EVP_CIPHER_CTX_init
+Warning:(:0) QSslSocket: cannot resolve sk_new_null
+Warning:(:0) QSslSocket: cannot resolve sk_push
+Warning:(:0) QSslSocket: cannot resolve sk_free
+Warning:(:0) QSslSocket: cannot resolve sk_num
+Warning:(:0) QSslSocket: cannot resolve sk_pop_free
+Warning:(:0) QSslSocket: cannot resolve sk_value
+Warning:(:0) QSslSocket: cannot resolve SSL_library_init
+Warning:(:0) QSslSocket: cannot resolve SSL_load_error_strings
+Warning:(:0) QSslSocket: cannot resolve SSL_get_ex_new_index
+Warning:(:0) QSslSocket: cannot resolve SSLv23_client_method
+Warning:(:0) QSslSocket: cannot resolve SSLv23_server_method
+Warning:(:0) QSslSocket: cannot resolve X509_STORE_CTX_get_chain
+Warning:(:0) QSslSocket: cannot resolve OPENSSL_add_all_algorithms_noconf
+Warning:(:0) QSslSocket: cannot resolve OPENSSL_add_all_algorithms_conf
+Warning:(:0) QSslSocket: cannot resolve SSLeay
+Warning:(:0) QSslSocket: cannot resolve SSLeay_version
+Warning:(:0) Incompatible version of OpenSSL
+Info:(main.cpp:224) openSSL "OpenSSL 1.0.1f 6 Jan 2014" 0
+Warning:(vutils.cpp:1258) fail to delete file "/home/qaqulya/.config/vnote/resources/common.css"
+Info:(main.cpp:211) VNote started "2.10" "Sun Dec 5 14:33:09 2021"
+Info:(main.cpp:223) openGL 0
+Warning:(:0) QSslSocket: cannot resolve CRYPTO_num_locks
+Warning:(:0) QSslSocket: cannot resolve CRYPTO_set_id_callback
+Warning:(:0) QSslSocket: cannot resolve CRYPTO_set_locking_callback
+Warning:(:0) QSslSocket: cannot resolve ERR_free_strings
+Warning:(:0) QSslSocket: cannot resolve EVP_CIPHER_CTX_cleanup
+Warning:(:0) QSslSocket: cannot resolve EVP_CIPHER_CTX_init
+Warning:(:0) QSslSocket: cannot resolve sk_new_null
+Warning:(:0) QSslSocket: cannot resolve sk_push
+Warning:(:0) QSslSocket: cannot resolve sk_free
+Warning:(:0) QSslSocket: cannot resolve sk_num
+Warning:(:0) QSslSocket: cannot resolve sk_pop_free
+Warning:(:0) QSslSocket: cannot resolve sk_value
+Warning:(:0) QSslSocket: cannot resolve SSL_library_init
+Warning:(:0) QSslSocket: cannot resolve SSL_load_error_strings
+Warning:(:0) QSslSocket: cannot resolve SSL_get_ex_new_index
+Warning:(:0) QSslSocket: cannot resolve SSLv23_client_method
+Warning:(:0) QSslSocket: cannot resolve SSLv23_server_method
+Warning:(:0) QSslSocket: cannot resolve X509_STORE_CTX_get_chain
+Warning:(:0) QSslSocket: cannot resolve OPENSSL_add_all_algorithms_noconf
+Warning:(:0) QSslSocket: cannot resolve OPENSSL_add_all_algorithms_conf
+Warning:(:0) QSslSocket: cannot resolve SSLeay
+Warning:(:0) QSslSocket: cannot resolve SSLeay_version
+Warning:(:0) Incompatible version of OpenSSL
+Info:(main.cpp:224) openSSL "OpenSSL 1.0.1f 6 Jan 2014" 0
+Warning:(vpalette.cpp:60) cyclic palette definitions found QHash(("abstractitemview_textedit_item_selected_inactive_fg", "inactive_fg")("listview_item_selected_inactive_bg", "inactive_bg")("statusbar_fg", "border_fg")("treeview_item_selected_inactive_bg", "inactive_bg")("listview_item_selected_inactive_fg", "inactive_fg")("treeview_item_selected_inactive_fg", "inactive_fg")("abstractitemview_textedit_item_selected_inactive_bg", "inactive_bg"))
+Info:(main.cpp:211) VNote started "2.10" "Sun Dec 5 14:33:26 2021"
+Info:(main.cpp:223) openGL 0
+Warning:(:0) QSslSocket: cannot resolve CRYPTO_num_locks
+Warning:(:0) QSslSocket: cannot resolve CRYPTO_set_id_callback
+Warning:(:0) QSslSocket: cannot resolve CRYPTO_set_locking_callback
+Warning:(:0) QSslSocket: cannot resolve ERR_free_strings
+Warning:(:0) QSslSocket: cannot resolve EVP_CIPHER_CTX_cleanup
+Warning:(:0) QSslSocket: cannot resolve EVP_CIPHER_CTX_init
+Warning:(:0) QSslSocket: cannot resolve sk_new_null
+Warning:(:0) QSslSocket: cannot resolve sk_push
+Warning:(:0) QSslSocket: cannot resolve sk_free
+Warning:(:0) QSslSocket: cannot resolve sk_num
+Warning:(:0) QSslSocket: cannot resolve sk_pop_free
+Warning:(:0) QSslSocket: cannot resolve sk_value
+Warning:(:0) QSslSocket: cannot resolve SSL_library_init
+Warning:(:0) QSslSocket: cannot resolve SSL_load_error_strings
+Warning:(:0) QSslSocket: cannot resolve SSL_get_ex_new_index
+Warning:(:0) QSslSocket: cannot resolve SSLv23_client_method
+Warning:(:0) QSslSocket: cannot resolve SSLv23_server_method
+Warning:(:0) QSslSocket: cannot resolve X509_STORE_CTX_get_chain
+Warning:(:0) QSslSocket: cannot resolve OPENSSL_add_all_algorithms_noconf
+Warning:(:0) QSslSocket: cannot resolve OPENSSL_add_all_algorithms_conf
+Warning:(:0) QSslSocket: cannot resolve SSLeay
+Warning:(:0) QSslSocket: cannot resolve SSLeay_version
+Warning:(:0) Incompatible version of OpenSSL
+Info:(main.cpp:224) openSSL "OpenSSL 1.0.1f 6 Jan 2014" 0

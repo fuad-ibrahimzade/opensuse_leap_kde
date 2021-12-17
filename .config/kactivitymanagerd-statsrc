@@ -1,0 +1,5 @@
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-61e44b7c-21b5-49c8-9352-e4bb5305fa1a]
+ordering=preferred://browser,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop,applications:org.kde.konsole.desktop,applications:org.zim_wiki.Zim.desktop,applications:systemsettings.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-global]
+ordering=preferred://browser,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop,applications:org.kde.konsole.desktop,applications:org.zim_wiki.Zim.desktop,applications:systemsettings.desktop

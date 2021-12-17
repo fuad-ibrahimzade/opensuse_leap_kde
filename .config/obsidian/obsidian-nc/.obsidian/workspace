@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "fd5ddeb373082232",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f84483bcdda99f9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "job-related/cari-courses.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e76bfb5144526ad2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fe3fcd4c9b6ac1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b8ac24bb411315f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9134c0d1a7d9a81d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "478aa23731fe3d42",
+    "type": "split",
+    "children": [
+      {
+        "id": "d02fdfb8578036fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e13e0393f53b433",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "job-related/cari-courses.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3f84483bcdda99f9",
+  "lastOpenFiles": [
+    "job-related/cari-courses.md",
+    "core/mic.md",
+    "core/obnc.md",
+    "core/miq.md",
+    "core/miq.md",
+    "protected/Test.md",
+    "job-related/cari-jobs.md",
+    "Untitled.md",
+    "Untitled/obnc.md"
+  ]
+}

@@ -1,0 +1,70 @@
+2021-12-08 22:59:15:412 [ info nextcloud.gui.application ]:	"################## Nextcloud locale:[en_US] ui_lang:[] version:[3.3.6git] os:[Fedora Linux 35 (Container Image)]"
+2021-12-08 22:59:15:413 [ info nextcloud.gui.application ]:	Using "en_US" translation
+2021-12-08 22:59:15:458 [ info nextcloud.gui.socketapi ]:	server started, listening at  "/run/user/1000/Nextcloud/socket"
+2021-12-08 22:59:15:458 [ info nextcloud.gui.folder.manager ]:	setting remote poll timer interval to 30000 msec
+2021-12-08 22:59:15:459 [ info nextcloud.gui.account.manager ]:	Migrate: restoreFromLegacySettings, checking settings group "Nextcloud"
+2021-12-08 22:59:15:459 [ info nextcloud.gui.account.manager ]:	Migrate: checking old config  "/home/qaqulya/.config/ownCloud/owncloud.cfg"
+2021-12-08 22:59:15:613 [ info nextcloud.gui.folder.manager ]:	Setup folders from  "/home/qaqulya/.config/Nextcloud/folders" (migration)
+2021-12-08 22:59:15:613 [ info nextcloud.sync.clientproxy ]:	Set proxy configuration to use the preferred system proxy for http tcp connections
+2021-12-08 22:59:17:740 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:55:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2021-12-08 22:59:17:740 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:48:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2021-12-08 22:59:17:745 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:312: TypeError: Cannot read property 'avatar' of null
+2021-12-08 22:59:17:745 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:321: TypeError: Cannot read property 'isConnected' of null
+2021-12-08 22:59:17:745 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:333: TypeError: Cannot read property 'isConnected' of null
+2021-12-08 22:59:17:746 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:348: TypeError: Cannot read property 'statusIcon' of null
+2021-12-08 22:59:17:746 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:346: TypeError: Cannot read property 'isConnected' of null
+2021-12-08 22:59:17:746 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:372: TypeError: Cannot read property 'name' of null
+2021-12-08 22:59:17:746 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:381: TypeError: Cannot read property 'isConnected' of null
+2021-12-08 22:59:17:746 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:390: TypeError: Cannot read property 'statusEmoji' of null
+2021-12-08 22:59:17:747 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:388: TypeError: Cannot read property 'statusEmoji' of null
+2021-12-08 22:59:17:747 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:398: TypeError: Cannot read property 'statusMessage' of null
+2021-12-08 22:59:17:747 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:396: TypeError: Cannot read property 'statusMessage' of null
+2021-12-08 22:59:17:747 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:441: TypeError: Cannot read property 'hasLocalFolder' of null
+2021-12-08 22:59:17:747 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:459: TypeError: Cannot read property 'isConnected' of null
+2021-12-08 22:59:17:747 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:458: TypeError: Cannot read property 'hasLocalFolder' of null
+2021-12-08 22:59:17:747 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:470: TypeError: Cannot read property 'isConnected' of null
+2021-12-08 22:59:17:748 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:484: TypeError: Cannot read property 'serverHasTalk' of null
+2021-12-08 22:59:17:748 [ warning default ]:	qrc:/qml/src/gui/tray/Window.qml:580: ReferenceError: activityModel is not defined
+2021-12-08 22:59:17:757 [ info nextcloud.gui.application ]:	No configured folders yet, starting setup wizard
+2021-12-08 22:59:17:967 [ info nextcloud.gui.wizard.webviewpage ]:	Time for a webview!
+2021-12-08 22:59:19:222 [ warning default ]:	Please register the custom scheme 'nc' via QWebEngineUrlScheme::registerScheme() before installing the custom scheme handler.
+2021-12-08 22:59:19:240 [ debug nextcloud.gui.wizard ]	[ OCC::OwncloudWizard::slotCurrentPageChanged ]:	Current Wizard page changed to  0
+2021-12-08 22:59:34:763 [ debug nextcloud.gui.wizard ]	[ OCC::OwncloudWizard::slotCurrentPageChanged ]:	Current Wizard page changed to  1
+2021-12-08 22:59:38:419 [ debug nextcloud.gui.wizard ]	[ OCC::OwncloudSetupWizard::slotCheckServer ]:	Trying to look up system proxy
+2021-12-08 22:59:38:425 [ info nextcloud.gui.wizard ]:	No system proxy set by OS
+2021-12-08 22:59:38:443 [ info nextcloud.sync.accessmanager ]:	2 "" "https://vault.dediserve.com/status.php" has X-Request-ID "056b3dab-f1aa-4ef8-a001-a7e845980469"
+2021-12-08 22:59:38:443 [ debug nextcloud.sync.cookiejar ]	[ OCC::CookieJar::cookiesForUrl ]:	QUrl("https://vault.dediserve.com/status.php") requests: ()
+2021-12-08 22:59:38:444 [ info nextcloud.sync.networkjob ]:	OCC::CheckServerJob created for "https://vault.dediserve.com" + "status.php" "OCC::OwncloudSetupWizard"
+2021-12-08 22:59:41:957 [ info nextcloud.sync.networkjob.checkserver ]:	status.php returns:  QJsonDocument({"edition":"","installed":true,"maintenance":false,"needsDbUpgrade":false,"productname":"Dediserve Limited","version":"15.0.14.1","versionstring":"15.0.14"})   QNetworkReply::NoError  Reply:  QNetworkReplyHttpImpl(0x564c9d6f0080)
+2021-12-08 22:59:41:957 [ debug nextcloud.gui.wizard ]	[ OCC::OwncloudWizard::appendToConfigurationLog ]:	Setup-Log:  "<font color=\"green\">Successfully connected to https://vault.dediserve.com: Nextcloud version 15.0.14 (15.0.14.1)</font><br/><br/>"
+2021-12-08 22:59:41:958 [ info nextcloud.sync.networkjob.determineauthtype ]:	Determining auth type for QUrl("https://vault.dediserve.com/remote.php/dav/files//")
+2021-12-08 22:59:41:958 [ info nextcloud.sync.accessmanager ]:	2 "" "https://vault.dediserve.com" has X-Request-ID "09013a99-2d7f-43fe-9d11-04d6c310bd32"
+2021-12-08 22:59:41:958 [ debug nextcloud.sync.cookiejar ]	[ OCC::CookieJar::cookiesForUrl ]:	QUrl("https://vault.dediserve.com") requests: (QNetworkCookie("ocdei5nfw98b=j599e5c9moa8a6ppojfkopi4k3; secure; HttpOnly; domain=vault.dediserve.com; path=/"), QNetworkCookie("oc_sessionPassphrase=N%2FN3F9c6R2aLZRNTk1rdCtwy4Cn%2FeLT7U%2Frj%2F1tH7tgT0VZYSiwWLy%2Fu0s%2FTtSuN%2BX%2BcqgPtinH50l%2BiJv3fVoXT93Pkl0TGU1BK4R5aFM4gqPSyKCa1DtOTM6Tt%2B5Xr; secure; HttpOnly; domain=vault.dediserve.com; path=/"), QNetworkCookie("__Host-nc_sameSiteCookielax=true; secure; HttpOnly; SameSite=lax; expires=Fri, 31-Dec-2100 23:59:59 GMT; domain=vault.dediserve.com; path=/"), QNetworkCookie("__Host-nc_sameSiteCookiestrict=true; secure; HttpOnly; SameSite=strict; expires=Fri, 31-Dec-2100 23:59:59 GMT; domain=vault.dediserve.com; path=/"))
+2021-12-08 22:59:41:959 [ info nextcloud.sync.networkjob ]:	OCC::SimpleNetworkJob created for "https://vault.dediserve.com" + "" ""
+2021-12-08 22:59:41:960 [ info nextcloud.sync.accessmanager ]:	6 "PROPFIND" "https://vault.dediserve.com/remote.php/dav/files//" has X-Request-ID "bb02bbd2-3786-4995-a7a7-4fe28c911458"
+2021-12-08 22:59:41:960 [ debug nextcloud.sync.cookiejar ]	[ OCC::CookieJar::cookiesForUrl ]:	QUrl("https://vault.dediserve.com/remote.php/dav/files//") requests: (QNetworkCookie("ocdei5nfw98b=j599e5c9moa8a6ppojfkopi4k3; secure; HttpOnly; domain=vault.dediserve.com; path=/"), QNetworkCookie("oc_sessionPassphrase=N%2FN3F9c6R2aLZRNTk1rdCtwy4Cn%2FeLT7U%2Frj%2F1tH7tgT0VZYSiwWLy%2Fu0s%2FTtSuN%2BX%2BcqgPtinH50l%2BiJv3fVoXT93Pkl0TGU1BK4R5aFM4gqPSyKCa1DtOTM6Tt%2B5Xr; secure; HttpOnly; domain=vault.dediserve.com; path=/"), QNetworkCookie("__Host-nc_sameSiteCookielax=true; secure; HttpOnly; SameSite=lax; expires=Fri, 31-Dec-2100 23:59:59 GMT; domain=vault.dediserve.com; path=/"), QNetworkCookie("__Host-nc_sameSiteCookiestrict=true; secure; HttpOnly; SameSite=strict; expires=Fri, 31-Dec-2100 23:59:59 GMT; domain=vault.dediserve.com; path=/"))
+2021-12-08 22:59:41:961 [ info nextcloud.sync.networkjob ]:	OCC::SimpleNetworkJob created for "https://vault.dediserve.com" + "" ""
+2021-12-08 22:59:41:962 [ info nextcloud.sync.accessmanager ]:	2 "" "https://vault.dediserve.com/ocs/v2.php/cloud/capabilities?format=json" has X-Request-ID "69f55ac8-187c-4e29-b31f-f1abad115d24"
+2021-12-08 22:59:41:962 [ debug nextcloud.sync.cookiejar ]	[ OCC::CookieJar::cookiesForUrl ]:	QUrl("https://vault.dediserve.com/ocs/v2.php/cloud/capabilities?format=json") requests: (QNetworkCookie("ocdei5nfw98b=j599e5c9moa8a6ppojfkopi4k3; secure; HttpOnly; domain=vault.dediserve.com; path=/"), QNetworkCookie("oc_sessionPassphrase=N%2FN3F9c6R2aLZRNTk1rdCtwy4Cn%2FeLT7U%2Frj%2F1tH7tgT0VZYSiwWLy%2Fu0s%2FTtSuN%2BX%2BcqgPtinH50l%2BiJv3fVoXT93Pkl0TGU1BK4R5aFM4gqPSyKCa1DtOTM6Tt%2B5Xr; secure; HttpOnly; domain=vault.dediserve.com; path=/"), QNetworkCookie("__Host-nc_sameSiteCookielax=true; secure; HttpOnly; SameSite=lax; expires=Fri, 31-Dec-2100 23:59:59 GMT; domain=vault.dediserve.com; path=/"), QNetworkCookie("__Host-nc_sameSiteCookiestrict=true; secure; HttpOnly; SameSite=strict; expires=Fri, 31-Dec-2100 23:59:59 GMT; domain=vault.dediserve.com; path=/"))
+2021-12-08 22:59:41:964 [ info nextcloud.sync.networkjob ]:	OCC::JsonApiJob created for "https://vault.dediserve.com" + "/ocs/v2.php/cloud/capabilities" "OCC::DetermineAuthTypeJob"
+2021-12-08 22:59:41:964 [ debug nextcloud.sync.networkjob ]	[ OCC::AbstractNetworkJob::slotFinished ]:	Network job OCC::CheckServerJob finished for "status.php"
+2021-12-08 22:59:42:129 [ info nextcloud.sync.networkjob ]:	Redirecting "GET" QUrl("https://vault.dediserve.com") QUrl("https://vault.dediserve.com/login")
+2021-12-08 22:59:42:130 [ info nextcloud.sync.accessmanager ]:	2 "" "https://vault.dediserve.com/login" has X-Request-ID "b5612099-7eb8-43bd-8e4c-99df6d0b079c"
+2021-12-08 22:59:42:130 [ debug nextcloud.sync.cookiejar ]	[ OCC::CookieJar::cookiesForUrl ]:	QUrl("https://vault.dediserve.com/login") requests: (QNetworkCookie("ocdei5nfw98b=j599e5c9moa8a6ppojfkopi4k3; secure; HttpOnly; domain=vault.dediserve.com; path=/"), QNetworkCookie("oc_sessionPassphrase=N%2FN3F9c6R2aLZRNTk1rdCtwy4Cn%2FeLT7U%2Frj%2F1tH7tgT0VZYSiwWLy%2Fu0s%2FTtSuN%2BX%2BcqgPtinH50l%2BiJv3fVoXT93Pkl0TGU1BK4R5aFM4gqPSyKCa1DtOTM6Tt%2B5Xr; secure; HttpOnly; domain=vault.dediserve.com; path=/"), QNetworkCookie("__Host-nc_sameSiteCookielax=true; secure; HttpOnly; SameSite=lax; expires=Fri, 31-Dec-2100 23:59:59 GMT; domain=vault.dediserve.com; path=/"), QNetworkCookie("__Host-nc_sameSiteCookiestrict=true; secure; HttpOnly; SameSite=strict; expires=Fri, 31-Dec-2100 23:59:59 GMT; domain=vault.dediserve.com; path=/"))
+2021-12-08 22:59:42:331 [ warning nextcloud.sync.networkjob.determineauthtype ]:	Unknown WWW-Authenticate reply to auth-test PROPFIND: "basic realm=\"dediserve limited\", charset=\"utf-8\""
+2021-12-08 22:59:42:332 [ debug nextcloud.sync.networkjob ]	[ OCC::AbstractNetworkJob::slotFinished ]:	Network job OCC::SimpleNetworkJob finished for ""
+2021-12-08 22:59:42:537 [ debug nextcloud.sync.networkjob ]	[ OCC::AbstractNetworkJob::slotFinished ]:	Network job OCC::SimpleNetworkJob finished for ""
+2021-12-08 22:59:42:537 [ info nextcloud.sync.networkjob.jsonapi ]:	JsonApiJob of QUrl("https://vault.dediserve.com/ocs/v2.php/cloud/capabilities?format=json") FINISHED WITH STATUS "OK"
+2021-12-08 22:59:42:537 [ info nextcloud.sync.networkjob.determineauthtype ]:	Auth type for QUrl("https://vault.dediserve.com/remote.php/dav/files//") is OCC::DetermineAuthTypeJob::WebViewFlow
+2021-12-08 22:59:42:538 [ info nextcloud.gui.wizard.webviewpage ]:	Url to auth at:  "https://vault.dediserve.com/index.php/login/flow"
+2021-12-08 22:59:44:418 [ debug nextcloud.gui.wizard ]	[ OCC::OwncloudWizard::slotCurrentPageChanged ]:	Current Wizard page changed to  5
+2021-12-08 22:59:44:420 [ debug nextcloud.sync.networkjob ]	[ OCC::AbstractNetworkJob::slotFinished ]:	Network job OCC::JsonApiJob finished for "/ocs/v2.php/cloud/capabilities"
+2021-12-08 22:59:46:771 [ info nextcloud.gui.folder.manager ]:	Etag poll timer timeout
+2021-12-08 22:59:46:772 [ info nextcloud.gui.folder.manager ]:	Folders to sync: 0
+2021-12-08 22:59:46:772 [ info nextcloud.gui.folder.manager ]:	Number of folders that don't use push notifications: 0
+2021-12-08 23:00:15:379 [ info nextcloud.gui.folder.manager ]:	Etag poll timer timeout
+2021-12-08 23:00:15:379 [ info nextcloud.gui.folder.manager ]:	Folders to sync: 0
+2021-12-08 23:00:15:379 [ info nextcloud.gui.folder.manager ]:	Number of folders that don't use push notifications: 0
+2021-12-08 23:00:30:537 [ debug nextcloud.gui.wizard ]	[ OCC::OwncloudWizard::slotCurrentPageChanged ]:	Current Wizard page changed to  1
+2021-12-08 23:00:32:710 [ debug nextcloud.gui.wizard ]	[ OCC::OwncloudWizard::slotCurrentPageChanged ]:	Current Wizard page changed to  -1
+2021-12-08 23:00:32:717 [ info nextcloud.gui.wizard ]:	Rejected the new config, use the old!

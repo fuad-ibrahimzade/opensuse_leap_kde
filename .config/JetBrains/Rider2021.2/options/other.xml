@@ -1,0 +1,39 @@
+<application>
+  <component name="ProjectPluginTrackerManager">
+    <trackers>
+      <map>
+        <entry key="22GwC57jmrFQAyUYFs7yiXxcYFa">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Debug.Allow.Typing" value="true" />
+    <property name="NextRunPlatformUpdateBuild" value="RD-212.5284.64/2021.2.2" />
+    <property name="NextRunPlatformUpdateVersion" value="2021.2.2" />
+    <property name="RD.Init.Cfg.2" value="true" />
+    <property name="RD.Init.DialogShown.Ide" value="true" />
+    <property name="RD.Switch.Laf" value="true" />
+    <property name="Tutorials.In.Recent.Projects.Disabled" value="true" />
+    <property name="experimentalFeature.editor.reader.mode" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/git-repos/technonews" />
+    <property name="file.gist.reindex.count" value="6" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector:com.jetbrains.rider.cpp.fileType.CppHeaderFileTypeDetector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
+    <property name="ide.updates.previous.build.number" value="RD-212.5080.71" />
+    <property name="ignoreUltimateEdition" value="true" />
+    <property name="input.method.disabler.muted" value="true" />
+    <property name="last_open_solution_path" value="$USER_HOME$/git-repos/technonews" />
+    <property name="last_opened_file_path" value="$USER_HOME$/git-repos/technonews" />
+    <property name="registry.to.advanced.settings.migration.build" value="RD-212.5080.71" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.3.5" />
+  </component>
+  <component name="ToolbarSettingsService">
+    <option name="NEW_TOOLBAR_SETTINGS" value="OLD_NAVBAR" />
+  </component>
+</application>

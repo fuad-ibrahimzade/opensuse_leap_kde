@@ -1,0 +1,24 @@
+[KFileDialog Settings]
+Recent Files[$e]=hud-menu-service.py,file:$HOME/.local/share/zap/v2/Motrix-1.6.11.AppImage,file:$HOME/.config/hud-menu/hud-menu-service.py
+Recent URLs[$e]=file:$HOME/.local/share/zap/v2/,file:$HOME/.config/hud-menu/,file:$HOME/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+LVDS-1 Height 1366x768=442
+LVDS-1 Width 1366x768=476
+
+[MainWindow]
+LVDS-1 Height 1366x768=672
+LVDS-1 Width 1366x768=451
+LVDS-1 XPosition 1366x768=913
+LVDS-1 YPosition 1366x768=50
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA/wAAALsAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Open-with settings]
+CompletionMode=1
+History=xbindkeys,kru,krusa,ranger,nex,/home/qaqulya/.local/share/zap/v2/Motrix-1.6.11.AppImage,/var/home/qaqulya/.config/hud-menu/hud-menu-service.py
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=true

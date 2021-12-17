@@ -1,0 +1,28 @@
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[KPropertiesDialog]
+LVDS-1 Height 1366x768=496
+LVDS-1 Width 1366x768=446
+
+[Open-with settings]
+CompletionMode=1
+History=code,ride,nex,chr,qute,krus,disc,sett,one,obs
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 2][Horizontal1366]
+thickness=44
+
+[PlasmaViews][Panel 22][Defaults]
+thickness=32
+
+[PlasmaViews][Panel 22][Horizontal1366]
+thickness=32
+
+[ScreenConnectors]
+0=LVDS-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/00-start-here-2.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js

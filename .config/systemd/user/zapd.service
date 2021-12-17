@@ -1,0 +1,15 @@
+[Unit]
+Description=Zap Updater daemon
+After=syslog.target network.target
+[Service]
+Type=simple
+ExecStart=/var/home/qaqulya/.local/bin/zap daemon
+LimitNOFILE=65536
+RestartSec=3
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=zapd
+Environment=LAUNCHED_BY_SYSTEMD=1
+[Install]
+WantedBy=default.target

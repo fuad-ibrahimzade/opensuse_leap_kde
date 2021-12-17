@@ -1,0 +1,14 @@
+#!/bin/bash
+current_windowname="$(xdotool getwindowfocus getwindowname)"
+#echo $current_windowname
+#if [[ $(grep -q "fish" <<< "$current_windowname") ]]; then
+STR="$current_windowname"
+SUB="fish /home/"
+if [[ "$STR" == *"$SUB"* ]]; then
+	#echo aaaaa
+	tmux kill-session; 
+fi
+#if [[ isatty ]];then 
+#	tmux kill-session; 
+#fi
+

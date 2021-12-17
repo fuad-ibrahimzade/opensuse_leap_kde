@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<LibraryCache xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Members>
+    <LibraryInfo File="/usr/lib/monodevelop/AddIns/MonoDevelop.GtkCore/libstetic.dll" Guid="9485c0ad-5dda-46b2-a36c-cca4afbf9ff5" Timestamp="2021-08-05T05:08:10Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Web/4.0.0.0__b03f5f7f11d50a3a/System.Web.dll" Guid="8bc2b40b-3263-412a-8904-84ceed4c85f5" Timestamp="2021-07-22T19:53:13Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll" Guid="843e42d5-5d78-4919-b217-60a8916e3313" Timestamp="2021-07-22T19:52:53Z" />
+    <LibraryInfo File="/usr/lib/mono/4.5/mscorlib.dll" Guid="9e3e2f5c-41f3-452c-af74-a530d88137d8" Timestamp="2021-07-22T19:56:58Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System/4.0.0.0__b77a5c561934e089/System.dll" Guid="a6363695-2823-48c7-b9b4-14574faf4964" Timestamp="2021-07-22T19:52:46Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Configuration/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll" Guid="a038e1e3-fe87-4de1-b700-469d6eadeadd" Timestamp="2021-07-22T19:52:54Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Xml/4.0.0.0__b77a5c561934e089/System.Xml.dll" Guid="0d56be93-10bf-4f5e-b37f-52af006a5b0b" Timestamp="2021-07-22T19:52:51Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Security/4.0.0.0__b03f5f7f11d50a3a/System.Security.dll" Guid="da0ded4f-dfec-4e04-b924-2cbf1c252293" Timestamp="2021-07-22T19:52:53Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Numerics/4.0.0.0__b77a5c561934e089/System.Numerics.dll" Guid="f3ec6516-bbef-482f-9995-d630b3441885" Timestamp="2021-07-22T19:52:53Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Core/4.0.0.0__b77a5c561934e089/System.Core.dll" Guid="22ab10ac-a481-4de5-8743-2f68aa93d855" Timestamp="2021-07-22T19:52:54Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/Mono.Security/4.0.0.0__0738eb9f132ed756/Mono.Security.dll" Guid="8ae6ae49-64d1-48bc-8e20-2b8086908762" Timestamp="2021-07-22T19:52:41Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Web.ApplicationServices/4.0.0.0__31bf3856ad364e35/System.Web.ApplicationServices.dll" Guid="ecd3080f-e27e-48e8-a2b5-0fd2c6476d49" Timestamp="2021-07-22T19:52:56Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Data/4.0.0.0__b77a5c561934e089/System.Data.dll" Guid="875e5629-5ec5-488c-9bd0-db58fdf4105c" Timestamp="2021-07-22T19:53:00Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Transactions/4.0.0.0__b77a5c561934e089/System.Transactions.dll" Guid="7adfa6dd-1fe8-467d-b129-6f8dad57e07a" Timestamp="2021-07-22T19:52:56Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.EnterpriseServices/4.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.dll" Guid="2f0c15cd-a2c7-42b4-81d7-fa185a1fbd7e" Timestamp="2021-07-22T19:52:57Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Runtime.Serialization.Formatters.Soap/4.0.0.0__b03f5f7f11d50a3a/System.Runtime.Serialization.Formatters.Soap.dll" Guid="64961c3c-bd1f-4605-a01f-c82f75db023d" Timestamp="2021-07-22T19:52:52Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Web.Services/4.0.0.0__b03f5f7f11d50a3a/System.Web.Services.dll" Guid="f9d36cf0-3987-4f15-8b21-5a11ceeeb6a4" Timestamp="2021-07-22T19:53:09Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Design/4.0.0.0__b03f5f7f11d50a3a/System.Design.dll" Guid="a1dfec7a-c39d-4e74-bd0d-7fc6197b221b" Timestamp="2021-07-22T19:53:07Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll" Guid="46186351-1116-47ba-af5a-482e56c545b7" Timestamp="2021-07-22T19:53:05Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/Mono.WebBrowser/4.0.0.0__0738eb9f132ed756/Mono.WebBrowser.dll" Guid="3b7999a4-c22f-4f0e-9554-721ce0199caa" Timestamp="2021-07-22T19:52:53Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/Mono.Posix.dll" Guid="ba7bbc63-36e5-4bde-b677-4798ed96371c" Timestamp="2021-07-22T19:52:53Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/Accessibility/4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll" Guid="9466c4fb-406c-4ea4-9713-2fe8dc96749a" Timestamp="2021-07-22T19:52:52Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.DirectoryServices/4.0.0.0__b03f5f7f11d50a3a/System.DirectoryServices.dll" Guid="2062b0d1-7e5d-4541-b955-26684da62327" Timestamp="2021-07-22T19:52:54Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/Novell.Directory.Ldap/4.0.0.0__0738eb9f132ed756/Novell.Directory.Ldap.dll" Guid="ff4052f0-24e6-49d1-a91d-ff8dada22146" Timestamp="2021-07-22T19:52:53Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/Mono.Data.Sqlite/4.0.0.0__0738eb9f132ed756/Mono.Data.Sqlite.dll" Guid="b86914a1-611e-4476-8b36-e7be01385364" Timestamp="2021-07-22T19:53:02Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.ComponentModel.DataAnnotations/4.0.0.0__31bf3856ad364e35/System.ComponentModel.DataAnnotations.dll" Guid="1dd8feb5-80fc-4438-8c1d-049b4a7670af" Timestamp="2021-07-22T19:52:56Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Web.Extensions/4.0.0.0__31bf3856ad364e35/System.Web.Extensions.dll" Guid="d640be61-1ec0-4edd-aaf2-948189fc319b" Timestamp="2021-07-22T19:53:21Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.ServiceModel/4.0.0.0__b77a5c561934e089/System.ServiceModel.dll" Guid="70014680-db1e-4129-99a0-24a5b80f5530" Timestamp="2021-07-22T19:53:19Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Runtime.Serialization/4.0.0.0__b77a5c561934e089/System.Runtime.Serialization.dll" Guid="66e692f0-b3fe-4cfd-835f-93f4170dbb87" Timestamp="2021-07-22T19:53:03Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.ServiceModel.Internals/0.0.0.0__b77a5c561934e089/System.ServiceModel.Internals.dll" Guid="0dbf3740-2210-4989-a2ed-51819e96c485" Timestamp="2021-07-22T19:52:56Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.IdentityModel/4.0.0.0__b77a5c561934e089/System.IdentityModel.dll" Guid="966ec170-83e2-403d-96b0-4f1866446a33" Timestamp="2021-07-22T19:53:15Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Messaging/4.0.0.0__b03f5f7f11d50a3a/System.Messaging.dll" Guid="d5bdc0bb-9749-4216-9cdb-47c6740586a0" Timestamp="2021-07-22T19:53:06Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/Mono.Messaging/4.0.0.0__0738eb9f132ed756/Mono.Messaging.dll" Guid="7a2e5937-3d95-4668-a8e9-93f1f8cd5c54" Timestamp="2021-07-22T19:52:56Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Configuration.Install/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.Install.dll" Guid="e6d08161-4971-4c04-a091-30a8b13ea958" Timestamp="2021-07-22T19:52:52Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.ServiceModel.Activation/4.0.0.0__31bf3856ad364e35/System.ServiceModel.Activation.dll" Guid="c18c4e0f-bf3e-4d99-87a2-9d3f97cfe9db" Timestamp="2021-07-22T19:53:20Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.IdentityModel.Selectors/4.0.0.0__b77a5c561934e089/System.IdentityModel.Selectors.dll" Guid="ab4eba6b-cb28-40c9-ad28-fc4b872f7470" Timestamp="2021-07-22T19:53:16Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Data.Linq/4.0.0.0__b77a5c561934e089/System.Data.Linq.dll" Guid="70f1f939-7085-4fc0-a61a-757204a931c5" Timestamp="2021-07-22T19:53:05Z" />
+    <LibraryInfo File="/usr/lib/mono/gac/System.Xml.Linq/4.0.0.0__b77a5c561934e089/System.Xml.Linq.dll" Guid="41be2685-49bc-41a7-9496-69276ce16074" Timestamp="2021-07-22T19:52:56Z" />
+  </Members>
+</LibraryCache>

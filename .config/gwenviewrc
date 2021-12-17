@@ -1,0 +1,37 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[MainWindow]
+LVDS-1 Height 1366x768=665
+LVDS-1 Width 1366x768=1020
+LVDS-1 Window-Maximized 1366x768=true
+LVDS-1 XPosition 1366x768=0
+LVDS-1 YPosition 1366x768=0
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAqcAAAJyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/git-repos/opensuse_leap_kde/wallpapers/Atlantis_Beautiful_Nebula-2016_High_Quality_Wallpaper Wallpaper_1920x1080[10wallpaper.com].jpg
+File10[$e]=$HOME/.nextcloud/Photos/Nextcloud Community.jpg
+File2[$e]=$HOME/git-repos/opensuse_leap_kde/wallpapers/curent.png
+File3[$e]=$HOME/git-repos/opensuse_leap_kde/wallpapers/Desert Green-No Plasma Logo.jpg
+File4[$e]=$HOME/git-repos/opensuse_leap_kde/wallpapers/F33_wallpaper_night.jpg
+File5[$e]=$HOME/git-repos/opensuse_leap_kde/wallpapers/KDE Plasma Nebula 384.png
+File6[$e]=$HOME/git-repos/opensuse_leap_kde/wallpapers/KDE Plasma Nebula 540 HD With Logo.png
+File7[$e]=$HOME/git-repos/opensuse_leap_kde/wallpapers/Galaxy-Wallpaper-for-Computer [edited]_Fotor.jpg
+File8[$e]=$HOME/.nextcloud/Photos/Coast.jpg
+File9[$e]=$HOME/.nextcloud/Photos/Hummingbird.jpg
+Name1[$e]=Atlantis_Beautiful_Nebula-2016_High_Quality_Wallpaper Wallpaper_1920x1080[10wallpaper.com].jpg
+Name10[$e]=Nextcloud Community.jpg
+Name2[$e]=curent.png
+Name3[$e]=Desert Green-No Plasma Logo.jpg
+Name4[$e]=F33_wallpaper_night.jpg
+Name5[$e]=KDE Plasma Nebula 384.png
+Name6[$e]=KDE Plasma Nebula 540 HD With Logo.png
+Name7[$e]=Galaxy-Wallpaper-for-Computer [edited]_Fotor.jpg
+Name8[$e]=Coast.jpg
+Name9[$e]=Hummingbird.jpg
+
+[SideBar]
+SideBarSplitterSizes=242,434

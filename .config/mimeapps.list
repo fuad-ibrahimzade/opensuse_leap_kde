@@ -1,0 +1,15 @@
+[Added Associations]
+inode/directory=org.kde.krusader.desktop;ons-krusader.desktop;krusader.desktop;org.kde.dolphin.desktop;/home/qaqulya/.local/share/applications/ranger.desktop;ranger.desktop;
+x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop;
+x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop;
+
+[Default Applications]
+inode/directory=org.kde.krusader.desktop;
+text/html=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop;
+x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop;
+x-scheme-handler/magnet=Motrix.desktop
+x-scheme-handler/mo=Motrix.desktop
+x-scheme-handler/motrix=Motrix.desktop
+x-scheme-handler/unknown=google-chrome.desktop
