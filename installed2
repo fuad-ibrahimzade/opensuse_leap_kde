@@ -18,7 +18,7 @@ sudo transactional-update -c 13 pkg install fish tmux alacritty
 sudo transactional-update -c 17 pkg install qt5ct gdm
 
 
-sudo transactional-update -c 18 pkg install xprop xsel jq wmctrl python3-pip xbindkeys xautomation xdotool dunst libnotify-tools exa emacs ripgrep fd fzf procps xdg-utils util-linux
+sudo transactional-update -c 18 pkg install xprop xsel jq wmctrl python3-pip xbindkeys xautomation xdotool dunst libnotify-tools exa emacs ripgrep fd fzf procps xdg-utils util-linux mc
 sudo transactional-update -c 19 pkg install krusader kompare 
 curl https://github.com/chmln/handlr/releases/download/v0.6.4/handlr --create-dirs -o ~/.local/bin/handlr && chmod +x ~/.local/bin/handlr
 curl https://raw.githubusercontent.com/chmln/handlr/master/completions/handlr.fish --create-dirs -o ~/.config/fish/completions/handlr.fish
@@ -70,6 +70,9 @@ npm install -g trash-cli
 trix run opi trash-cli
 trix pkg install systemd-zram-service zramcfg (then in yast enable zram service start mod to onboot)
 cp /home/qaqulya/.config/scripts/lazygit /home/qaqulya/.local/bin/. 
+mkdir -p ~/.local/share/mc/skins
+wget https://raw.githubusercontent.com/dracula/midnight-commander/master/skins/dracula.ini -O ~/.local/share/mc/skins/dracula.ini
+wget https://raw.githubusercontent.com/dracula/midnight-commander/master/skins/dracula256.ini -O ~/.local/share/mc/skins/dracula256.ini
 
 
 
