@@ -1,0 +1,74 @@
+sudo transactional-update -c 3 pkg install snapd i3-gaps dmenu i3status flatpak
+sudo transactional-update -c 7 pkg install ImageMagick ImageMagick-config-7-SUSE appmenu-gtk3-module appmenu-gtk-module-common aria2 axel dejavu-fonts dmenu rofi dos2unix git git-gui htop jq unity-gtk2-module  unity-gtk3-module unity-gtk-module-common uget uget-integrator shadow
+sudo transactional-update -c 10 pkg install libdbus-1-3 libdbusmenu-glib4 libdbusmenu-gtk3-4 libdbusmenu-gtk4 libdbusmenu-qt5-2 libdbusmenu-qt5-devel libkeybinder-3_0-0 python-keybinder sqlite3 typelib-1_0-Keybinder-3_0   
+sudo transactional-update -c 11 pkg install toolbox
+sudo transactional-update -c 11 pkg install podman
+sudo transactional-update -c 12 run zypper install -t pattern devel_basis
+sudo transactional-update -c 13 pkg install opi libQt5DBus libQt5DBus-devel
+
+errors: libgtk-4-1  
+
+remains:
+java-11-openjdk dbus-1-x11 dbus-1-glib dbus-1-glib-tool libqt5-qdbus libqt5-qdbus-devel plasma-hud
+
+====
+
+sudo transactional-update -c 13 pkg install fish tmux alacritty 
+#sudo transactional-update -c 16 pkg install  qutebrowser
+sudo transactional-update -c 17 pkg install qt5ct gdm
+
+
+sudo transactional-update -c 18 pkg install xprop xsel jq wmctrl python3-pip xbindkeys xautomation xdotool dunst libnotify-tools exa emacs ripgrep fd fzf procps xdg-utils util-linux
+sudo transactional-update -c 19 pkg install krusader kompare 
+curl https://github.com/chmln/handlr/releases/download/v0.6.4/handlr --create-dirs -o ~/.local/bin/handlr && chmod +x ~/.local/bin/handlr
+curl https://raw.githubusercontent.com/chmln/handlr/master/completions/handlr.fish --create-dirs -o ~/.config/fish/completions/handlr.fish
+
+
+sudo transactional-update -c 24 run zypper install "https://download.opensuse.org/repositories/home:/vitoravelino_bkp/15.3/x86_64/brightnessctl-0.5.1-lp153.17.1.x86_64.rpm" 
+sudo transactional-update -c 25 shell "unlock wheel user no password for current user"
+sudo transactional-update -c 29 pkg install gcc-c++ fontawesome-fonts
+
+#sudo transactional-update -c 30 pkg install libQt5Core5 libQt5X11Extras5
+sudo transactional-update pkg install libqt5-qtx11extras-devel libqt5-qtserialbus-devel libqt5-qtserialport-devel libqt5-creator libQt5Core-devel libQt5Gui-devel
+#sudo transactional-update -c 32 --interactive run opi kvantum
+sudo transactional-update -c 32 --interactive run opi i3status
+
+
+sudo transactional-update pkg install nodejs-default npm-default
+
+remains-fedora:
+kvantum
+rust cargo
+
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo zypper addrepo --refresh https://packages.microsoft.com/config/opensuse/15/prod.repo
+sudo zypper ref
+sudo transactional-update -c 51 reboot pkg install dotnet-sdk-3.1 dotnet-sdk-6
+
+todo after restart:
+/usr/sbin/rebootmgrctl set-strategy instantly
+sudo transactional-update run systemctl enable --now snapd
+sudo trabsactional-update run systemctl enable --now snapd.apparmor
+sudo transactional-update run flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+zap install --github --from nextcloud/desktop
+zap install --github --from obsidianmd/obsidian-releases
+zap install --github --from patrikx3/onenote
+zap install --from "https://libreoffice.soluzioniopen.com/stable/standard/LibreOffice-still.standard-x86_64.AppImage"
+zap install motrix neovim vlc
+zap install --github --from zilti/VSCode.AppImage
+flatpak install io.mpv.Mpv
+flatpak install org.qutebrowser.qutebrowser
+#flatpak install nextcloud obsidian
+#snap install p3x-onenote mpv
+snap install gh
+pip3 install --user poetry pyperclip i3-py PyQtWebEngine PyQt5 PyQt5-Qt5 PyQt5-sip quickswitch-i3 yt-dlp youtube-dl icdiff PyGObject i3-workspace-names-daemon aria2p[tui]
+sudo transactional-update pkg install python3-dbus-python python3-dbus-python-devel
+pip3 install --user dbus-python
+pip3 uninstall PyQt5
+npm install -g trash-cli
+trix run opi trash-cli
+
+
+chmod +x /home/qaqulya/.config/scripts/diana/dad
+chmod +x /home/qaqulya/.config/scripts/diana/diana
