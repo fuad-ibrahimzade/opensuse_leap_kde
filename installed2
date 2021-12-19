@@ -68,8 +68,9 @@ pip3 install --user dbus-python
 pip3 uninstall PyQt5
 npm install -g trash-cli
 trix run opi trash-cli
-trix run opi rust cargo
-cargo install gitui
+trix pkg install systemd-zram-service zramcfg (then in yast enable zram service start mod to onboot)
+cp /home/qaqulya/.config/scripts/lazygit /home/qaqulya/.local/bin/. 
+
 
 
 chmod +x /home/qaqulya/.config/scripts/diana/dad
