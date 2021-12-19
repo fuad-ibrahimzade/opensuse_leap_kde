@@ -68,6 +68,8 @@ pip3 install --user dbus-python
 pip3 uninstall PyQt5
 npm install -g trash-cli
 trix run opi trash-cli
+trix run opi rust cargo
+cargo install gitui
 
 
 chmod +x /home/qaqulya/.config/scripts/diana/dad
