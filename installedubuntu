@@ -1,0 +1,222 @@
+sudo apt install sway swaybg swaylock waybar wofi swayidle i3status git
+
+sudo add-apt-repository multiverse
+sudo apt update
+sudo apt install ubuntu-restricted-extras vlc
+
+sudo add-apt-repository ppa:webupd8team/y-ppa-manager
+sudo apt update 
+sudo apt install y-ppa-manager
+sudo apt-get install ppa-purge
+
+sudo add-apt-repository ppa:wrinkliez/ppasearch
+sudo apt-get update && sudo apt-get install ppasearch
+
+sudo add-apt-repository ppa:aslatter/ppa
+sudo apt update
+sudo apt install alacritty
+
+sudo apt install meld fish icdiff tmux qt5ct
+sudo apt install zram-config
+
+#git clone https://github.com/Big-B/swaylock-fancy.git
+#cd swaylock-fancy
+#sudo make install
+#sudo apt install graphicsmagick-imagemagick-compat
+
+wget https://github.com/chmln/handlr/releases/download/v0.6.4/handlr -O ~/.local/bin/handlr && chmod +x ~/.local/bin/handlr
+wget https://raw.githubusercontent.com/chmln/handlr/master/completions/handlr.fish -O ~/.config/fish/completions/handlr.fish
+
+
+
+===
+add this to /etc/sudoes
+%wheel  ALL=(ALL) NOPASSWD: ALL
+sudo usermod -a -G wheel qaqulya
+
+sudo apt install flatpak 
+sudo apt install --reinstall ca-certificates`
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+sudo apt install imagemagick aria2 axel fonts-dejavu dos2unix git htop jq apt-file aptitude
+
+
+sudo apt install xsel jq wmctrl python3-pip xbindkeys xautomation xdotool dunst libnotify4 libnotify-bin emacs ripgrep fd-find fzf procps xdg-utils util-linux mc brightnessctl qt5-style-kvantum
+
+sudo add-apt-repository ppa:spvkgn/exa
+sudo apt install exa -y
+
+#sudo aptitude install g++ build-essential #(choose 1st without version) altready installed
+
+sudo apt install fonts-font-awesome
+
+sudo apt install ripgrep
+
+sudo apt install nodejs npm 
+sudo apt install openjdk-17-jdk
+cp ~/.config/scripts/dotnet-install.sh ~/.local/bin/. && chmod +x ~/.local/bin/.*
+
+cp ~/.config/scripts/toolbox ~/.local/bin/. && chmod +x ~/.local/bin/.*
+sudo apt-get install curl wget gnupg2 -y
+source /etc/os-release
+sh -c "echo 'deb http://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/ /' > /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list"
+wget -nv https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable/xUbuntu_${VERSION_ID}/Release.key -O- | apt-key add -
+sudo apt-get update -qq -y
+tee -a /etc/containers/registries.conf <<- EOF
+[registries.insecure]
+registries = [ ]
+# If you need to block pull access from a registry, uncomment the section below
+# and add the registries fully-qualified name.
+# Docker only
+[registries.block]
+registries = [ ]
+EOF
+sudo apt-get -qq --yes install podman
+
+--- region remains
+conflicts:
+bat	with ripgrep on /usr/.cratess2.json
+
+rustc cargo
+--- endregion remains
+
+===
+
+sudo wget https://github.com/srevinsaju/zap/releases/download/continuous/zap-amd64 -O /usr/local/bin/zap
+sudo chmod +x /usr/local/bin/zap
+
+zap install --github --from nextcloud/desktop
+zap install --github --from obsidianmd/obsidian-releases
+zap install --github --from patrikx3/onenote
+#zap install --from "https://libreoffice.soluzioniopen.com/stable/standa    rd/LibreOffice-still.standard-x86_64.AppImage"
+zap install motrix
+#neovim 
+sudo apt install neovim clipit
+#zap install vlc
+zap install --github --from zilti/VSCode.AppImage
+
+flatpak install io.mpv.Mpv
+#flatpak install org.qutebrowser.qutebrowser
+#flatpak install nextcloud obsidian
+#snap install p3x-onenote mpv
+snap install gh
+
+pip3 install --user poetry pyperclip yt-dlp youtube-dl icdiff PyGObject i3-workspace-names-daemon aria2p[tui]
+pip3 install --user i3-py
+pip3 install --user quickswitch-i3 
+
+
+#pip3 uninstall PyQt5
+sudo apt install qutebrowser -y
+pip3 install --upgrade qutebrowser --user #for upgrading 5.14 webpage dark theme
+apt install trash-cli
+cp /home/qaqulya/.config/scripts/lazygit /home/qaqulya/.local/bin/.
+mkdir -p ~/.local/share/mc/skins
+wget https://raw.githubusercontent.com/dracula/midnight-commander/maste    r/skins/dracula.ini -O ~/.local/share/mc/skins/dracula.ini
+wget https://raw.githubusercontent.com/dracula/midnight-commander/maste    r/skins/dracula256.ini -O ~/.local/share/mc/skins/dracula256.ini
+
+chmod +x /home/qaqulya/.config/scripts/diana/dad
+chmod +x /home/qaqulya/.config/scripts/diana/diana
+
+--- region global-menu hud-menu related
+dont work in wayland:
+appmenu... unity... libdbus... libkeybinder-3 python-keybinder sqlite3 typelib-1-Keybinder-3
+
+#sudo apt install vala-panel-appmenu unity-gtk3-module unity-gtk2-module
+#echo "deb http://az.archive.ubuntu.com/ubuntu/ bionic main" | sudo tee -a /etc/apt/sources.list
+#sudo apt update
+#sudo apt install appmenu-qt5
+
+
+#dbus-x11 dbus-glib dbus-glib-tool libqt5-qdbus libqt5-qdbus-devel plasma-hud
+
+probable dont work in wayland:
+#sudo transactional-update pkg install python3-dbus-python python3-dbus-    python-devel
+#pip3 install --user dbus-python
+
+
+--- endregion gloabl-menu hud-menu related
+
+
+
+===
+help
+
+-- to fix broken packages:
+sudo apt-get update
+sudo apt-get clean
+sudo apt-get autoremove
+sudo aptitude purge x
+sudo dpkg --remove --force-remove-reinstreq x
+sudo dpkg --configure -a
+OR
+sudo apt-get remove x
+sudo apt-get clean
+sudo apt-get update
+
+-- when zfs initrd images are removen or dont exist cannot load grub etc:
+$efipart=/dev/sda1
+$swappart=/dev/sda2
+$bpoolpart=/dev/sda3
+$rpoolpart=/dev/sda4
+
+-1. install zfs to livecd if not exists:
+sudo -i
+apt-add-repository universe && apt update
+apt install --yes debootstrap gdisk zfs-initramfs
+
+-2. check if zpools listed export them:
+# zpool list
+# zfs list
+zpool export rpool
+zpool export bpool
+
+-3. import pools first and mount
+zpool import -N -R /mnt rpool
+zfs mount rpool/ROOT/ubuntu*
+zfs mount -a
+zpool import -d $bpoolpart bpool
+zfs mount bpool/ROOT/ubuntu*
+zfs mount -a
+
+-4. mount efi partition
+mount $efipart /mnt/boot/efi
+
+-5. Bind the virtual filesystems from the LiveCD environment to the new system and chroot into it:
+mount --rbind /dev  /mnt/dev
+mount --rbind /proc /mnt/proc
+mount --rbind /sys  /mnt/sys
+chroot /mnt /bin/bash --login
+
+-6. if efi partition mount returned errors or bpool not imported
+echo "" | sudo tee /etc/zfs/zfs-list.cache/bpool
+sudo export bpool
+sudo umount /boot/{efi,grub}
+sudo rmdir /boot/{efi,grub}
+sudo import bpool
+sudo mount -a
+zpool export bpool
+zpool import -d $bpoolpart bpool
+zfs mount bpool/ROOT/ubuntu*
+zfs mount -a
+mount $efipart /boot/efi
+sudo update-grub
+sudo grub-install #or:
+#grub-install --target=x86_64-efi --efi-directory=/boot/efi \
+      --bootloader-id=ubuntu --recheck —no-floppy
+
+-7. if inside chroot check not mounthed with: mount | grep /boot/grub; or no initrd image exists then:
+zfs set canmount=on bpool/boot/grub
+zpool import -N -R $bpoolpart bpool
+update-initramfs -c -k all
+update-grub
+grub-install --target=x86_64-efi --efi-directory=/boot/efi \
+    --bootloader-id=ubuntu --recheck --no-floppy
+
+-- to enable and show zfs snapshot entries with grub do:
+edit line accordingly in /etc/default/grub
+GRUB_TIMEOUT_STYLE=menu
+GRUB_TERMINAL=console
+GRUB_TIMEOUT=10
+then 
+sudo update-grub
