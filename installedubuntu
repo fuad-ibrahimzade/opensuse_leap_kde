@@ -41,7 +41,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 sudo apt install imagemagick aria2 axel fonts-dejavu dos2unix git htop jq apt-file aptitude
 
 
-sudo apt install xsel jq wmctrl python3-pip xbindkeys xautomation xdotool dunst libnotify4 libnotify-bin emacs ripgrep fd-find fzf procps xdg-utils util-linux mc brightnessctl qt5-style-kvantum
+sudo apt install xsel jq wmctrl python3-pip xbindkeys xautomation xdotool dunst libnotify4 libnotify-bin emacs ripgrep fd-find fzf procps xdg-utils util-linux mc ranger brightnessctl qt5-style-kvantum
 
 sudo add-apt-repository ppa:spvkgn/exa
 sudo apt install exa -y
