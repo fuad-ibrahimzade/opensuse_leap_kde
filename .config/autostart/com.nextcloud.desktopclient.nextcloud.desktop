@@ -1,18 +1,11 @@
-[Desktop Action Quit]
-Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=nextcloud com.nextcloud.desktopclient.nextcloud --quit
-Icon=nextcloud
-Name=Quit Nextcloud
-
 [Desktop Entry]
-Actions=Quit;
-Categories=Utility;X-SuSE-SyncUtility;
-Comment=Nextcloud desktop synchronization client
-Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=nextcloud com.nextcloud.desktopclient.nextcloud
-GenericName=Folder Sync
-Icon=com.nextcloud.desktopclient.nextcloud
-Keywords=Nextcloud;syncing;file;sharing;
-MimeType=application/vnd.nextcloud;
-Name=Nextcloud Desktop
+Name=Nextcloud
+GenericName=File Synchronizer
+Exec="/home/qaqulya/.local/share/zap/v2/Nextcloud-3.4.0-rc2-x64.AppImage" --background
+Terminal=false
+Icon=Nextcloud
+Categories=Network
 Type=Application
-X-Flatpak=com.nextcloud.desktopclient.nextcloud
-X-GNOME-Autostart-Delay=3
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=10

@@ -1,4 +1,3 @@
-https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d test
 https://wiki.odex.be/Usage/Configuration/Q/Qutebrowser.html Qutebrowser | TOS Wiki
 https://qutebrowser.org/doc/help/commands.html#download | qutebrowser commands
 https://www.cogitri.dev/posts/12-fedora-toolbox/ hele cari deyil Fedora Toolbox with custom container images - Cogitri's blog
@@ -98,7 +97,6 @@ https://github.com/firecat53/networkmanager-dmenu cari firecat53/networkmanager-
 https://www.reddit.com/r/swaywm/comments/itenhw/nmapplet_in_fedora/ cari nm-applet in Fedora : swaywm
 https://github.com/firecat53/networkmanager-dmenu/blob/main/networkmanager_dmenu cari networkmanager-dmenu/networkmanager_dmenu at main · firecat53/networkmanager-dmenu
 https://github.com/particleofmass/i3wm_screen_brightness cari particleofmass/i3wm_screen_brightness: Map your hot keys to increase or decrease the screen brightness in i3 wm
-https://unix.stackexchange.com/questions/526653/control-screen-brightness-in-i3 Control screen brightness in i3 - Unix & Linux Stack Exchange
 https://sourabhtk37.github.io/blog/post/brightness-and-volume-control-i3/ cari Brightness, volume control and other stuff in I3 •
 https://github.com/fmorisan/i3-backlight fmorisan/i3-backlight: Backlight control and backlight notifications for i3wm
 https://stackoverflow.com/questions/43488677/neovim-does-not-automatically-load-nvimrc-file vim - NeoVIm does not automatically load ~/.nvimrc file - Stack Overflow
@@ -195,3 +193,108 @@ https://gist.github.com/holms/5005629 midnight commander dark color theme
 https://www.youtube.com/watch?v=B0xvrXkEwr4 OSTree CLI for OS management - YouTube
 https://github.com/gotbletu/shownotes hele cari deyil gotbletu/shownotes: notes for videos from my youtube channel
 https://github.com/baskerville/sxhkd baskerville/sxhkd: Simple X hotkey daemon
+https://flathub.org/apps/details/com.github.tchx84.Flatseal cari Flatseal—Linux Apps on Flathub
+https://askubuntu.com/questions/1086529/how-to-give-a-flatpak-app-access-to-a-directory cari permissions - How to give a Flatpak app access to a directory - Ask Ubuntu
+https://flathub.org/apps/details/io.github.JaGoLi.ytdl_gui youtubedl-gui—Linux Apps on Flathub
+https://github.com/nedrichards/youtube-dl-flatpak GitHub - nedrichards/youtube-dl-flatpak
+https://flathub.org/apps/details/com.github.JannikHv.Gydl Gydl—Linux Apps on Flathub
+https://snapcraft.io/gh cari Install gh on Linux | Snap Store
+https://askubuntu.com/questions/90214/how-do-i-set-the-default-program cari How do I set the default program? - Ask Ubuntu
+https://stackoverflow.com/questions/47952567/how-can-i3-config-execute-sudo-commands linux - How can i3 config execute sudo commands - Stack Overflow
+https://github.com/jappeace/brightnessctl jappeace/brightnessctl: simple shell script that allows controll of brightness by executing them. This allowed only one tee write path instead of all and thus fixing a potential security risc.
+https://github.com/chmln/handlr cari chmln/handlr: A better xdg-utils
+https://askubuntu.com/questions/16580/where-are-file-associations-stored mime type - Where are file associations stored? - Ask Ubuntu
+https://askubuntu.com/questions/715306/xbacklight-no-outputs-have-backlight-property-no-sys-class-backlight-folder cari drivers - xbacklight: No outputs have backlight property - No /sys/class/backlight folder - Ask Ubuntu
+https://unix.stackexchange.com/questions/526653/control-screen-brightness-in-i3 cari Control screen brightness in i3 - Unix & Linux Stack Exchange
+https://faq.i3wm.org/question/7240/how-to-display-content-of-desktop-on-desktop/index.html%3Fanswer=7302.html hele cari deyil How to display content of ~/Desktop on desktop - i3 FAQ
+https://linuxgazette.net/160/okopnik.html hele cari deyil The Unbearable Lightness of Desktops: IceWM and idesk LG #160
+https://wiki.archlinux.org/title/idesk Idesk - ArchWiki
+https://users.suse.com/~kukuk/SUSE-CaaSP-Docu/rebootmgrctl.1.html rebootmgrctl
+https://kubic.opensuse.org/documentation/man-pages/rebootmgr.conf.5.html rebootmgr.conf
+https://www.reddit.com/r/qutebrowser/comments/hkonmv/very_new_to_qutebrowser_how_do_i_set_google_to_be/ cari Very new to qutebrowser, how do I set Google to be my default search engine instead of DuckDuckGo? : qutebrowser
+https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d cari autocompelte My qutebrowser config
+https://gist.github.com/Ape/d0c48b3f7ec9c8efaecf48eaa1e75d0d#file-config-py autoomplete My qutebrowser config
+https://superuser.com/questions/1440740/how-to-install-multiple-versions-of-net-sdk-on-ubuntu installation - How to Install multiple versions of .Net SDK on Ubuntu - Super User
+https://www.hanselman.com/blog/side-by-side-user-scoped-net-core-installations-on-linux-with-dotnetinstallsh Side by Side user scoped .NET Core installations on Linux with dotnet-install.sh - Scott Hanselman's Blog
+https://stackoverflow.com/questions/59134764/python-vlc-codec-h264-h264-mpeg-4-avc-part-10-is-not-supported libvlc - python-vlc - Codec `h264' (H264 - MPEG-4 AVC (part 10)) is not supported - Stack Overflow
+https://draculatheme.com/qt5 Dark theme for qt5 and 230+ apps — Dracula
+https://github.com/dracula/qt5 cari dracula/qt5: 🧛🏻‍♂️ Dark theme for qt5
+https://github.com/dracula/qt5/blob/master/INSTALL.md qt5/INSTALL.md at master · dracula/qt5
+https://www.danschmid.me/article/dark-themes-for-gtk-and-qt5-applications Dark themes for GTK and QT5 applications
+https://www.reddit.com/r/qutebrowser/comments/i6n71m/yank_hint_url/ yank hint URL? : qutebrowser
+https://github.com/sindresorhus/trash-cli sindresorhus/trash-cli: Move files and folders to the trash
+https://github.com/andreafrancia/trash-cli andreafrancia/trash-cli: Command line interface to the freedesktop.org trashcan.
+https://software.opensuse.org/package/libdvdcss2 openSUSE Software
+https://opensuse-guide.org/codecs.php cari vlc video codes fix 13. Multimedia Codecs - Install Support for restricted codecs including MP3, DVD, WMA, WMV, MOV etc.
+https://en.opensuse.org/VLC VLC - openSUSE Wiki
+https://stackoverflow.com/questions/41919442/opensuse-linux-no-provider-for-libglib-dev-libgcrypt-dev-found fix vlc codecs package - openSUSE Linux: No Provider for libglib-dev libgcrypt-dev found - Stack Overflow
+https://marketplace.visualstudio.com/items?itemName=zenonux.vscode-oss-sync OssSync - Visual Studio Marketplace
+https://github.com/zilti/VSCode.AppImage cari zilti/VSCode.AppImage: A Visual Studio Code repack as updateable AppImage
+https://askubuntu.com/questions/990071/why-do-snap-packages-disappear-when-using-the-fish-shell wayland - Why do snap packages disappear when using the Fish shell? - Ask Ubuntu
+https://www.appimagehub.com/p/1424410 cari Visual Studio Code - Appimagehub.com
+https://docs.nextcloud.com/desktop/2.6/advancedusage.html cari Advanced Usage — Nextcloud Client Manual 2.4.0 documentation
+http://javier.io/blog/en/2015/06/23/static-get.html cari static-get: linux static binaries for lazy people | javier.io
+https://stackoverflow.com/questions/19211855/fish-equivalent-of-bash-command-notation shell - Fish equivalent of bash $(command) notation - Stack Overflow
+https://stackoverflow.com/questions/47743015/fish-shell-how-to-check-if-a-variable-is-set-empty fish shell. How to check if a variable is set/empty? - Stack Overflow
+https://snapcraft.io/install/dotnet-sdk/opensuse Install .NET Core SDK on openSUSE using the Snap Store | Snapcraft
+https://en.opensuse.org/DotNet DotNet - openSUSE Wiki
+https://docs.microsoft.com/en-us/dotnet/core/install/linux-opensuse Install .NET on openSUSE - .NET | Microsoft Docs
+https://docs.microsoft.com/en-us/dotnet/core/install/linux-opensuse#next-steps Install .NET on openSUSE - .NET | Microsoft Docs
+https://docs.microsoft.com/en-us/dotnet/framework/deployment/side-by-side-execution Side-by-Side Execution in the .NET Framework - .NET Framework | Microsoft Docs
+https://github.com/extrawurst/gitui#installation cari extrawurst/gitui: Blazing 💥 fast terminal-ui for git written in rust 🦀
+https://github.com/soramimi/Guitar soramimi/Guitar: Git GUI Client
+https://github.com/ArthurSonzogni/git-tui ArthurSonzogni/git-tui: Collection of human friendly terminal interface for git.
+https://github.com/jesseduffield/lazygit cari jesseduffield/lazygit: simple terminal UI for git commands
+https://github.com/rothgar/awesome-tuis rothgar/awesome-tuis: List of projects that provide terminal user interfaces
+https://askubuntu.com/questions/353914/copy-paste-between-terminals-and-application-windows-in-i3 i3 wm - Copy & Paste between terminal(s) and application windows in i3 - Ask Ubuntu
+https://github.com/cdown/clipmenu cdown/clipmenu: Clipboard management using dmenu
+https://www.reddit.com/r/swaywm/comments/ksf5pq/which_login_display_managers_support_way_which/ Which Login Display Managers support way ? Which run on Wayland natively ? : swaywm
+https://github.com/tvrzna/emptty tvrzna/emptty: Dead simple CLI Display Manager on TTY
+https://github.com/Big-B/swaylock-fancy GitHub - Big-B/swaylock-fancy: swaylock script that takes a screenshot of the desktop, blurs the background and adds a lock icon and text
+https://www.reddit.com/r/swaywm/comments/chi4fr/question_shutdown_and_restart_binding/ [Question] shutdown and restart binding : swaywm
+https://en.jeffprod.com/blog/2020/create-your-own-i3-sway-status-bar/ JeffProd | Create your own i3/sway status bar with some bash and python
+https://www.ab9il.net/linux/alacritty-update.html cari Ubuntu PPAs for Alacritty
+https://serverfault.com/questions/160581/how-to-setup-passwordless-sudo-on-linux password - How to setup passwordless `sudo` on Linux? - Server Fault
+https://stackoverflow.com/questions/4857310/how-to-get-diff-working-like-git-diff How to get diff working like git-diff? - Stack Overflow
+https://www.linuxliteos.com/forums/other/how-to-disableturn-off-cari%20zram/ How to disable/turn-off zram
+https://www.linuxliteos.com/forums/other/how-to-disableturn-off-zram/ How to disable/turn-off zram
+https://askubuntu.com/questions/481/how-do-i-find-the-package-that-provides-a-file cari How do I find the package that provides a file? - Ask Ubuntu
+https://www.codegrepper.com/code-examples/shell/Install+cargo+ubuntu+20.4 Install cargo ubuntu 20.4 Code Example
+https://unix.stackexchange.com/questions/335515/i3-dmenu-does-not-browse-path cari i3 dmenu does not browse $PATH - Unix & Linux Stack Exchange
+https://draculatheme.com/wofi Dark theme for wofi and 230+ apps — Dracula
+https://discourse.ubuntu.com/t/how-to-install-ubuntu-unity-ppa/2090 How to install ubuntu-unity PPA - Desktop / Ubuntu Unity Development - Ubuntu Community Hub
+https://installati.one/ubuntu/20.04/vala-panel-appmenu/ How To Install vala-panel-appmenu on Ubuntu 20.04 | Installati.one
+https://github.com/rilian-la-te/vala-panel-appmenu rilian-la-te/vala-panel-appmenu: Global Menu for Vala Panel (and xfce4-panel and mate-panel) - GitHub mirror
+https://github.com/ubports/appmenu-qt5 ubports/appmenu-qt5
+https://discourse.flathub.org/t/unacceptable-tls-certificate-ubuntu-20-04-a-solution/716 cari Unacceptable TLS certificate Ubuntu 20.04 (A solution) - General - Flathub Discourse
+https://stackoverflow.com/questions/52504825/how-to-install-jdk-11-under-ubuntu java - How to install JDK 11 under Ubuntu? - Stack Overflow
+https://github.com/kubic-project/microos-toolbox cari toolbox script kubic-project/microos-toolbox: Script to run a toolbox container on openSUSE MicroOS
+https://raw.githubusercontent.com/kubic-project/microos-toolbox/master/toolbox https://raw.githubusercontent.com/kubic-project/microos-toolbox/master/toolbox
+https://snapcraft.io/install/toolbox/ubuntu Install toolbox on Ubuntu using the Snap Store | Snapcraft
+https://www.atlantic.net/dedicated-server-hosting/how-to-install-and-use-podman-on-ubuntu-20-04/ cari How to Install and Use Podman on Ubuntu 20.04 | Atlantic.Net
+https://podman.io/getting-started/installation Podman Installation
+https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html cari SSH Keys for GitHub
+https://gist.github.com/alexjj/4de71ddfae05e974c829 Delete all ZFS Snapshots
+https://gist.github.com/SkyWriter/58e36bfaa9eea1d36460 cari ZFS clean empty snapshots
+https://github.com/Josef-Friedrich/zfs-delete-empty-snapshots.sh hele caro deyil Josef-Friedrich/zfs-delete-empty-snapshots.sh: Delete empty ZFS snapshots in a secure manner.
+https://github.com/sickcodes/anbox-halium hele cari deyil waydroid alternative sickcodes/anbox-halium
+https://github.com/waydroid/waydroid waydroid/waydroid: Waydroid uses a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.
+https://github.com/hardenedlinux/debian-nix-manager hardenedlinux/debian-nix-manager: Using nix(DevOps) to deploy Network Security Monitoring System on Debian
+https://github.com/BrianHicks/nix-script hele cari deyil BrianHicks/nix-script: write scripts in compiled languages that run in the nix ecosystem, with no separate build step
+https://github.com/nmattia/niv hele cari deyil nmattia/niv: Easy dependency management for Nix projects
+https://gist.github.com/c-goes/fe17b71ad1f114e7bc38f8aff67064ef cari zsysctl cleanup script -- release space on bpool on Ubuntu 20.04 root on zfs install
+https://github.com/Venomtek/zsysctl-manual-gc/blob/main/gc cari zsysctl-manual-gc/gc at main · Venomtek/zsysctl-manual-gc
+https://gist.github.com/garethgeorge/4a1988b2aeb56ebc56418b1cf93aecde cari Prune autozsys snapshots produced by zsysctl on linux with zfs on root
+https://github.com/ubuntu/zsys ubuntu/zsys: ZSys daemon and client for zfs systems
+https://discourse.ubuntu.com/t/zfs-focus-on-ubuntu-20-04-lts-blog-posts/16355 hele cari deyil ZFS focus on Ubuntu 20.04 LTS blog posts - Desktop - Ubuntu Community Hub
+https://serverfault.com/questions/340837/how-to-delete-all-but-last-n-zfs-snapshots cari solaris - How to delete all but last [n] ZFS snapshots? - Server Fault
+https://techblog.jeppson.org/2018/03/zfs-delete-oldest-n-snapshots/ ZFS delete oldest n snapshots - Technicus
+https://waydro.id/ cari Waydroid
+https://ubunlog.com/en/waydroid-un-conjunto-de-herramientas-para-tener-tus-apps-de-android-en-ubuntu/ cari Waydroid, a set of tools to have your Android apps on Ubuntu | Ubunlog
+https://discourse.ubuntu.com/t/ubuntu-20-10-zfs-update-grub-zsysctl-boot-update-menu-dont-create-new-entries/18823 Ubuntu 20.10 zfs: update-grub, zsysctl boot update-menu don't create new entries - Ubuntu Community Hub
+https://askubuntu.com/questions/1288139/update-grub-errors-after-remaking-bpool-on-20-04# grub2 - Update-grub errors after remaking bpool on 20.04 - Ask Ubuntu
+https://blobfolio.com/2018/replace-grub2-with-systemd-boot-on-ubuntu-18-04/ hele cari deyil Replace GRUB2 with systemd-boot on Ubuntu 18.04 — Blobfolio
+https://www.reddit.com/r/zfs/comments/eyc2fa/zfs_bpoolboot_has_anyone_seen_this_grub_error/ hele cari deyil update-grub error ad zfs systemd-boot ZFS bpool/BOOT: Has anyone seen this Grub error before? : zfs
+https://askubuntu.com/questions/1242340/how-to-get-to-grub-menu-on-20-04 hele cari deyil boot-repair boot - How to get to Grub menu on 20.04? - Ask Ubuntu
+https://github.com/atlas-engineer/nx-video hele cari deyil atlas-engineer/nx-video: Video downloader for Nyxt
+https://pythonrepo.com/repo/Anorov-cloudflare-scrape-python-web-crawling A Python module to bypass Cloudflare's anti-bot page. | PythonRepo

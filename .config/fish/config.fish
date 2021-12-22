@@ -2,7 +2,13 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-set -g -x DOTNET_ROOT /home/qaqulya/dotnet
+bass source $HOME/.profile
+bass source $HOME/.bashrc
+#for file in /etc/profile.d/*.sh
+#        bass source $file
+#end
+
+set -g -x DOTNET_ROOT /home/qaqulya/.dotnet
 set -g -x NPM_CONFIG_PREFIX /home/qaqulya/.npm-global
 set session (bass echo "base_\$(uuidgen)")
 if type -q tmux
@@ -88,8 +94,15 @@ end
 function save_qutebrowser_bookmarks
 	bash -c "sed -E 's|^(\S+) ?(.*)|<a href=\"\1\">\2</a>|' ~/.config/qutebrowser/bookmarks/urls > qutebrowser-bookmarks.html"
 end
+function removeAllSnapshotsExceptLast
+	 bass zfs list -H -t snapshot -o name -S creation -r rpool | tail -1 | xargs -n 1 sudo zfs  destroy
+end
 
 
+set -g -x PATH $PATH /home/qaqulya/.local/bin /home/qaqulya/.npm-global/bin /home/qaqulya/.dotnet 
+set g -x XDG_DATA_DIRS /var/lib/flatpak/exports:/share/home/qaqulya/.local/share/flatpak/exports/share:/var/lib/snapd/desktop/:$XDG_DATA_DIRS
+
+#/usr/share/dotnet
 set -g -x QT_QPA_PLATFORMTHEME "qt5ct"
 set -g -x QT_PLATFORMTHEME "qt5ct"
 set -g -x QT_PLATFORM_PLUGIN "qt5ct"
@@ -97,8 +110,27 @@ set -g -x QT_AUTO_SCREEN_SCALE_FACTOR 0
 set -g -x QT_SCALE_FACTOR 1
 
 #alias nvim /home/qaqulya/.local/bin/neovim
+function vim
+    /home/qaqulya/.local/bin/neovim $argv
+end
 function nvim
     /home/qaqulya/.local/bin/neovim $argv
 end
+function lastsnap 
+	set --local last_snap_num (sudo snapper list --columns number | grep "*" | tr -d "*")
+	if test -z $last_snap_num
+	        set last_snap_num (sudo snapper list --columns number | grep "+" | tr -d "+")
+	end
+
+	echo $last_snap_num 
+end
+function trix
+	sudo /usr/sbin/transactional-update -c (lastsnap) $argv
+end
+function gitacp
+	git add .;git commit -am "refactor";git push origin main
+end
 set -g -x EDITOR "neovim"
 set -g -x VISUAL "neovim" 
+#set -g -x XDG_DATA_DIRS $XDG_DATA_DIRS/var/lib/flatpak/exports/share /home/qaqulya/.local/share/flatpak/exports/share
+set -g -x DOTNET_CLI_TELEMETRY_OPTOUT 1

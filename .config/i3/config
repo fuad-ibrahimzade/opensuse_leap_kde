@@ -204,7 +204,8 @@ for_window [title="Application Finder"] resize set width 600 px
 
 exec --no-startup-id nohup /usr/bin/python3 /home/qaqulya/.config/hud-menu/hud-menu-service.py >/dev/null 2>&1 &
 #bindsym $mod+x exec /usr/bin/python3 /home/qaqulya/.config/hud-menu/hud-menu.py dmenu
-exec --no-startup-id nohup /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=nextcloud com.nextcloud.desktopclient.nextcloud >/dev/null 2>&1 &
+#exec --no-startup-id nohup /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=nextcloud com.nextcloud.desktopclient.nextcloud >/dev/null 2>&1 &
+exec --no-startup-id nohup desktop
 exec --no-startup-id nm-applet --indicator --sm-disable
 
 
@@ -243,8 +244,14 @@ bar {
     }
 }
 #endregion statusbar
-bindsym XF86MonBrightnessUp exec --no-startup-id /home/qaqulya/.local/bin/brightnessctl set +5%
-bindsym XF86MonBrightnessDown exec --no-startup-id /home/qaqulya/.local/bin/brightnessctl set 5%-
+
+#set $DisplayDevice  brightnessctl -l | grep backlight | awk '{print $2}' | head -n 1 | tr -d '\''
+#bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -d $DisplayDevice set +5%
+#bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -d $DisplayDevice set -5%
+bindsym XF86MonBrightnessUp exec --no-startup-id /home/qaqulya/.config/scripts/brightnessctl-script up
+bindsym XF86MonBrightnessDown exec --no-startup-id /home/qaqulya/.config/scripts/brightnessctl-script down
+
+
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q set Master 5%- unmute
 
@@ -270,9 +277,10 @@ bindsym $mod+Escape mode "$mode_system"
 #set $mclip /home/qaqulya/.config/scripts/mclip.py
 #bindsym control+shift+v exec rofi -modi "clipboard:$mclip menu" && $mclip paste
 #exec --no-startup-id $mclip daemon
-exec --no-startup-id greenclip daemon
+#exec --no-startup-id greenclip daemon
 #bindsym control+shift+g exec ~/git-repos/dmenu-video-downloader/vid-download
-bindsym control+shift+g exec rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+#bindsym control+shift+g exec rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+exec --no-startup-id clipit
 
 exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
 #exec_always --no-startup-id aria2c --conf-path=/home/qaqulya/.config/aria2c/config 

@@ -11,7 +11,8 @@
 #   qute://help/settings.html
 
 # Change the argument to True to still load settings configured via autoconfig.yml
-config.load_autoconfig(False)
+#config.load_autoconfig(False)
+#config.load_autoconfig()
 
 # Which cookies to accept. With QtWebEngine, this setting also controls
 # other features with tracking capabilities similar to those of cookies;
@@ -35,7 +36,7 @@ config.load_autoconfig(False)
 #   - no-3rdparty: Accept cookies from the same origin only. This is known to break some sites, such as GMail.
 #   - no-unknown-3rdparty: Accept cookies from the same origin only, unless a cookie is already set for the domain. On QtWebEngine, this is the same as no-3rdparty.
 #   - never: Don't accept cookies at all.
-config.set('content.cookies.accept', 'all', 'chrome-devtools://*')
+config.set('content.cookies.accept', 'all', 'chrome-devtools://*') #conflict
 
 # Which cookies to accept. With QtWebEngine, this setting also controls
 # other features with tracking capabilities similar to those of cookies;
@@ -59,7 +60,7 @@ config.set('content.cookies.accept', 'all', 'chrome-devtools://*')
 #   - no-3rdparty: Accept cookies from the same origin only. This is known to break some sites, such as GMail.
 #   - no-unknown-3rdparty: Accept cookies from the same origin only, unless a cookie is already set for the domain. On QtWebEngine, this is the same as no-3rdparty.
 #   - never: Don't accept cookies at all.
-config.set('content.cookies.accept', 'all', 'devtools://*')
+config.set('content.cookies.accept', 'all', 'devtools://*') #conflict
 
 # Value to send in the `Accept-Language` header. Note that the value
 # read from JavaScript is always the global value.
@@ -140,25 +141,50 @@ config.set('content.javascript.enabled', True, 'qute://*/*')
 
 
 config.set('auto_save.session', True)
-config.set('colors.webpage.darkmode.enabled', True)
+config.set('colors.webpage.darkmode.enabled', True) #conflict
+#config.set('colors.webpage.prefers_color_scheme_dark', True) #conflict
 config.set('content.autoplay', False)
 
 c.aliases = {'q': 'quit', 'w': 'session-save', 'wq': 'quit --save'}
 
-config.set('content.notifications.enabled', True, 'https://www.reddit.com')
-config.set('content.notifications.enabled', True, 'https://www.youtube.com')
+#config.set('content.notifications.enabled', True, 'https://www.reddit.com') #conflict
+#config.set('content.notifications.enabled', True, 'https://www.youtube.com') #conflict
 c.downloads.location.directory = '~/Downloads'
 c.tabs.show = 'always'
 
 c.url.default_page = 'https://google.com/'
 c.url.start_pages = 'https://google.com/'
 
-c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}', 'am': 'https://www.amazon.com/s?k={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'goog': 'https://www.google.com/search?q={}', 'hoog': 'https://hoogle.haskell.org/?hoogle={}', 're': 'https://www.reddit.com/r/{}', 'ub': 'https://www.urbandictionary.com/define.php?term={}', 'wiki': 'https://en.wikipedia.org/wiki/{}', 'yt': 'https://www.youtube.com/results?search_query={}'}
+#c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}', 'am': 'https://www.amazon.com/s?k={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'goog': 'https://www.google.com/search?q={}', 'hoog': 'https://hoogle.haskell.org/?hoogle={}', 're': 'https://www.reddit.com/r/{}', 'ub': 'https://www.urbandictionary.com/define.php?term={}', 'wiki': 'https://en.wikipedia.org/wiki/{}', 'yt': 'https://www.youtube.com/results?search_query={}'}
+
+c.url.searchengines = {
+    'DEFAULT':  'https://google.com/search?hl=en&q={}',
+    '!a':       'https://www.amazon.com/s?k={}',
+    '!d':       'https://duckduckgo.com/?ia=web&q={}',
+    '!dd':      'https://thefreedictionary.com/{}',
+    '!e':       'https://www.ebay.com/sch/i.html?_nkw={}',
+    '!fb':      'https://www.facebook.com/s.php?q={}',
+    '!gh':      'https://github.com/search?o=desc&q={}&s=stars',
+    '!gist':    'https://gist.github.com/search?q={}',
+    '!gi':      'https://www.google.com/search?tbm=isch&q={}&tbs=imgo:1',
+    '!gn':      'https://news.google.com/search?q={}',
+    '!ig':      'https://www.instagram.com/explore/tags/{}',
+    '!m':       'https://www.google.com/maps/search/{}',
+    '!p':       'https://pry.sh/{}',
+    '!r':       'https://www.reddit.com/search?q={}',
+    '!sd':      'https://slickdeals.net/newsearch.php?q={}&searcharea=deals&searchin=first',
+    '!t':       'https://www.thesaurus.com/browse/{}',
+    '!tw':      'https://twitter.com/search?q={}',
+    '!w':       'https://en.wikipedia.org/wiki/{}',
+    '!yelp':    'https://www.yelp.com/search?find_desc={}',
+    '!yt':      'https://www.youtube.com/results?search_query={}'
+}
 
 config.bind("Sa", "set-cmd-text :bookmark-add {url:pretty} \"{title}\"")
 config.bind("Sr", "set-cmd-text :bookmark-del {url:pretty}")
 config.bind("Sd", "download -m")
 config.bind('t', 'set-cmd-text -s :open -t')
+config.bind('pt', 'set-cmd-text -s :open -p')
 
 #config.bind('<Ctrl-Shift-p>', 'hint links spawn --verbose --detach /home/qaqulya/.config/scripts/fillplaylist.sh push {hint-url}')
 
@@ -174,6 +200,7 @@ config.bind("Xv", "hint links userscript youtube_downloader.sh")
 #config.bind("Xv", "hint links userscript yt-downloader")
 config.bind("xc", "spawn --userscript add-aria2p-download.sh")
 config.bind("Xc", "hint links userscript add-aria2p-download.sh")
+config.bind("yf", "hint all yank")
 
 #c.fonts.tabs.selected = '20pt default_family'
 #c.fonts.tabs.unselected = '20pt default_family'
@@ -187,6 +214,34 @@ c.fonts.contextmenu = '13pt default_family'
 c.fonts.statusbar = '13pt default_family'
 c.fonts.prompts = '13pt default_family'
 
+# The height of the completion, in px or as percentage of the window.
+c.completion.height = "20%"
+
+# Move on to the next part when there's only one possible completion
+# left.
+#c.completion.quick = False
+
+# When to show the autocompletion window.
+# Valid values:
+#   - always: Whenever a completion is available.
+#   - auto: Whenever a completion is requested.
+#   - never: Never.
+#c.completion.show = "auto"
+
+
+config.bind("gi", "hint inputs")
+config.bind("<f12>", "devtools")
+
+c.confirm_quit = ["downloads"]
+
+#c.content.ssl_strict = True
+
+#c.editor.command = ["alacritty", "-e", "nvim '{}'"]
+
+c.url.default_page = "about:blank"
+
+#c.window.title_format = "{private}{perc}{title}{title_sep}qutebrowser"
+
 import dracula.draw
 
 # Load existing settings made via :set
@@ -198,3 +253,5 @@ dracula.draw.blood(c, {
         'horizontal': 8
     }
 })
+
+

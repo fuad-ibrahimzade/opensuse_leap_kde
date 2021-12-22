@@ -1,5 +1,5 @@
 
 [log] Loading Aut-O-Backups plugin ... 
 [log] Attempting stored auth ... 
-[log] Attempting backup to: /obsidian-nc/2021/12/15/23_45_17_434 
-[log] Backup to /obsidian-nc/2021/12/15/23_45_17_434 complete!
+[log] Attempting backup to: /obsidian-nc/2021/12/17/20_17_17_227 
+[log] Backup to /obsidian-nc/2021/12/17/20_17_17_227 complete!
