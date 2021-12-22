@@ -54,9 +54,9 @@ sudo apt install ripgrep
 
 sudo apt install nodejs npm 
 sudo apt install openjdk-17-jdk
-cp ~/.config/scripts/dotnet-install.sh ~/.local/bin/. && chmod +x ~/.local/bin/.*
+cp ~/.config/scripts/dotnet-install.sh ~/.local/bin/. && chmod +x ~/.local/bin/*
 
-cp ~/.config/scripts/toolbox ~/.local/bin/. && chmod +x ~/.local/bin/.*
+cp ~/.config/scripts/toolbox ~/.local/bin/. && chmod +x ~/.local/bin/*
 sudo apt-get install curl wget gnupg2 -y
 source /etc/os-release
 sh -c "echo 'deb http://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/ /' > /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list"
