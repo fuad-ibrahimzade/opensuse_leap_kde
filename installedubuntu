@@ -57,6 +57,7 @@ sudo apt install fonts-font-awesome
 sudo apt install ripgrep
 
 sudo apt install nodejs npm 
+sudo apt install rustc cargo #after sudo apt upgrade
 sudo apt install openjdk-17-jdk
 cp ~/.config/scripts/dotnet-install.sh ~/.local/bin/. && chmod +x ~/.local/bin/*
 
@@ -129,8 +130,8 @@ chmod +x /home/qaqulya/.config/scripts/diana/diana
 
 --- todo after all
 -1. Go to "Software & Updates" application -> Then change your "Download from" server to "Main server". After this close and go terminal. Then sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove
-
-
+-2 sudo update-alternatives --config x-terminal-emulator
+to change gnome terminal
 
 --- region global-menu hud-menu related
 works in wayland:
@@ -173,6 +174,11 @@ Comment=Fildem Global Menu and HUD
 sudo apt remove python3-fildem --autoremove 
 and remove folders at gnome-shell/extensions and /opt/fildem 
 
+wget https://github.com/dracula/gtk/archive/master.zip
+extract and rename to dracula-theme and move to /usr/share/themes
+wget https://github.com/dracula/gtk/files/5214870/Dracula.zip
+extract move to /usr/share/icons
+change themes and icons to dracule from gnome-tweak-tool
 
 
 
