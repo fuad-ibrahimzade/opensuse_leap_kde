@@ -155,9 +155,20 @@ gtk-modules="appmenu-gtk-module"
 -5. logout login install gnome-tweaks and enable fildem with hover disabled
 #sudo apt install chrome-gnome-shell gnome-shell-extension-pres
 sudo apt install gnome-tweak-tool
--6. install fildem.deb and add fildem-hud shortcut for hud menu
+-6. install fildem.deb and add fildem-hud shortcut for hud menu and autostart for fildem
 wget https://github.com/gonzaarcr/Fildem/releases/download/0.6.7/fildem_0.6.7_all.deb
 sudo apt install ~/Downloads/fildem_*_all.deb
+nvim ~/.config/autostart/fildem.desktop
+[Desktop Entry]
+Type=Application
+Exec=fildem
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Fildem
+Name=Fildem
+Comment[en_US]=Fildem Global Menu and HUD
+Comment=Fildem Global Menu and HUD
 -7. to remove fildem do 
 sudo apt remove python3-fildem --autoremove 
 and remove folders at gnome-shell/extensions and /opt/fildem 
@@ -166,7 +177,7 @@ and remove folders at gnome-shell/extensions and /opt/fildem
 
 
 
-dont work in wayland:
+dont work in wayland (old kde qt hudmenus):
 appmenu... unity... libdbus... libkeybinder-3 python-keybinder sqlite3 typelib-1-Keybinder-3
 
 #sudo apt install vala-panel-appmenu unity-gtk3-module unity-gtk2-module
