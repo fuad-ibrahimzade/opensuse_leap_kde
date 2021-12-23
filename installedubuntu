@@ -283,3 +283,11 @@ GRUB_TERMINAL=console
 GRUB_TIMEOUT=10
 then 
 sudo update-grub
+
+--- boot repair tools
+-1. finnix.iso downloaded to ventoy
+-2. boot-repair from ubuntu:
+sudo add-apt-repository ppa:yannubuntu/boot-repair
+sudo apt-get update
+sudo apt-get install -y boot-repair && boot-repair
+-3. Ultimate Boot CD iso downladed to ventoy
