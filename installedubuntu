@@ -1,3 +1,5 @@
+version 20.04 focal forsa
+
 sudo apt install sway swaybg swaylock waybar wofi swayidle i3status git
 sudo add-apt-repository -y ppa:regolith-linux/stable
 sudo apt install i3-gaps i3status dmenu rofi -y
@@ -127,11 +129,43 @@ chmod +x /home/qaqulya/.config/scripts/diana/diana
 
 --- todo after all
 -1. Go to "Software & Updates" application -> Then change your "Download from" server to "Main server". After this close and go terminal. Then sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove
--2.
 
 
 
 --- region global-menu hud-menu related
+works in wayland:
+fildem hud and global menu for 20.04:
+-1. donwgrade gnome shell and fix openssh (similar error)
+sudo apt install gnome-shell=3.36.4-1ubuntu1~20.04.2 gnome-shell-common=3.36.4-1ubuntu1~20.04.2 gnome-shell-extension-prefs=3.36.4-1ubuntu1~20.04.2
+sudo apt purge openssh-client && sudo apt install openssh-server
+-2. install requirements
+sudo apt install bamfdaemon gir1.2-bamf-3 libbamf3-2 libkeybinder-3.0-0 gir1.2-keybinder-3.0 appmenu-gtk2-module appmenu-gtk3-module unity-gtk-module-common python3-pip git
+python3 -m pip install --user fuzzysearch
+-3. git clone repo to extensions
+git clone https://github.com/gonzaarcr/Fildem
+mkdir -p ~/.local/share/gnome-shell/extensions
+mv Fildem/fildemGMenu@gonza.com ~/.local/share/gnome-shell/extensions
+sudo mv Fildem/fildem /opt/fildem
+-4. edit gtk settings
+vim ~/.gtkrc-2.0
+gtk-modules="appmenu-gtk-module"
+vim ~/.config/gtk-3.0/settings.ini
+[Settings]
+gtk-modules="appmenu-gtk-module"
+-5. logout login install gnome-tweaks and enable fildem with hover disabled
+#sudo apt install chrome-gnome-shell gnome-shell-extension-pres
+sudo apt install gnome-tweak-tool
+-6. install fildem.deb and add fildem-hud shortcut for hud menu
+wget https://github.com/gonzaarcr/Fildem/releases/download/0.6.7/fildem_0.6.7_all.deb
+sudo apt install ~/Downloads/fildem_*_all.deb
+-7. to remove fildem do 
+sudo apt remove python3-fildem --autoremove 
+and remove folders at gnome-shell/extensions and /opt/fildem 
+
+
+
+
+
 dont work in wayland:
 appmenu... unity... libdbus... libkeybinder-3 python-keybinder sqlite3 typelib-1-Keybinder-3
 
