@@ -93,7 +93,12 @@ zap install motrix
 #neovim 
 sudo apt install neovim clipit
 #zap install vlc
-zap install --github --from zilti/VSCode.AppImage
+#zap install --github --from zilti/VSCode.AppImage
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update
+sudo apt install code
 
 flatpak install io.mpv.Mpv
 #flatpak install org.qutebrowser.qutebrowser
@@ -117,6 +122,12 @@ wget https://raw.githubusercontent.com/dracula/midnight-commander/maste    r/ski
 
 chmod +x /home/qaqulya/.config/scripts/diana/dad
 chmod +x /home/qaqulya/.config/scripts/diana/diana
+
+--- todo after all
+-1. Go to "Software & Updates" application -> Then change your "Download from" server to "Main server". After this close and go terminal. Then sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove
+-2.
+
+
 
 --- region global-menu hud-menu related
 dont work in wayland:
