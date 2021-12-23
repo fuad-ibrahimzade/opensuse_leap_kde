@@ -11,14 +11,14 @@ bass source $HOME/.bashrc
 set -g -x DOTNET_ROOT /home/qaqulya/.dotnet
 set -g -x NPM_CONFIG_PREFIX /home/qaqulya/.npm-global
 set session (bass echo "base_\$(uuidgen)")
-if type -q tmux
-	if not set -q TMUX
-   		set -g TMUX tmux new-session -d -s $session
-   		eval $TMUX
-   		tmux attach-session -d -t $session
-   		##tmux attach -t $session || tmux new -s $session; exit
-	end
-end
+#if type -q tmux
+	#if not set -q TMUX
+   		#set -g TMUX tmux new-session -d -s $session
+   		#eval $TMUX
+   		#tmux attach-session -d -t $session
+   		###tmux attach -t $session || tmux new -s $session; exit
+	#end
+#end
 
 #trap "kill $3mux_pid" KILL
 #trap "kill $3mux_pid" INT
@@ -96,6 +96,7 @@ function save_qutebrowser_bookmarks
 end
 function removeAllSnapshotsExceptLast
 	 bass zfs list -H -t snapshot -o name -S creation -r rpool | tail -1 | xargs -n 1 sudo zfs  destroy
+	 sudo zsysctl service gc -a
 end
 
 
