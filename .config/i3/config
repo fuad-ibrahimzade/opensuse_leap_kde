@@ -187,7 +187,7 @@ bindsym $mod+m scratchpad show, floating disable
 #exec_always --no-startup-id feh --bg-fill /usr/share/backgrounds/archlinux/1403423502665.png
 #exec_always --no-startup-id feh --bg-fill /usr/share/backgrounds/archlinux/xx14sh3bx3q41.png
 #exec_always --no-startup-id feh --bg-fill /home/qaqulya/git-repos/opensuse_leap_kde/wallpapers/Galaxy-Wallpaper-for-Computer\ \[edited\]_Fotor.jpg
-exec_always --no-startup-id feh --bg-fill /home/qaqulya/git-repos/opensuse_leap_kde/wallpapers/KDE\ Plasma\ Nebula\ 540\ HD\ With\ Logo.png
+exec --no-startup-id feh --bg-fill /home/qaqulya/git-repos/opensuse_leap_kde/wallpapers/KDE\ Plasma\ Nebula\ 540\ HD\ With\ Logo.png
 exec --no-startup-id hsetroot -solid '#000000'
 exec i3-appmenu-service
 #bindsym $mod+x exec i3-hud-menu
@@ -261,7 +261,7 @@ set $mode_system (l)lock  (e)logout  (s)suspend  (h)hibernate  (r)reboot  (Shift
  
 mode "$mode_system" {
 	bindsym l exec --no-startup-id $Locker, mode "default"
-	bindsym e exec --no-startup-id i3-msg exit, mode "default"
+	bindsym e exec --no-startup-id timeout 2 i3-msg exit && gracefull_kill_progs.sh , mode "default"
 	bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
 	bindsym h exec --no-startup-id $Locker && systemctl hibernate, mode "default"
 	bindsym r exec --no-startup-id systemctl reboot, mode "default"
@@ -282,12 +282,13 @@ bindsym $mod+Escape mode "$mode_system"
 #bindsym control+shift+g exec rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 exec --no-startup-id clipit
 
-exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
+#exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
+exec --no-startup-id dunst
 #exec_always --no-startup-id aria2c --conf-path=/home/qaqulya/.config/aria2c/config 
-exec_always --no-startup-id /home/qaqulya/.config/scripts/diana/dad -d /home/qaqulya/Downloads start 
-exec_always --no-startup-id xbindkeys 
-exec_always --no-startup-id exec i3-workspace-names-daemon
-#exec_always --no-startup-id exec motrix
+exec --no-startup-id /home/qaqulya/.config/scripts/diana/dad -d /home/qaqulya/Downloads start 
+exec --no-startup-id xbindkeys 
+exec --no-startup-id exec i3-workspace-names-daemon
+#exec --no-startup-id exec motrix
 
 
 # class                 border  bground text    indicator child_border
