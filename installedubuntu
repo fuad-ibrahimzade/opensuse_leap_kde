@@ -58,10 +58,16 @@ sudo apt install fonts-font-awesome
 
 sudo apt install ripgrep
 
-sudo apt install nodejs npm 
+sudo apt install nodejs npm
+fisher install jorgebucaran/nvm.fish 
 sudo apt install rustc cargo #after sudo apt upgrade
 sudo apt install openjdk-17-jdk
 cp ~/.config/scripts/dotnet-install.sh ~/.local/bin/. && chmod +x ~/.local/bin/*
+sudo apt install gnupg ca-certificates
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+echo "deb https://download.mono-project.com/repo/ubuntu stable-focal main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+sudo apt update
+sudo appt install mono-devel
 
 cp ~/.config/scripts/toolbox ~/.local/bin/. && chmod +x ~/.local/bin/*
 sudo apt-get install curl wget gnupg2 -y
@@ -97,7 +103,9 @@ zap install --github --from patrikx3/onenote
 #zap install --from "https://libreoffice.soluzioniopen.com/stable/standa    rd/LibreOffice-still.standard-x86_64.AppImage"
 zap install motrix
 #neovim 
+#sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt install neovim clipit
+
 sudo apt install vim-gtk3
 #zap install vlc
 #zap install --github --from zilti/VSCode.AppImage
@@ -129,6 +137,11 @@ pip3 install --user quickswitch-i3
 #pip3 uninstall PyQt5
 sudo apt install qutebrowser -y
 pip3 install --upgrade qutebrowser --user #for upgrading 5.14 webpage dark theme
+
+apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
+git clone https://github.com/fanglingsu/vimb
+cd vimb && make && sudo make install && cd .. && rm -rf vimb
+
 apt install trash-cli
 cp /home/qaqulya/.config/scripts/lazygit /home/qaqulya/.local/bin/.
 mkdir -p ~/.local/share/mc/skins
