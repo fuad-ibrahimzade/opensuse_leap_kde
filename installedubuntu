@@ -13,14 +13,14 @@ sudo apt update
 sudo apt install y-ppa-manager
 sudo apt-get install ppa-purge
 
-sudo add-apt-repository ppa:wrinkliez/ppasearch
-sudo apt-get update && sudo apt-get install ppasearch
+#sudo add-apt-repository ppa:wrinkliez/ppasearch
+#sudo apt-get update && sudo apt-get install ppasearch
 
 sudo add-apt-repository ppa:aslatter/ppa
 sudo apt update
 sudo apt install alacritty
 
-sudo apt install meld fish icdiff tmux qt5ct
+sudo apt install meld fish git icdiff tmux qt5ct
 sudo apt install zram-config
 
 #git clone https://github.com/Big-B/swaylock-fancy.git
@@ -67,13 +67,13 @@ sudo apt install gnupg ca-certificates
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 echo "deb https://download.mono-project.com/repo/ubuntu stable-focal main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
 sudo apt update
-sudo appt install mono-devel
+sudo apt install mono-devel
 
 cp ~/.config/scripts/toolbox ~/.local/bin/. && chmod +x ~/.local/bin/*
 sudo apt-get install curl wget gnupg2 -y
 source /etc/os-release
-sh -c "echo 'deb http://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/ /' > /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list"
-wget -nv https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable/xUbuntu_${VERSION_ID}/Release.key -O- | apt-key add -
+sh -c "echo 'deb http://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/ /' | sudo tee -a /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list"
+wget -nv https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable/xUbuntu_${VERSION_ID}/Release.key -O- | sudo apt-key add -
 sudo apt-get update -qq -y
 tee -a /etc/containers/registries.conf <<- EOF
 [registries.insecure]
@@ -127,9 +127,14 @@ flatpak install io.mpv.Mpv
 #flatpak install org.qutebrowser.qutebrowser
 #flatpak install nextcloud obsidian
 #snap install p3x-onenote mpv
-snap install gh
+#snap install gh
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+sudo apt update
+sudo apt install gh
 
-pip3 install --user poetry pyperclip yt-dlp youtube-dl icdiff PyGObject i3-workspace-names-daemon aria2p[tui]
+pip3 install --user poetry
+pip3 install --user pyperclip yt-dlp youtube-dl icdiff PyGObject i3-workspace-names-daemon aria2p[tui]
 pip3 install --user i3-py
 pip3 install --user quickswitch-i3 
 
@@ -145,11 +150,34 @@ cd vimb && make && sudo make install && cd .. && rm -rf vimb
 apt install trash-cli
 cp /home/qaqulya/.config/scripts/lazygit /home/qaqulya/.local/bin/.
 mkdir -p ~/.local/share/mc/skins
-wget https://raw.githubusercontent.com/dracula/midnight-commander/maste    r/skins/dracula.ini -O ~/.local/share/mc/skins/dracula.ini
-wget https://raw.githubusercontent.com/dracula/midnight-commander/maste    r/skins/dracula256.ini -O ~/.local/share/mc/skins/dracula256.ini
+wget https://raw.githubusercontent.com/dracula/midnight-commander/master/skins/dracula.ini -O ~/.local/share/mc/skins/dracula.ini
+wget https://raw.githubusercontent.com/dracula/midnight-commander/master/skins/dracula256.ini -O ~/.local/share/mc/skins/dracula256.ini
 
 chmod +x /home/qaqulya/.config/scripts/diana/dad
 chmod +x /home/qaqulya/.config/scripts/diana/diana
+
+wget https://github.com/dracula/gtk/archive/master.zip
+extract and rename to dracula-theme and move to /usr/share/themes
+wget https://github.com/dracula/gtk/files/5214870/Dracula.zip
+extract move to /usr/share/icons
+change themes and icons to dracule from gnome-tweak-tool
+
+--- popshell and requirements
+sudo apt install node-typescript make git
+git clone https://github.com/pop-os/shell
+cd shell
+make local-install
+sudo apt install cargo rustc libgtk-3-dev
+git clone https://github.com/pop-os/shell-shortcuts
+cd shell-shortcuts
+make
+sudo make install
+to remove:
+rm -r ~/.local/share/gnome-shell/extensions/pop-shell@system76.com
+sudo rm /usr/local/bin/pop-shell-shortcuts
+
+
+
 
 --- todo after all
 -1. Go to "Software & Updates" application -> Then change your "Download from" server to "Main server". After this close and go terminal. Then sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove
@@ -196,12 +224,6 @@ Comment=Fildem Global Menu and HUD
 -7. to remove fildem do 
 sudo apt remove python3-fildem --autoremove 
 and remove folders at gnome-shell/extensions and /opt/fildem 
-
-wget https://github.com/dracula/gtk/archive/master.zip
-extract and rename to dracula-theme and move to /usr/share/themes
-wget https://github.com/dracula/gtk/files/5214870/Dracula.zip
-extract move to /usr/share/icons
-change themes and icons to dracule from gnome-tweak-tool
 
 
 
