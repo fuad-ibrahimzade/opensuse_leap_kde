@@ -268,6 +268,29 @@ sudo apt-get remove x
 sudo apt-get clean
 sudo apt-get update
 
+
+-- zfs ram usage 
+-to change decrease
+sudo tee -a /etc/modprobe.d/zfs.conf <<- EOF
+options zfs zfs_arc_min=0
+options zfs zfs_arc_max=1073741824
+EOF
+update-initramfs -u
+-to apply to live running system
+echo 1073741824 | sidp tee /sys/module/zfs/parameters/zfs_arc_max
+and
+echo 3 | sudo tee /proc/sys/vm/drop_caches
+
+[registries.insecure]
+registries = [ ]
+# If you need to block pull access from a registry, uncomment the section below
+# and add the registries fully-qualified name.
+# Docker only
+[registries.block]
+registries = [ ]
+EOF
+
+
 -- when zfs initrd images are removen or dont exist cannot load grub etc:
 $efipart=/dev/sda1
 $swappart=/dev/sda2
