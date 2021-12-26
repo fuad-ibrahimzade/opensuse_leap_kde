@@ -23,3 +23,5 @@ settings:
     - '{file}'
     - -c
     - normal {line}G{column0}l
+  input.spatial_navigation:
+    global: false

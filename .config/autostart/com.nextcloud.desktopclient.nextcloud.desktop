@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Nextcloud
 GenericName=File Synchronizer
-Exec="/home/qaqulya/.local/share/zap/v2/Nextcloud-3.4.0-rc2-x64.AppImage" --background
+Exec="/home/qaqulya/.local/share/zap/v2/Nextcloud-3.4.1-x86_64.AppImage" --background
 Terminal=false
 Icon=Nextcloud
 Categories=Network

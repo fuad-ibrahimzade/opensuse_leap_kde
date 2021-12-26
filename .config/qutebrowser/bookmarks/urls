@@ -73,7 +73,6 @@ https://www.youtube.com/watch?v=ThxKMLjYUU4 Multi-Layered (N-Tier) Software Arch
 https://www.youtube.com/watch?v=_07NtoK-Kns What is Software Architecture? (Monolithic vs. Layered vs. Microservice) - YouTube
 https://pagure.io/workstation-ostree-config/blob/f29/f/xfce-desktop-pkgs.json cari xfce fedora silverbluw packages Tree - workstation-ostree-config - Pagure.io
 https://github.com/nvim-lua/completion-nvim nvim-lua/completion-nvim: A async completion framework aims to provide completion to neovim's built in LSP written in Lua
-https://github.com/hrsh7th/nvim-cmp/ hrsh7th/nvim-cmp: A completion plugin for neovim coded in Lua.
 https://github.com/ms-jpq/coq_nvim hele cari deyil ms-jpq/coq_nvim: Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization.
 https://unix.stackexchange.com/questions/372606/incorporate-nm-applet-in-i3-window-manager linux - Incorporate nm-applet in i3 window manager - Unix & Linux Stack Exchange
 https://askubuntu.com/questions/896140/how-to-connect-to-wifi-network-with-i3wm networking - How to connect to Wifi Network with i3wm? - Ask Ubuntu
@@ -298,3 +297,124 @@ https://www.reddit.com/r/zfs/comments/eyc2fa/zfs_bpoolboot_has_anyone_seen_this_
 https://askubuntu.com/questions/1242340/how-to-get-to-grub-menu-on-20-04 hele cari deyil boot-repair boot - How to get to Grub menu on 20.04? - Ask Ubuntu
 https://github.com/atlas-engineer/nx-video hele cari deyil atlas-engineer/nx-video: Video downloader for Nyxt
 https://pythonrepo.com/repo/Anorov-cloudflare-scrape-python-web-crawling A Python module to bypass Cloudflare's anti-bot page. | PythonRepo
+https://www.techradar.com/best/best-linux-repair-and-rescue-distros cari Best Linux repair and rescue distros of 2021 | TechRadar
+https://blog.finnix.org/ Finnix Blog
+https://www.finnix.org/ cari Finnix
+https://www.ultimatebootcd.com/download.html cari Ultimate Boot CD - Download the UBCD
+https://askubuntu.com/questions/99590/can-you-make-a-bootable-recovery-partition-for-ubuntu hele cari deyil 11.10 - Can you make a bootable recovery partition for Ubuntu? - Ask Ubuntu
+https://www.linuxandubuntu.com/home/top-5-linux-system-rescue-cds hele cari deyil 5 Best Rescue And Recovery Disks For Windows And Linux
+https://arstechnica.com/gadgets/2020/03/ubuntu-20-04s-zsys-adds-zfs-snapshots-to-package-management/ cari Ubuntu 20.04’s zsys adds ZFS snapshots to package management [Updated] | Ars Technica
+https://github.com/bcbc/Wubi-move hele cari deyil bcbc/Wubi-move: Migrate a Wubi install to partition
+https://help.ubuntu.com/community/MigrateWubi hele cari deyil MigrateWubi - Community Help Wiki
+https://jrs-s.net/2017/12/05/boot-rescue-for-galliumos-chrx-on-chromebooks/ Boot rescue for GalliumOS / chrx on Chromebooks – JRS Systems: the blog
+https://news.ycombinator.com/item?id=10994676 NayuOS – Chromebooks without Google | Hacker News
+https://nayuos.nexedi.com/ NayuOS - homepage
+https://www.rankred.com/chrome-os-alternatives/ 7 Best Chrome OS Alternatives You Can Try In 2021 - RankRed
+https://gist.github.com/iacchus/ec5dafa6feee64848940a6e94a302462 Show Images in terminal emulator
+https://askubuntu.com/questions/1248345/w3m-doesnt-show-me-images-on-ubuntu-how-to-fix-it w3m doesn't show me images on Ubuntu. How to fix it? - Ask Ubuntu
+https://www.howtoinstall.me/ubuntu/18-04/w3m-img/ How to Install w3m-img in Ubuntu 18.04
+https://www.linuxquestions.org/questions/linux-software-2/how-to-show-images-in-lynx-869300/ [SOLVED] How to show images in lynx?
+https://bbs.archlinux.org/viewtopic.php?id=262718 [SOL]About image painting in terminal for sway (or for wayland at all) / Newbie Corner / Arch Linux Forums
+https://itectec.com/ubuntu/ubuntu-how-to-make-the-terminal-display-graphical-pictures/ Ubuntu – How to make the terminal display graphical pictures – iTecTec
+https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/ cari How to Install Visual Studio Code on Ubuntu 18.04 | Linuxize
+https://github.com/nihilowy/surfer nihilowy/surfer: Simple keyboard based web browser
+https://askubuntu.com/questions/1362002/cant-install-gnome-tweaks-on-ubuntu-20-04-3-lts-fresh-install-unmet-dependenc cari fix 20.04 gnome-tweak-tool install dependencies - Can't install gnome-tweaks on Ubuntu 20.04.3 LTS fresh install - Unmet dependency issue - Ask Ubuntu
+https://askubuntu.com/questions/749832/how-to-change-default-terminal-application-in-gnome-shell cari fix alacritty to kitty change How to change default terminal application in Gnome-Shell - Ask Ubuntu
+https://surf.suckless.org/files/not_flash/ hele cari deyil userscripts surf | suckless.org software that sucks less
+https://surf.suckless.org/files/adblock-hosts/ hele cari deyil userscript adblock surf | suckless.org software that sucks less
+https://www.reddit.com/r/suckless/comments/l1de6p/surf_youtube_adblock/ Surf youtube adblock : suckless
+https://stackoverflow.com/questions/52887357/problems-when-installing-python3-dev cari upgrade python - Problems when installing python3-dev - Stack Overflow
+https://blog.elreydetoda.site/minimal-i3-gaps-install-ubuntu/ cari minimal i3-gaps install ubuntu
+https://www.reddit.com/r/i3wm/comments/eydff7/avoid_two_instances_of_the_same_program_to_run_at/ Avoid two instances of the same program to run at the same time : i3wm
+https://www.reddit.com/r/i3wm/comments/73m3mx/stop_i3_from_polluting_your_process_list_with/ cari i3 exit reason Stop i3 from polluting your process list with garbage shell processes : i3wm
+https://techblog.thcb.org/how-to-install-fildem-global-menu-and-hud-for-gnome-shell-on-debian-ubuntu-fedora-or-arch-linux-manjaro/ cari How To Install Fildem Global Menu And HUD For GNOME Shell On Debian / Ubuntu, Fedora Or Arch Linux / Manjaro - THCBin Tech Blog
+https://ubuntuhandbook.org/index.php/2021/06/enable-global-menu-ubuntu-20-04-21-04/ cari How to Enable ‘Global Menu’ (App Menus in Top-bar) in Ubuntu 20.04, 21.04 | UbuntuHandbook
+https://www.linuxuprising.com/2021/02/how-to-install-fildem-global-menu-and.html cari How To Install Fildem Global Menu And HUD For GNOME Shell On Debian / Ubuntu, Fedora Or Arch Linux / Manjaro - Linux Uprising Blog
+https://unix.stackexchange.com/questions/348913/copy-selection-to-a-clipboard-in-tmux cari shift key fix tmuxCopy selection to a clipboard in tmux - Unix & Linux Stack Exchange
+https://www.thelinuxfaq.com/ubuntu/ubuntu-17-04-zesty-zapus/neovim?type=uninstall How to uninstall or remove neovim software package from Ubuntu 17.04 (Zesty Zapus)
+https://wiki.ubuntu.com/FoundationsTeam/RustUpdates FoundationsTeam/RustUpdates - Ubuntu Wiki
+https://help.ubuntu.com/community/Boot-Repair hele cari deyil ubuntu Boot-Repair - Community Help Wiki
+https://ubuntututorials.org/install-gvim-ubuntu-20-04/ How to install gvim in Ubuntu 20.04 | Ubuntu Tutorials
+https://github.com/emacs-lsp/lsp-mode/issues/3198 cari lsp-csharp doesn't work with C# .net 6 projects when using csharp-ls as a language-server · Issue #3198 · emacs-lsp/lsp-mode
+https://www.reddit.com/r/emacs/comments/ih3q5x/lsp_for_python_sure_but_which_lsp_server/ lsp for python, sure. but which lsp server?? : emacs
+https://github.com/neovim/nvim-lspconfig cari neovim/nvim-lspconfig: Quickstart configurations for the Nvim LSP client
+https://www.reddit.com/r/neovim/comments/mipe7i/which_autocomplete_plugin_do_u_use/ Which AutoComplete Plugin do u use? : neovim
+https://www.youtube.com/watch?v=NQGqfvcvsMM cari Top 3 Essential Neovim Plugins for Software Development - YouTube
+https://bbs.archlinux.org/viewtopic.php?id=235980 Nerd fonts unusable in Gnome-Terminal / Applications & Desktop Environments / Arch Linux Forums
+https://gist.github.com/matthewjberger/7dd7e079f282f8138a9dc3b045ebefa0 cari Install a nerd font on ubuntu
+https://www.youtube.com/watch?v=CLNnx9-b5fY cari dotnet javascript ide NVimmer-simple but powerful configuration for NeoVim - YouTube
+https://github.com/David-Kunz/vim/blob/master/init.lua hele cari deyil neovim config vim/init.lua at master · David-Kunz/vim
+https://github.com/nvim-telescope/telescope.nvim hele cari deyil neovim plugin nvim-telescope/telescope.nvim: Find, Filter, Preview, Pick. All lua, all the time.
+https://github.com/mfussenegger/nvim-dap hele cari deyil neovim plugin debugger mfussenegger/nvim-dap: Debug Adapter Protocol client implementation for Neovim (>= 0.5)
+https://github.com/hrsh7th/nvim-cmp/ hele cari deyil neovim autocomplete plugin hrsh7th/nvim-cmp: A completion plugin for neovim coded in Lua.
+https://www.youtube.com/watch?v=zum9Y35BZ_M hele cari deyil neovim plugins Top 5 NeoVim Plugins to Improve Your Development Workflow - YouTube
+https://stackoverflow.com/questions/58231600/clone-run-existing-project-from-github asp.net - Clone & run existing project from github - Stack Overflow
+https://github.com/jorgebucaran/nvm.fish cari jorgebucaran/nvm.fish: Node.js version manager lovingly made for Fish.
+https://github.com/fanglingsu/vimb qutebrowser alternative fanglingsu/vimb: Vimb - the vim like browser is a webkit based web browser that behaves like the vimperator plugin for the firefox and usage paradigms from the great editor vim. The goal of vimb is to build a completely keyboard-driven, efficient and pleasurable browsing-experience.
+https://askubuntu.com/questions/779065/pkg-config-not-finding-gtk-3-0 16.04 - pkg-config not finding gtk+-3.0 - Ask Ubuntu
+https://packages.ubuntu.com/bionic/gstreamer1.0-libav Ubuntu – Details of package gstreamer1.0-libav in bionic
+https://vim.reversed.top/apps#graphical-browsers Big Pile of Vim-like
+https://gstreamer.freedesktop.org/documentation/installing/on-linux.html?gi-language=c cari vimb requirements Installing on Linux
+https://www.reddit.com/r/Ubuntu/comments/jcsnhc/vimb_browser_on_ubuntu_getting_html5_videos_to/ cari VimB Browser on Ubuntu - Getting HTML5 Videos to play : Ubuntu
+https://stackoverflow.com/questions/1439950/whats-the-opposite-of-make-install-i-e-how-do-you-uninstall-a-library-in-li makefile - What's the opposite of 'make install', i.e. how do you uninstall a library in Linux? - Stack Overflow
+https://github.com/fanglingsu/vimb/issues/241 Environment Variables Not Set · Issue #241 · fanglingsu/vimb
+https://man.archlinux.org/man/vimb.1.en vimb(1) — Arch manual pages
+https://github.com/BlackCapCoder/vimb-dark BlackCapCoder/vimb-dark: My personal configuration of the vimb web browser.
+https://fanglingsu.github.io/vimb/howto.html Vimb - user scripts
+https://github.com/fanglingsu/vimb/issues/462 Can't watch YouTube videos above 720p · Issue #462 · fanglingsu/vimb
+https://fanglingsu.github.io/vimb/ Vimb - The Vim like Browser
+https://github.com/jtyers/qutebrowser-profile hele cari deyil jtyers/qutebrowser-profile: Ability to run qutebrowser with different profiles, choose a profile via dmenu/rofi interactively for new links
+https://github.com/jun7/wyeb jun7/wyeb: a vim-like webkit2gtk web browser
+https://github.com/LeFroid/Viper-Browser LeFroid/Viper-Browser: A lightweight Qt5 web browser using QtWebEngine
+https://github.com/natpen/awesome-wayland#browsers-without-x-library-dependency natpen/awesome-wayland: A curated list of Wayland code and resources.
+https://github.com/DavHau/nix-portable DavHau/nix-portable: Nix - Static, Permissionless, Installation-free, Pre-configured
+https://discourse.nixos.org/t/nix-portable-nix-static-permissionless-install-free-pre-configured/11719 Nix Portable: Nix - Static, Permissionless, Install-free, Pre-configured - Announcements - NixOS Discourse
+https://gist.github.com/derekmahar/e1654fc78c1047aa1feb938c9df3af19 How to Install Nix in an LXD Container
+https://ariya.io/2020/05/nix-package-manager-on-ubuntu-or-debian Nix Package Manager on Ubuntu or Debian · ariya.io
+https://nyxt.atlas.engineer/documentation Nyxt browser: Documentation
+https://nyxt.atlas.engineer/article/dark-mode.org Nyxt browser: dark-mode.org
+https://github.com/atlas-engineer/nyxt/blob/master/documents/README.org#standard-developer-installation nyxt/README.org at master · atlas-engineer/nyxt
+https://github.com/atlas-engineer/nyxt atlas-engineer/nyxt: Nyxt - the hacker's power-browser.
+https://github.com/jun7/wyebadblock jun7/wyebadblock: An adblock extension for wyeb, also webkit2gtk browsers.
+https://linuxapt.com/blog/786-install-slimjet-browser-on-ubuntu-20-04 cari Install SlimJet Browser on Ubuntu 20.04
+https://extensions.gnome.org/extension/277/impatience/ Impatience - GNOME Shell Extensions
+https://github.com/lilyball/nix-env.fish lilyball/nix-env.fish: Nix environment setup for the fish shell
+https://github.com/matthewbauer/nix-bundle cari matthewbauer/nix-bundle: Bundle Nix derivations to run anywhere!
+https://linuxhint.com/25_best_gnome_extensions/ cari 25 Best GNOME Extensions
+https://www.reddit.com/r/qutebrowser/comments/he812b/clicking_hints/ cari Clicking hints : qutebrowser
+https://github.com/ReimuNotMoe/ydotool GitHub - ReimuNotMoe/ydotool: Generic command-line automation tool (no X!)
+https://github.com/qutebrowser/qutebrowser/issues/579 Spatial Navigation - change key bindings · Issue #579 · qutebrowser/qutebrowser · GitHub
+https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15 cari Ubuntu: Install SQL Server on Linux - SQL Server | Microsoft Docs
+https://www.reddit.com/r/qutebrowser/comments/kaxfdz/hide_status_bartab_bar/ Hide status bar/tab bar. : qutebrowser
+https://sqlserveronlinuxbackup.com/sqlcmd-command-not-found-ubuntu/ sqlcmd: command not found on Ubuntu. How to fix it? – SQL Server on Linux Backup & Maintenance
+https://www.reddit.com/r/qutebrowser/comments/c74l44/is_element_hiding_possible/ Is element hiding possible? : qutebrowser
+https://github.com/PhrozenByte/rmtrash cari GitHub - PhrozenByte/rmtrash: Put files (and directories) in trash using the `trash-put` command in a way that is, otherwise as `trash-put` itself, compatible to GNUs `rm` and `rmdir`
+https://apple.stackexchange.com/questions/17622/how-can-i-make-rm-move-files-to-the-trash-can macos - How can I make 'rm' move files to the trash can? - Ask Different
+https://askubuntu.com/questions/681716/trap-gnome-terminal-close-button bash - Trap gnome-terminal close button - Ask Ubuntu
+https://stackoverflow.com/questions/5546223/signals-received-by-bash-when-terminal-is-closed cari Signals received by bash when terminal is closed - Stack Overflow
+https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/ Two great signals: SIGSTOP and SIGCONT | Major Hayden
+https://unix.stackexchange.com/questions/84030/how-to-kill-tmux-window-automatically-when-terminal-window-closed How to kill tmux window automatically when terminal window closed? - Unix & Linux Stack Exchange
+https://yarnpkg.com/getting-started/install cari Installation | Yarn - Package Manager
+https://stackoverflow.com/questions/56486106/fail-microsoft-aspnetcore-spaservices0 angular - Fail: Microsoft.AspNetCore.SpaServices[0] - Stack Overflow
+https://www.reddit.com/r/golang/comments/79p7lg/best_way_to_approach_file_watcher/ Best way to approach file watcher? : golang
+https://anarc.at/blog/2019-11-20-file-monitoring-tools/ cari watchers a quick review of file watchers - anarcat
+https://github.com/inotify-tools/inotify-tools watcher GitHub - inotify-tools/inotify-tools: inotify-tools is a C library and a set of command-line programs providing a simple interface to inotify.
+https://gist.github.com/tdmalone/2af8bce70ecc1b665fb953d5e806c8fd hele cari deyil inotify-tools watcher Watch specified directory recursively for file changes, and sync it to S3 when anything is created, modified, moved or deleted. Designed for use with a static site generator. · GitHub
+http://facebook.github.io/watchman/ watcher with command runner wathman-make no ignore files facebook Watchman A file watching service | Watchman
+https://github.com/ar-/incron hele cari deyil watcher with cron instead of listening GitHub - ar-/incron: cron-like daemon which handles filesystem events
+https://github.com/open-cli-tools/chokidar-cli watcher nodejs slow GitHub - open-cli-tools/chokidar-cli: Fast cross-platform cli utility to watch file system changes
+https://apple.stackexchange.com/questions/311644/how-to-start-with-launchd-a-bash-script-that-calls-fswatch-with watcher using fswatch custom bash script terminal - How to start with launchd a bash script that calls fswatch with `&` - Ask Different
+https://github.com/emcrisostomo/fswatch hele cari deyil watcher without daemon GitHub - emcrisostomo/fswatch: A cross-platform file change monitor with multiple backends: Apple OS X File System Events, *BSD kqueue, Solaris/Illumos File Events Notification, Linux inotify, Microsoft Windows and a stat()-based backend.
+https://github.com/lsyncd/lsyncd hele cari deyil watcher with rsync no git GitHub - lsyncd/lsyncd: Lsyncd (Live Syncing Daemon) synchronizes local directories with remote targets
+https://blog.fortrabbit.com/deploying-code-with-rsync Deploying code with rsync | fortrabbit blog
+https://github.com/mralexjuarez/lsyncd-tutorial/blob/master/Readme.md lsyncd-tutorial/Readme.md at master · mralexjuarez/lsyncd-tutorial · GitHub
+https://www.golinuxcloud.com/lsyncd-centos-sync-directories-config-example/ 10+ lsyncd examples to sync directories real time in CentOS/RHEL 7 | GoLinuxCloud
+https://github.com/lsyncd/lsyncd/issues/344 protect_args crashes on Mac OSX 10.11 · Issue #344 · lsyncd/lsyncd · GitHub
+https://github.com/spwhitton/git-remote-gcrypt/blob/master/README.rst git-remote-gcrypt/README.rst at master · spwhitton/git-remote-gcrypt · GitHub
+https://github.com/gitwatch/gitwatch watcher for git linux only GitHub - gitwatch/gitwatch: Watch a file or folder and automatically commit changes to a git repo easily.
+https://github.com/watchexec/watchexec cari watcher custom commands cros platform GitHub - watchexec/watchexec: Executes commands in response to file modifications
+https://github.com/watchexec/watchexec/tree/main/cli#usage-examples watchexec/cli at main · watchexec/watchexec · GitHub
+https://gist.github.com/ntamvl/7c41acee650d376863fd940b99da836f cari watchexec fix polling Increasing the amount of inotify watchers · GitHub
+https://www.tecmint.com/fswatch-monitors-files-and-directory-changes-modifications-in-linux/ fswatch - Monitors Files and Directory Changes or Modifications in Linux
+https://darencard.net/blog/2017-05-02-auto-git-file/ fswatch git Setting-up automatic Git pushing upon file change - Daren Card, Ph.D.
+https://webinstall.dev/ hele cari deyil local executable installer webinstall.dev

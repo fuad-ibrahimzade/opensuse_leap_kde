@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "job-related/cari-courses.md",
-            "mode": "source"
+            "file": "core/gnome-extensions-sync.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "job-related/cari-courses.md",
+                "file": "core/gnome-extensions-sync.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,11 +89,11 @@
   },
   "active": "3f84483bcdda99f9",
   "lastOpenFiles": [
+    "core/gnome-extensions-sync.md",
+    "core/miq.md",
+    "core/obnc.md",
     "job-related/cari-courses.md",
     "core/mic.md",
-    "core/obnc.md",
-    "core/miq.md",
-    "core/miq.md",
     "protected/Test.md",
     "job-related/cari-jobs.md",
     "Untitled.md",

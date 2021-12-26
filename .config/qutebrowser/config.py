@@ -202,6 +202,16 @@ config.bind("xc", "spawn --userscript add-aria2p-download.sh")
 config.bind("Xc", "hint links userscript add-aria2p-download.sh")
 config.bind("yf", "hint all yank")
 
+config.bind('xs', 'config-cycle statusbar.show always never')
+config.bind('xt', 'config-cycle tabs.show always never')
+config.bind('xx', 'config-cycle tabs.show always never;; config-cycle statusbar.show always never')
+
+config.bind("ghh", "hint all hover")
+#config.bind("ght", "set input.spatial-navigation!")
+config.bind("ght", "config-cycle input.spatial_navigation")
+config.bind("Xd", "hint all delete")
+c.input.spatial_navigation = True;
+
 #c.fonts.tabs.selected = '20pt default_family'
 #c.fonts.tabs.unselected = '20pt default_family'
 #c.fonts.default_size = '20pt'

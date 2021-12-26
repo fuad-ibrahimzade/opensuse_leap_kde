@@ -1,3 +1,5 @@
 {
-  "vimMode": false
+  "vimMode": false,
+  "legacyEditor": false,
+  "livePreview": true
 }

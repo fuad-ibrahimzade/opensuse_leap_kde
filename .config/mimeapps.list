@@ -1,15 +1,15 @@
 [Added Associations]
-inode/directory=org.kde.krusader.desktop;ons-krusader.desktop;krusader.desktop;org.kde.dolphin.desktop;/home/qaqulya/.local/share/applications/ranger.desktop;ranger.desktop;
-x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop;
-x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop;slimjet.desktop;
+text/html=org.qutebrowser.qutebrowser.desktop;slimjet.desktop;
+x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop;slimjet.desktop;
+application/octet-stream=org.gnome.gedit.desktop;gvim.desktop;
+application/x-mimearchive=org.qutebrowser.qutebrowser.desktop;
 
 [Default Applications]
-inode/directory=org.kde.krusader.desktop;
-text/html=google-chrome.desktop
-x-scheme-handler/about=google-chrome.desktop
-x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop;
-x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop;
-x-scheme-handler/magnet=Motrix.desktop
-x-scheme-handler/mo=Motrix.desktop
-x-scheme-handler/motrix=Motrix.desktop
-x-scheme-handler/unknown=google-chrome.desktop
+x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop
+text/html=org.qutebrowser.qutebrowser.desktop
+application/xhtml+xml=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/about=qutebrowser.desktop
+x-scheme-handler/unknown=qutebrowser.desktop
