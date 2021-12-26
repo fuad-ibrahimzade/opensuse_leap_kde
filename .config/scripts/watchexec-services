@@ -1,3 +1,5 @@
-    cd ~/git-repos/opensuse_leap_kde;
-    #watchexec -i .git -r 'git add .; git commit -am "watchexec"; git push origin main'
-    nohup watchexec -i .git -r 'git add .; git commit -am "watchexec"; git push origin main'>/dev/null 2>&1 &
+#!/bin/bash
+dir="/home/qaqulya/git-repos/opensuse_leap_kde";
+cd "$dir";
+#watchexec -i .git -r 'git add .; git commit -am "watchexec"; git push origin main' &
+nohup watchexec -i .git -r 'git add .; git commit -am "watchexec"; git push origin main'>/dev/null 2>&1 &
