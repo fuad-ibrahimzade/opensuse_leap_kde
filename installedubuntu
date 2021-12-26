@@ -98,6 +98,10 @@ sudo wget https://github.com/srevinsaju/zap/releases/download/continuous/zap-amd
 sudo chmod +x /usr/local/bin/zap
 
 zap install --github --from nextcloud/desktop
+instead of nextcloud conflicts user watcher exec crossplatform:
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+sudo dpkg -i ~/.config/scripts/watchexec-1.17.1-x86_64-unknown-linux-gnu.deb
+
 zap install --github --from obsidianmd/obsidian-releases
 zap install --github --from patrikx3/onenote
 #zap install --from "https://libreoffice.soluzioniopen.com/stable/standa    rd/LibreOffice-still.standard-x86_64.AppImage"
