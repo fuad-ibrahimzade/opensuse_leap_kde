@@ -1,3 +1,4 @@
+test
 sudo transactional-update -c 3 pkg install snapd i3-gaps dmenu i3status flatpak
 sudo transactional-update -c 7 pkg install ImageMagick ImageMagick-config-7-SUSE appmenu-gtk3-module appmenu-gtk-module-common aria2 axel dejavu-fonts dmenu rofi dos2unix git git-gui htop jq unity-gtk2-module  unity-gtk3-module unity-gtk-module-common uget uget-integrator shadow
 sudo transactional-update -c 10 pkg install libdbus-1-3 libdbusmenu-glib4 libdbusmenu-gtk3-4 libdbusmenu-gtk4 libdbusmenu-qt5-2 libdbusmenu-qt5-devel libkeybinder-3_0-0 python-keybinder sqlite3 typelib-1_0-Keybinder-3_0   
