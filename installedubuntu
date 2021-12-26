@@ -100,10 +100,8 @@ sudo chmod +x /usr/local/bin/zap
 zap install --github --from nextcloud/desktop
 instead of nextcloud conflicts user watchexec crossplatform:
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-#current limit
-#cat /proc/sys/fs/inotify/max_user_watches
-#apply temporarily
-
+#current limit: cat /proc/sys/fs/inotify/max_user_watches
+#apply temporarily: sudo sysctl fs.inotify.max_user_watches=524288; sudo sysctl -p
 sudo dpkg -i ~/.config/scripts/watchexec-1.17.1-x86_64-unknown-linux-gnu.deb
 cd dir;watchexec -i .git -r 'git add .; git commit -am "watchexec"; git push origin main'
 
