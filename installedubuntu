@@ -152,8 +152,10 @@ apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreame
 git clone https://github.com/fanglingsu/vimb
 cd vimb && make && sudo make install && cd .. && rm -rf vimb
 
-apt install trash-cli
+sudo apt install trash-cli
+cp /home/qaqulya/.config/scripts/rm* /home/qaqulya/.local/bin/.
 cp /home/qaqulya/.config/scripts/lazygit /home/qaqulya/.local/bin/.
+chmod +x /home/qaqulya/.local/bin/*
 mkdir -p ~/.local/share/mc/skins
 wget https://raw.githubusercontent.com/dracula/midnight-commander/master/skins/dracula.ini -O ~/.local/share/mc/skins/dracula.ini
 wget https://raw.githubusercontent.com/dracula/midnight-commander/master/skins/dracula256.ini -O ~/.local/share/mc/skins/dracula256.ini
