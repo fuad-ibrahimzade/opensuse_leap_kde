@@ -103,7 +103,7 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo s
 #current limit: cat /proc/sys/fs/inotify/max_user_watches
 #apply temporarily: sudo sysctl fs.inotify.max_user_watches=524288; sudo sysctl -p
 sudo dpkg -i ~/.config/scripts/watchexec-1.17.1-x86_64-unknown-linux-gnu.deb
-tee -a ~/.config/autostart/watchexec-services.desktop <<EOF
+tee -a ~/.config/autostart/watchexec-services.desktop <<- EOF
 [Desktop Entry]
 Comment=
 Exec=/home/qaqulya/.local/bin/watchexec-services
@@ -121,7 +121,7 @@ X-DBUS-StartupType=none
 X-KDE-SubstituteUID=false
 X-KDE-Username=
 EOF
-tee -a ~/.local/bin/watchexec-services <<EOF
+tee -a ~/.local/bin/watchexec-services <<- EOF
     cd dir;
     #watchexec -i .git -r 'git add .; git commit -am "watchexec"; git push origin main'
     nohup watchexec -i .git -r 'git add .; git commit -am "watchexec"; git push origin main'>/dev/null 2>&1 &
