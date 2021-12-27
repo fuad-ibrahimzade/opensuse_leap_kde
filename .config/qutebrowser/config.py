@@ -210,6 +210,7 @@ config.bind("ghh", "hint all hover")
 #config.bind("ght", "set input.spatial-navigation!")
 config.bind("ght", "config-cycle input.spatial_navigation")
 config.bind("Xd", "hint all delete")
+config.bind("xb", "spawn --userscript bookmarkexport.sh")
 c.input.spatial_navigation = True;
 
 #c.fonts.tabs.selected = '20pt default_family'
