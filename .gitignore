@@ -1,6 +1,6 @@
-**Cache/*
-**Code/*
-**/nvim/plugged/*
+**Cache
+**Code
+**/nvim/plugged
 **.git
 **.log
-**Storege/*
+**Storege

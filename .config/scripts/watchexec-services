@@ -13,3 +13,4 @@ cd "$dir";
 
 nohup watchexec -w autostart -w custom -w nvim -w obsidian -w qutebrowser -w scripts 'cp -r autostart custom nvim obsidian qutebrowser scripts ~/git-repos/opensuse_leap_kde/.config; cd ~/git-repos/opensuse_leap_kde; rsync -avh /home/qaqulya/.config ./.config --delete; git add .; git commit -am "watchexec"; git push origin main' >/dev/null 2>&1 &
 
+#test
