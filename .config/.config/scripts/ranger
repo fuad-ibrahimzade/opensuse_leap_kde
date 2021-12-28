@@ -1,3 +1,0 @@
-#!/bin/sh
-
-toolbox run -c fedora-toolbox-35 ranger

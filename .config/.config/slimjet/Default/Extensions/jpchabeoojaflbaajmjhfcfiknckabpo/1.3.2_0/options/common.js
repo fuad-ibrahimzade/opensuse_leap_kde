@@ -1,1 +1,0 @@
-document.location = "http://atavi.com/extensionSettings";

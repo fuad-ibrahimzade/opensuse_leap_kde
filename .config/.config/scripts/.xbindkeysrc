@@ -1,6 +1,0 @@
-"xdotool click 4"
-m:0x1 + c:112
-Shift + Prior
-"xdotool click 5"
-m:0x1 + c:117
-Shift + Next

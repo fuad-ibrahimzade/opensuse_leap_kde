@@ -1,9 +1,0 @@
-#!/bin/bash
-
-DisplayDevice="$(brightnessctl -l | grep backlight | awk '{print $2}' | head -n 1 | tr -d "'")"
-condition="$@"
-if [[ "$condition" == "down" ]]; then
-	sudo brightnessctl -d "$DisplayDevice" set 5%-
-else
-	sudo brightnessctl -d "$DisplayDevice" set +5%
-fi

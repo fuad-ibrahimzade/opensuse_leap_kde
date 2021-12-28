@@ -1,2 +1,0 @@
-nmap <C-M> :sh! mpv $(yt-dlp -f "18" -g "${VIMB_URI}")<CR>
-set hardware-acceleration-policy = ondemand
