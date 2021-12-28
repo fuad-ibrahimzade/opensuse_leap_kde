@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Bookmark Manager, joka auttaa organisaatio, synkronointi eri selaimissa ja ympäristöissä"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Bookmark Manager Speed ​​Dial | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Tyhjä sivu"
+   },
+   "option_newtab_chrome": {
+      "message": "Kromi Oletus (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Custom ..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "Custom URL täällä"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Valitse uusi välilehti käyttäytyminen"
+   },
+   "option_search": {
+      "message": "Näytä Papaly johtaa hakuun"
+   },
+   "option_title": {
+      "message": "Papaly Vaihtoehdot"
+   }
+}

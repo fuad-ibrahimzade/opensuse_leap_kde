@@ -1,0 +1,37 @@
+{
+   "background": {
+      "page": "chrome/content/background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/icon-16.png",
+         "38": "icons/icon-32.png"
+      },
+      "default_title": "Block Referer for this site"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "chrome/content/blockJavascriptReferer.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Control the HTTP Referer on a per-site basis.",
+   "externally_connectable": {
+      "ids": [ "*" ]
+   },
+   "homepage_url": "https://chrome.google.com/webstore/detail/hnkcfpcejkafcihlgbojoidoihckciin",
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhCrByxEyFNZhAcAjY74cz6C7fU7OWwnbCQFJnufLVGjatpIlpTdMPbi7JUkJ+ZGZMyrXIOPY7A6mF8JsBUqJ9nsyfZG93EE/f3PZgiRF9ZW2qfgNI/xhQxxzpUehTxbcmwHGGNI17BdfSvhjkND2ItwgAeweekLSO7NimA8dceQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "17.0",
+   "name": "Referer Control",
+   "options_page": "chrome/content/options.html",
+   "permissions": [ "http://*/*", "https://*/*", "webRequest", "webRequestBlocking", "contextMenus", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.35"
+}

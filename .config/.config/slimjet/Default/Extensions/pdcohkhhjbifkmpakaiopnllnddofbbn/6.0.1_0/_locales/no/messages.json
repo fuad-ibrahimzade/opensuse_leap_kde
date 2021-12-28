@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Bokmerkebehandling som hjelper med Organization, Synkron over nettlesere og plattformer"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Bokmerkebehandling Speed ​​Dial | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Tom side"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome Standard (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Skikk..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "Custom URL her"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Velg ny fane oppførsel"
+   },
+   "option_search": {
+      "message": "Vis Papaly resulterer i søke"
+   },
+   "option_title": {
+      "message": "Papaly alternativer"
+   }
+}

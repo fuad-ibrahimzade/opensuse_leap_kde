@@ -1,0 +1,353 @@
+# ChangeLog for bookmarkdupes
+
+*bookmarkdupes-7.0:
+	Martin Väth <martin at mvath.de>:
+	- Remove support for stripping descriptions
+
+*bookmarkdupes-6.4:
+	Martin Väth <mvath at mvath.de>:
+	- Support $&$TITLE, $TITLE$&, and analogously with $NAME and $URL:
+	  https://github.com/vaeth/bookmarkdupes/issues/94
+
+*bookmarkdupes-6.3:
+	Martin Väth <mvath at mvath.de>:
+	- Fix strip bookmarks and moving to "Dupes" folder: Regression from 6.1
+	  https://github.com/vaeth/bookmarkdupes/issues/93
+
+*bookmarkdupes-6.2:
+	Martin Väth <mvath at mvath.de>:
+	- Slight clarification in English/German formulation for count messages
+
+	Juan Salvador Aleixandre Talens:
+	- Slight clarification in Spanish formulation of count messages
+
+*bookmarkdupes-6.1:
+	Martin Väth <martin at mvath.de>:
+	- Provide chrome compatibility layer in javascript
+	- Slight clarification in English formulation for non-dupe bookmarks
+
+	Henaro aka Ironwool:
+	- Update uk locales
+	- Update ru locales
+
+*bookmarkdupes-6.0:
+	Martin Väth <martin at mvath.de>:
+	- Add non-dupes button https://github.com/vaeth/bookmarkdupes/issues/87
+
+	Juan Salvador Aleixandre Talens:
+	- Update es locales
+
+*bookmarkdupes-5.11:
+	Martin Väth <martin at mvath.de>:
+	- Fix minimally supported firefox version
+
+	Henaro aka Ironwool:
+	- Update uk locales
+
+*bookmarkdupes-5.10:
+	Henaro aka Ironwool:
+	- Update uk locales
+	- Update ru locales
+
+*bookmarkdupes-5.9:
+	Martin Väth <martin at mvath.de>:
+	- Add option to move dupes/empty folders instead of removing
+	- Fix error message display when removing
+	- Place button for removal more towards the end, see
+	  https://addons.mozilla.org/de/firefox/addon/bookmark-dupes/reviews/1170320/
+	- Remove support for stripping descriptions:
+	  Descriptions are no longer handled by firefox
+
+	Juan Salvador Aleixandre Talens:
+	- Update es locales
+
+*bookmarkdupes-5.8:
+	Henaro aka Ironwool:
+	- Update uk locales
+	- Update ru locales
+
+	Juan Salvador Aleixandre Talens:
+	- Update es locales
+
+*bookmarkdupes-5.7:
+	Martin Väth <martin at mvath.de>:
+	- Fix regression from 5.6 which caused a complete failure:
+	  https://github.com/vaeth/bookmarkdupes/issues/66
+	  (Reason was a too hasty children->childNodes replacement)
+
+*bookmarkdupes-5.6:
+	Martin Väth <martin at mvath.de>:
+	- Major layout change: Use textarea instead of input field
+	- Minor layout changes: Warning placement, table head, arrows
+	- Explicitly test for availability of the bookmark API
+	- Fixed minor mistakes in DOM tree which worked only by accident
+	- Internal: use generic wrapper functions for DOM appending
+	- Internal: use clean HTML5 which passes https://validator.w3.org/
+	- Internal: remove redundant checks
+	- Internal: avoid unnecessary function nesting
+
+*bookmarkdupes-5.5:
+	Martin Väth <martin at mvath.de>:
+	- Introduce $URL $NAME $TITLE as special replacement texts
+	- Provide some examples for tasks in expert mode in README.md
+	- Expert mode: allow replacement of whole URL by the empty string
+	- Display in replaced URLs the null character visibly
+	- More careful detection of empty storage
+
+	Henaro aka Ironwool:
+	- Update uk locales
+	- Update ru locales
+
+	Juan Salvador Aleixandre Talens:
+	- Update es locales
+
+*bookmarkdupes-5.4:
+	Martin Väth <martin at mvath.de>:
+	- Fix forgotten semicolons in javascript
+	- Use valid html
+	- Specify browser_style for browser_action
+	- Simplify background.js
+
+*bookmarkdupes-5.3:
+	Henaro aka Ironwool:
+	- Redesign icon in svg
+	- Provide favicon
+	- Update uk locales
+	- Update ru locales
+
+	Juan Salvador Aleixandre Talens:
+	- Update es locales
+
+	Martin Väth <martin at mvath.de>:
+	- Add page heading with icon and name of the extension
+	- Add warnings about expert mode and for removal/strip button
+	- Display title for expert mode checkbox text
+
+*bookmarkdupes-5.2:
+	Martin Väth <martin at mvath.de>:
+	- Fix regression from 5.1: radio buttons in expert mode now enable/
+	  disable correct columns again. Thanks to perdolka for reporting:
+	  https://github.com/vaeth/bookmarkdupes/issues/56
+
+*bookmarkdupes-5.1:
+	Martin Väth <martin at mvath.de>:
+	- Change layout of "expert mode" table slightly, see
+	  https://github.com/vaeth/bookmarkdupes/issues/52
+
+	Henaro aka Ironwool:
+	- Update uk locales
+	- Update ru locales
+
+	Juan Salvador Aleixandre Talens:
+	- Update es locales
+
+*bookmarkdupes-5.0:
+	Martin Väth <martin at mvath.de>:
+	- Add expert rules to ignore ("filter") certain bookmarks.
+	  Storage permissions are required to store these expert rules in
+	  the local or sync storage.
+	- Expert rules can define when bookmarks are considered as dupes.
+	  This replaces the previous unsatisfactory "Similar Dupes" button and
+	  implements also https://github.com/vaeth/bookmarkdupes/issues/45
+	- Default expert rules deal with much more than \? tails.
+	  Actually, the \? tails rule is now by default deactivated because it
+	  has too many false positives: only relatively safe rules are active
+	  in the defaults, and in addition one locale-specific example of a
+	  filter rule.
+	- Remove tabs permissions.
+	  The price is that several tabs open when clicked several times
+	- bugfix: increase minimal gecko version to 48.0 to reflect that
+	  manifest.json itself apparently requires that version, see
+	  https://github.com/vaeth/bookmarkdupes/issues/44
+	- bugfix: calculation error messages are now displayed correctly
+	- bugfix: use safe (guaranteed non-duplicate) ids for bookmarks
+	- bugfix: add some forgotten semicolons. Another missing semicolon
+	  (in menwhile changed code) might also have been a reason for
+	  https://github.com/vaeth/bookmarkdupes/issues/38
+	  However, currently the options page is not removed: some users might
+	  find it convenient.
+	- internal: remove redundant SplitNumber
+	- internal: avoid arguments array when simple args passing will do
+	- internal: improve some function names
+
+	Henaro aka Ironwool:
+	- Update uk locales
+	- Update ru locales
+
+	Juan Salvador Aleixandre Talens:
+	- Update es locales
+
+*bookmarkdupes-4.2:
+	Martin Väth <martin at mvath.de>:
+	- Add an options page with a link as an alternative way to open the
+	  extension. This is mainly meant as a workaround for
+	  https://github.com/vaeth/bookmarkdupes/issues/38
+
+	Juan Salvador Aleixandre Talens:
+	- Update es locales
+
+*bookmarkdupes-4.1:
+	Martin Väth <martin at mvath.de>:
+	- Add buttons for marking from identical folders in the same group
+	- internal: avoid redundant braces for Boolean negation
+
+	Henaro aka Ironwool:
+	- Set a reasonable page title
+	- Fix bugs in English translation
+	- Update uk locales
+	- Update ru locales
+
+*bookmarkdupes-4.0:
+	Martin Väth <martin at mvath.de>:
+	- Use tab instead of panel
+	- Speed up a lot and save memory by almost complete rewriting:
+	  In a tab there is no need to save state in a background process.
+	- Speed up counting of marks
+	- Display bookmarks as links
+	- Display URLs common to groups only once
+	- Support folder selection (instead of only 2 categories)
+	- Provide buttons for not marking first/last/oldest/newest for folders
+	- Let buttons for marking folders appear only optionally.
+	  Thanks to perdolka for the idea:
+	  https://github.com/vaeth/bookmarkdupes/issues/32
+	- Display list titles in more places
+	- Try to force display syncing with setTimeout
+	- Disable checkboxes while updating them
+	- Add a checkbox to disable counting
+	- bugfix: mark also last group for folder/category selection
+	- fix spelling/grammar
+	- internal: prefer const over let if possible
+	- internal: avoid new Array()
+
+	Henaro aka Ironwool:
+	- Update uk locales
+	- Update ru locales
+
+	Juan Salvador Aleixandre Talens:
+	- Update es locales
+
+*bookmarkdupes-3.0:
+	Martin Väth <martin at mvath.de>:
+	- Add new mark/unmark buttons for categories
+	- Use titles (tooltips) where possible
+	- Show bookmark URLs as titles (tooltips)
+	- Add checkbox to display URL in listing
+	- Add checkbox to display URL tail for similar bookmarks optionally
+	- Remember marked bookmarks when panel is closed
+	- Display 0 matches only once
+	- Rearrange placement of buttons
+	- Fix display of group separators
+	- Ignore bookmarks whose URL starts with "place:"
+	- internal: Use boolean tests for zero (presumably quicker)
+
+	Henaro aka Ironwool:
+	- Update uk locales
+	- Update ru locales
+
+	Juan Salvador Aleixandre Talens:
+	- Update es locales
+
+*bookmarkdupes-2.4:
+	Martin Väth <martin at mvath.de>:
+	- Indicate creation order of (matching) bookmarks by numbers
+	- Add buttons to mark all but oldest/newest bookmarks, see
+	  https://github.com/vaeth/bookmarkdupes/issues/9
+	- Display number of marked bookmarks
+	- Document that stripping descriptions changes internally stored date
+	- Document necessity to recalculate after bookmark changes
+	- Prefer bookmark index from bookmark API (if it exists) over counting.
+	  This might mitigate https://github.com/vaeth/bookmarkdupes/issues/11
+	- internal: remove currently unused asynchronous code
+	- internal: use null instead of {} to free closures
+	- internal: XHTML Transitional -> Strict
+
+	YFdyh000 <yfdyh000 at gmail.com>:
+	- Create zh_CN locales
+
+	Henaro aka Ironwool:
+	- Update uk locales
+	- Update ru locales
+
+	Juan Salvador Aleixandre Talens:
+	- Update es locales
+
+*bookmarkdupes-2.3:
+	Martin Väth <martin at mvath.de>:
+	- Serious bugfix (regression): Stripping of bookmarks failed, see
+	  https://github.com/vaeth/bookmarkdupes/issues/8
+
+*bookmarkdupes-2.2:
+	Henaro aka Ironwool:
+	- Create uk locales
+	- Create ru locales
+
+	Juan Salvador Aleixandre Talens:
+	- Create es locales
+
+	Martin Väth <martin at mvath.de>:
+	- Display total number of bookmarks
+	- Calculate in background
+	- Calculate optionally asynchronously (not yet used)
+
+*bookmarkdupes-2.1
+	Martin Väth <martin at mvath.de>:
+	- Display result of removing/stripping only once
+
+*bookmarkdupes-2.0
+	Martin Väth <martin at mvath.de>:
+	- Continue removing/stripping in background if popup is closed,
+	  and redisplay current state when popup is re-opened:
+	  Other things can be done even if stripping should take ages.
+	  Moreover, this solves the bug that when the popup was closed during
+	  stripping in a bad moment, a bookmark might have been duplicated.
+	- Add a progress bar for removing/stripping
+	- Disable buttons visibly when locked
+	- Hash bookmark data when searching all bookmarks, resulting in
+	  slightly slower search but considerably faster stripping
+	- Refactor searching, resulting in possibly slight speedup
+	- Fix typo in localization id (causing strange or empty message)
+	- Bugfix for detection of bookmark type
+	- Various minor typo fixes in text messages
+
+*bookmarkdupes-1.0
+	Martin Väth <martin at mvath.de>:
+	- Show progress when removing/stripping
+	- Add emergency stop button
+	- More specific messages
+	- Use textContent instead of redundant child text nodes
+	- Bugfix: Removing/stripping empty lists might have locked buttons
+	- Code cleanup: remove unused arguments
+
+*bookmarkdupes-0.5
+	Martin Väth <martin at mvath.de>:
+	- Avoid unsafe assignment to innerHTML
+
+*bookmarkdupes-0.4
+	Martin Väth <martin at mvath.de>:
+	- bookmarkdupes can now also strip descriptions of bookmarks
+	- Buttons accept now only left mouse button
+	- Update description
+	- Serialize removal of bookmarks: slower, but the only reliable way to
+	  handle certain errors, e.g. if another extension modifies bookmarks
+	- Avoid global variables: use nested functions and closures only
+
+*bookmarkdupes-0.3
+	Martin Väth <martin at mvath.de>:
+	- bookmarkdupes can now also display/remove empty bookmark folders
+	- Unmodifiable and other strange bookmarks are more reliably excluded
+	- Bugfix in handling of strange events
+
+*bookmarkdupes-0.2
+	Martin Väth <martin at mvath.de>:
+	- Fix of serious bug: Duplicates had not been grouped correctly!
+	  Unfortunately, this was completely missed during testing
+	- Display ignored parts of URLs for similar bookmarks
+	- Unselect all by default to minimize risk of accidental deletion
+	- Internationalization
+	- Provide German translation
+	- Fix error catcher for bookmark removal
+	- Improve code clarity for lock handling
+
+*bookmarkdupes-0.1
+	Martin Väth <martin at mvath.de>:
+	- Initial implementation

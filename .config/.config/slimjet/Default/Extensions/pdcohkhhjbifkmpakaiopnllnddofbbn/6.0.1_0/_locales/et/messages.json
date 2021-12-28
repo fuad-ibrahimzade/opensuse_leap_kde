@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Järjehoidjate haldur, mis aitab koos Organization, sünkroniseerimine üle brauserid ja platvormid"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Järjehoidjate haldur Speed ​​Dial | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "tühi leht"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome Vaikimisi (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Custom ..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "Custom URL siin"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Vali uus kaart käitumist"
+   },
+   "option_search": {
+      "message": "Näita Papaly tulemuseks otsing"
+   },
+   "option_title": {
+      "message": "Papaly valikud"
+   }
+}

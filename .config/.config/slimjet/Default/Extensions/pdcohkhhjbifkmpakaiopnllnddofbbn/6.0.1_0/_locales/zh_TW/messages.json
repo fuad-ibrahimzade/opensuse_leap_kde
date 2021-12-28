@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "書籤管理器與組織的幫助，跨瀏覽器和平台同步"
+   },
+   "appDetail": {
+      "message": "Papaly.com是一個個性化的起始頁面，你去到書籤管理器，適合您的所有需求。你可以同步你的書籤快速步說明容易一步！你能夠從有網絡連接的任何平台訪問書籤。獲得的Chrome瀏覽器上的最佳生產力工具之一！隨著Papaly，你可以使用的功能，包括：\n★分享與發布\n通過縮短的鏈接，發布你要共享的板。即使是通過社交媒體型材等渠道分享您的主板。\n★共同擁有及私人板\n分享並邀請其他人你的板子是公共或私有的。\n★減少打開選項卡和凌亂保存記憶\n嘗試我們的包和當前選項卡功能解壓。這將幫助你減少谷歌瀏覽器的內存使用與存儲雲的標籤一起。\n★能夠關閉新標籤和結果搜索\n沒有其他的Chrome擴展和書籤管理器具有可用此功能。\n★社會化書籤\n可以同步你的社交媒體帳戶來獲取所有在一對它們的訪問。\n其他的一些特點：\n✔填充板從瀏覽器的書籤\n✔同步搜索和書籤跨瀏覽器\n✔瀏覽內容\n✔新標籤快速撥號功能\n✔拖放與書籤搜索\n✔自定義主題\n✔書籤管理器編輯模式\n✔重命名類別和鏈接\n✔書籤一點通\n✔顯示名稱定制\n==============================\n起始頁應用下載：\nhttps://chrome.google.com/webstore/detail/bookmark-sync-speed-dial/ebaemiclbgheekdodbcengpahonmfnla\n=============================="
+   },
+   "appName": {
+      "message": "書籤管理器快速撥號| Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "空白頁"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome的默認（谷歌）"
+   },
+   "option_newtab_custom": {
+      "message": "自定義..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "這裡自定義網址"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "選擇新標籤的行為"
+   },
+   "option_search": {
+      "message": "顯示Papaly導致搜索"
+   },
+   "option_title": {
+      "message": "Papaly選項"
+   }
+}

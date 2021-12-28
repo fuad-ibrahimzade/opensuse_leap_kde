@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Боокмарк директор који помаже у организацији, Синхронизација преко претраживачима и платформама"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Боокмарк директор Спеед Диал | Папали"
+   },
+   "option_newtab_blank": {
+      "message": "Празна страница"
+   },
+   "option_newtab_chrome": {
+      "message": "Цхроме Уобичајено (Гоогле)"
+   },
+   "option_newtab_custom": {
+      "message": "Обичај..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "Прилагођени УРЛ овде"
+   },
+   "option_newtab_papaly": {
+      "message": "Папали"
+   },
+   "option_newtab_title": {
+      "message": "Изаберите Нова картица понашање"
+   },
+   "option_search": {
+      "message": "Схов Папали резултати у потрази"
+   },
+   "option_title": {
+      "message": "Папали Опције"
+   }
+}

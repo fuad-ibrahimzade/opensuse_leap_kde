@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Könyvjelzőkezelő, amely segít a szervezet, szinkronizálása minden böngészőben és platformon"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Könyvjelzőkezelő Speed ​​Dial | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Üres lap"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome alapértelmezett (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Szokás..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "Egyéni URL here"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Válassza az Új lap viselkedés"
+   },
+   "option_search": {
+      "message": "Megmutatása Papaly eredményez keresés"
+   },
+   "option_title": {
+      "message": "Papaly opciók"
+   }
+}

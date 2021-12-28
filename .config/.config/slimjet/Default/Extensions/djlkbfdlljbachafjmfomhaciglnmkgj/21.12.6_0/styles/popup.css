@@ -1,0 +1,24 @@
+body {
+  width: 360px;
+  margin: 0;
+  padding: 16px;
+  transition: height 2s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

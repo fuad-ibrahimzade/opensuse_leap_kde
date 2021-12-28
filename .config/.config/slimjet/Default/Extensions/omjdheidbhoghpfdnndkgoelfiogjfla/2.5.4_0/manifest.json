@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "aes.js", "gfile.js", "options_db.js", "pagenotes_db.js", "oauth2.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "Page Notes"
+   },
+   "description": "Take notes for web pages and access them with a single click whenever you visit those web pages again. (Syncs to Google Drive)",
+   "icons": {
+      "128": "icons/icon_128.png",
+      "16": "icons/icon_16.png",
+      "19": "icons/icon_19.png",
+      "48": "icons/icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDc4Q5qsAR/H14mykGNQXNpDidfiQMyRaEV0eX6qk6V4Hq2IzSzGa90UN4EC7Hm5hFJ0Wzr90xLytmp5E+cyL3jF7pAWu9K4DbwbcgZfj29gbgzK2Z7cS6pICgeZmPusT5KXONzNZS6l/3rP0RoI1+4UjIBgDiCOaq0XZgIV5BA7wIDAQAB",
+   "manifest_version": 2,
+   "name": "Page Notes",
+   "options_page": "options.html",
+   "permissions": [ "storage", "tabs", "https://www.googleapis.com/", "https://accounts.google.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.5.4"
+}

@@ -1,0 +1,23 @@
+{
+    "firefox": "firefox",
+    "chromium-browser": "chrome",
+    "chrome": "chrome",
+    "google-chrome": "chrome",
+    "qutebrowser": "safari",
+    "x-terminal-emulator": "terminal",
+    "alacritty": "terminal",
+    "thunderbird": "envelope",
+    "jetbrains-idea-ce": "edit",
+    "code": "edit",
+    "nautilus": "folder-open",
+    "dolphin": "folder-open",
+    "ranger": "folder-open",
+    "krusader": "folder-open",
+    "clementine": "music",
+    "vlc": "play",
+    "mpv": "play",
+    "signal": "comment",
+    "obsidian": "sticky-note",
+    "obsidian-releases": "sticky-note",
+    "_no_match": "question"
+}

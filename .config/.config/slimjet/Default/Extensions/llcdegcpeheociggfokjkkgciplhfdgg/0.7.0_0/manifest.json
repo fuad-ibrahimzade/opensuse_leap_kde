@@ -1,0 +1,21 @@
+{
+   "author": "Greg McLeod",
+   "background": {
+      "scripts": [ "app.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/icon_38.png",
+      "default_title": "syncmarx (alpha)"
+   },
+   "description": "Web extension built for cross-browser bookmark syncing to the cloud.",
+   "icons": {
+      "48": "icons/icon_48.png",
+      "96": "icons/icon_96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwCUoruK9WqqrW6xsy9c+0aQpAHFGjtY+c1ClzcxU0TZT+G4vljfgXzQGThhAKNG57hk2P0/Z+xttVQXr5btiDepD1wC8wgVUrSNdUNg/Bu5sac+3otJcq/Nzcdik4SvfnnfThtF9/1cD4QqgtuDAvN9zi+moML98+RFmn1oZmkav8a0DYyuF3XFNs6LPUp5qh1T27bq3fujRE93NWMsPvY0l/kB/0s5FGdZVNC2dEK+zBX2v+dQ5WuX1S3PSSpIS5Mnme0rqQ7v+us9Tws6QSsOZt5CjPMFVy8oxzaCKEtMwz9O7TCUo9wWy2ANsn2+wPjWf075EwjB5weuNsSB4zwIDAQAB",
+   "manifest_version": 2,
+   "name": "syncmarx",
+   "permissions": [ "bookmarks", "https://*.dropboxapi.com/", "https://*.google.com/", "https://*.googleapis.com/", "https://*.box.com/", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.7.0"
+}

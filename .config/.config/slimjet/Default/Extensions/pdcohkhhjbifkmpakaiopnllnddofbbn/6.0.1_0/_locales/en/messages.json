@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Bookmark Manager that helps with Organization, Syncing across browsers and platforms"
+   },
+   "appDetail": {
+      "message": "Papaly.com is a personalized start page that is your go-to bookmark manager that fits all your needs. You’re able to sync your bookmarks fast and easy with step by step instructions! You're able to access your bookmarks from any platform that has internet access. Get one of the best Productivity tools on Chrome! With Papaly, you can use features including:\n\n★ Share & Publish\nPublish the board you want to share, by a shortened link. Even share your board through Social Media Profiles and other channels.\n\n★ Co-ownership and Private Boards\nShare and invite others to your board that is either public or private.\n\n★ Reduce Open Tab Clutter and Save Memory\nTry out our pack and unpack of your current tabs feature. This will help you with reducing Google Chrome memory usage along with storing your tabs in cloud.\n\n★ Ability to turn off New Tab and Results in Search\nNo other Chrome Extension and Bookmark Manager has this feature available.\n\n★ Social Bookmarks\nBe able to sync up your Social Media accounts to get all in one access to them.\n\nSome other features:\n\n✔ Populate Boards from Browser's Bookmark\n✔ Sync Searches and Bookmarks Cross Browsers\n✔ Explore Content\n✔ New Tab Speed Dial Functionality\n✔ Drag and Drop Searches with Bookmarks\n✔ Customizable Themes\n✔ Bookmark Manager Edit Mode\n✔ Rename Categories and Links\n✔ Bookmarking Made Easy\n✔ Display Name Customization\n\n==============================\nStart Page Application Download:\nhttps://chrome.google.com/webstore/detail/bookmark-sync-speed-dial/ebaemiclbgheekdodbcengpahonmfnla\n=============================="
+   },
+   "appName": {
+      "message": "Bookmark Manager Speed Dial | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Blank Page"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome Default (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Custom..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "Custom URL here"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Select new tab behavior"
+   },
+   "option_search": {
+      "message": "Show Papaly results in search"
+   },
+   "option_title": {
+      "message": "Papaly Options"
+   }
+}

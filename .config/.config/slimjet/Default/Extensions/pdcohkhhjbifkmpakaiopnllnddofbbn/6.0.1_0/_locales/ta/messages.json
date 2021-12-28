@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "உலாவிகளில் மற்றும் தளங்களில் முழுவதும் ஒத்திசைக்கிறது, அமைப்பு உதவுகிறது என்று புக்மார்க் மேனேஜர்"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "புக்மார்க் மேனேஜர் வேகம் டயல் | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "வெற்று பக்கம்"
+   },
+   "option_newtab_chrome": {
+      "message": "குரோம் இயல்புநிலை (கூகிள்)"
+   },
+   "option_newtab_custom": {
+      "message": "விருப்ப ..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "விருப்ப URL இங்கு"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "புதிய தாவலை நடத்தை தேர்ந்தெடுக்கவும்"
+   },
+   "option_search": {
+      "message": "Papaly காட்டு தேடல் முடிவு"
+   },
+   "option_title": {
+      "message": "Papaly விருப்பங்கள்"
+   }
+}

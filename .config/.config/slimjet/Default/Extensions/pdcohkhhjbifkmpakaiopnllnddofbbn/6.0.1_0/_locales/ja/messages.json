@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "ブラウザとプラットフォーム間での同期、組織に役立ちますブックマークマネージャ"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "ブックマークマネージャのスピードダイヤル| Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "空白ページ"
+   },
+   "option_newtab_chrome": {
+      "message": "Chromeのデフォルト（グーグル）"
+   },
+   "option_newtab_custom": {
+      "message": "カスタム..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "ここではカスタムURL"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "新しいタブの動作を選択します"
+   },
+   "option_search": {
+      "message": "検索でPapaly結果を表示"
+   },
+   "option_title": {
+      "message": "Papalyオプション"
+   }
+}

@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Bookmark Manager, che aiuta con l&#39;Organizzazione, la sincronizzazione tra browser e piattaforme"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Bookmark Dial Responsabile Velocità | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Pagina vuota"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome di default (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Personalizzata ..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "URL personalizzato qui"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Selezionare nuovo comportamento scheda"
+   },
+   "option_search": {
+      "message": "Mostra Papaly si traduce in ricerca"
+   },
+   "option_title": {
+      "message": "Opzioni Papaly"
+   }
+}

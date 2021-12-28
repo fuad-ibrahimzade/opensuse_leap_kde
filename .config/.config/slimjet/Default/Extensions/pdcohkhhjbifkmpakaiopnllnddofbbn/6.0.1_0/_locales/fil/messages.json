@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Bookmark Manager na tumutulong sa Organization, Pinagsasabay sa mga browser at platform"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Bookmark Manager Speed ​​Dial | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Blank Page"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome Default (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Custom ..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "Custom URL dito"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Piliin bagong pag-uugali tab"
+   },
+   "option_search": {
+      "message": "Show Papaly resulta sa paghahanap"
+   },
+   "option_title": {
+      "message": "Papaly Opsyon"
+   }
+}

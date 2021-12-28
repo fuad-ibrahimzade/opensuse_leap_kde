@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Pengurus Bookmark yang membantu dengan Pertubuhan, Menyegerakkan seluruh pelayar dan platform"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Bookmark Speed ​​Pengurus dail | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Halaman kosong"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome Default (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Custom ..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "URL Custom sini"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Pilih tingkah laku tab baru"
+   },
+   "option_search": {
+      "message": "Show Papaly menyebabkan carian"
+   },
+   "option_title": {
+      "message": "Pilihan Papaly"
+   }
+}

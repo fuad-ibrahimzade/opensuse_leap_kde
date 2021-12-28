@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Bookmark Manager giúp với Tổ chức, Đồng bộ hoá trên các trình duyệt và nền tảng"
+   },
+   "appDetail": {
+      "message": "Papaly.com là một trang chủ được cá nhân đó là đi-để bạn quản lý bookmark phù hợp với mọi nhu cầu của bạn. Bạn có thể đồng bộ bookmark của bạn nhanh chóng và dễ dàng với hướng dẫn từng bước! Bạn có thể truy cập bookmark của bạn từ bất kỳ nền tảng nào có truy cập internet. Nhận một trong những công cụ năng suất tốt nhất trên Chrome! Với Papaly, bạn có thể sử dụng tính năng bao gồm:\n★ Chia sẻ & Xuất bản\nXuất bản các bảng bạn muốn chia sẻ, bởi một liên kết rút ngắn. Thậm chí chia sẻ bảng của bạn qua Profiles Truyền thông xã hội và các kênh khác.\n★ Co-quyền sở hữu tư nhân và Ban\nChia sẻ và mời những người khác để hội đồng của bạn hoặc là có công hay tư.\n★ Giảm mở Tab Clutter và Lưu Memory\nHãy thử gói của chúng tôi và giải nén các tính năng tab hiện tại của bạn. Điều này sẽ giúp bạn giảm bộ nhớ sử dụng Google Chrome cùng với lưu trữ các tab của bạn trong đám mây.\n★ Khả năng tắt Tab và kết quả mới trong Tìm kiếm\nKhông mở rộng Chrome và Quản lý bookmark khác có tính năng này có sẵn.\n★ Bookmarks Xã hội\nCó thể đồng bộ các tài khoản truyền thông xã hội của bạn để có được tất cả trong một truy cập vào chúng.\nMột số tính năng khác:\n✔ cư Ban từ Bookmark của trình duyệt\n✔ kiếm Sync và Bookmarks trình duyệt chéo\n✔ Khám phá nội dung\n✔ New Tab Speed ​​Dial năng\n✔ Kéo và thả tìm kiếm với Bookmarks\n✔ Customizable Themes\n✔ Quản lý bookmark Edit Mode\n✔ Đổi tên loại và Liên kết\n✔ Bookmarking Made Easy\n✔ tên hiển thị tuỳ biến\n==============================\nTrang Bắt đầu ứng dụng Download:\nhttps://chrome.google.com/webstore/detail/bookmark-sync-speed-dial/ebaemiclbgheekdodbcengpahonmfnla\n=============================="
+   },
+   "appName": {
+      "message": "Bookmark Tốc độ quản lý Quay số | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Trang trống"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome Mặc định (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Tập quán..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "URL tùy chỉnh ở đây"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Chọn hành vi tab mới"
+   },
+   "option_search": {
+      "message": "Hiện Papaly kết quả tìm kiếm"
+   },
+   "option_title": {
+      "message": "Tùy chọn Papaly"
+   }
+}

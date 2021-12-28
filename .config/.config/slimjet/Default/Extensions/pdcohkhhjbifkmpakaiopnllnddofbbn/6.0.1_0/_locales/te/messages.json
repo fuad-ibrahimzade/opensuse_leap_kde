@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "బ్రౌజర్లలో మరియు వేదికల అంతటా సమకాలీకరించడాన్ని, సంస్థ తో సహాయపడుతుంది బుక్మార్క్ సంచాలకులు"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "బుక్మార్క్ సంచాలకులు స్పీడ్ డయల్ | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "ఖాళీ పేజీ"
+   },
+   "option_newtab_chrome": {
+      "message": "క్రోమ్ డిఫాల్ట్ (గూగుల్)"
+   },
+   "option_newtab_custom": {
+      "message": "కస్టమ్ ..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "ఇక్కడ కస్టమ్ URL"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "క్రొత్త టాబ్ ప్రవర్తన ఎంచుకోండి"
+   },
+   "option_search": {
+      "message": "షో Papaly శోధన ఫలితాలు"
+   },
+   "option_title": {
+      "message": "Papaly ఐచ్ఛికాలు"
+   }
+}

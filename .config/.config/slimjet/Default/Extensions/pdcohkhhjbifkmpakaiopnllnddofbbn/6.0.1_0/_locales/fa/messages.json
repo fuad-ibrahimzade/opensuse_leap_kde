@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "مدیر نشانک که کمک می کند تا با سازمان، همگام سازی در سراسر مرورگرها و سیستم عامل"
+   },
+   "appDetail": {
+      "message": "Papaly.com est une page d'accueil personnalisée qui est votre go-to gestionnaire de signets qui correspond à tous vos besoins. Vous êtes en mesure de synchroniser vos signets rapide et facile avec des instructions étape par étape! Vous êtes en mesure d'accéder à vos favoris de toute plate-forme qui a accès à Internet. Obtenez un des meilleurs outils de productivité sur Chrome! Avec Papaly, vous pouvez utiliser les fonctionnalités, y compris:\n★ Partager et publier\nPublier le conseil que vous souhaitez partager, par un lien raccourci. Même partager votre conseil d'administration par le biais des profils de médias sociaux et d'autres canaux.\n★ Co-propriété et privées Boards\nPartager et inviter d'autres à votre conseil d'administration qui est soit public ou privé.\n★ Réduire Ouvrir Clutter Tab et Save Memory\nEssayez notre pack et décompresser de votre fonction actuelle onglets. Cela vous aidera à réduire Google Chrome utilisation de la mémoire ainsi que le stockage de vos onglets dans les nuages.\n★ Possibilité de désactiver un nouvel onglet et résultats dans la recherche\nAucun autre gestionnaire Chrome Extension et Signet dispose de cette fonctionnalité disponible.\n★ Social Bookmarks\nÊtre capable de synchroniser vos comptes de médias sociaux pour obtenir en un seul accès.\nQuelques autres fonctionnalités:\n✔ Populate Conseils de navigateur de signet\n✔ recherches de synchronisation et signets Cross Browsers\n✔ Explorer Content\n✔ Nouvel onglet Speed ​​Dial Fonctionnalité\n✔ Drag and Drop Recherches avec Bookmarks\n✔ Thèmes personnalisables\n✔ Bookmark Manager Edit Mode\n✔ Renommer les catégories et liens\n✔ Bookmarking Made Easy\n✔ Nom d'affichage Personnalisation\n==============================\nPage d'application Téléchargement:\nhttps://chrome.google.com/webstore/detail/bookmark-sync-speed-dial/ebaemiclbgheekdodbcengpahonmfnla\n=============================="
+   },
+   "appName": {
+      "message": "مدیر نشانک سرعت شماره گیری | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "صفحه خالی"
+   },
+   "option_newtab_chrome": {
+      "message": "کروم پیش فرض (گوگل)"
+   },
+   "option_newtab_custom": {
+      "message": "سفارشی..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "URL سفارشی در اینجا"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "رفتار تب جدید را انتخاب کنید"
+   },
+   "option_search": {
+      "message": "نمایش نتایج: از شماره Papaly در جستجوی"
+   },
+   "option_title": {
+      "message": "گزینه های Papaly"
+   }
+}

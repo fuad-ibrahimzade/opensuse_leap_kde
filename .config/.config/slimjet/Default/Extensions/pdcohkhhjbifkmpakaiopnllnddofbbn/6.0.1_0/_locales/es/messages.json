@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Administrador de marcadores que ayuda con la organización, la sincronización de enlaces en todos los navegadores y plataformas"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Papaly gestor de enlaces marcación rápida | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Página en blanco"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome por defecto (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Personalizado..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "URL personalizada aquí"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Seleccionar nuevo comportamiento pestaña"
+   },
+   "option_search": {
+      "message": "Mostrar Papaly se traduce en la búsqueda"
+   },
+   "option_title": {
+      "message": "Opciones Papaly"
+   }
+}

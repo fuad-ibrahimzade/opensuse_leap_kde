@@ -1,0 +1,604 @@
+{
+   "buttonListDupes": {
+      "description": "Button for listing dupes",
+      "message": "Duplicados"
+   },
+   "buttonListEmpty": {
+      "description": "Button for listing empty folders",
+      "message": "Carpetas vacías"
+   },
+   "buttonListSingles": {
+      "description": "Button for listing all non-dupe bookmarks",
+      "message": "No duplicados"
+   },
+   "buttonMarkAll": {
+      "description": "Button for marking all",
+      "message": "Marcar todos"
+   },
+   "buttonMarkButFirst": {
+      "description": "Button for marking all but first",
+      "message": "Marcar todos los primeros de cada grupo"
+   },
+   "buttonMarkButLast": {
+      "description": "Button for marking all but last",
+      "message": "Marcar todos los últimos de cada grupo"
+   },
+   "buttonMarkButNewest": {
+      "description": "Button for marking all but newest",
+      "message": "Marcar todos los más nuevos de cada grupo"
+   },
+   "buttonMarkButOldest": {
+      "description": "Button for marking all but oldest",
+      "message": "Marcar todos los más viejos de cada grupo"
+   },
+   "buttonMarkFolder": {
+      "description": "Button for marking all of the selected folder",
+      "message": "Marcar todos los de la carpeta seleccionada"
+   },
+   "buttonMarkFolderButFirst": {
+      "description": "Button for unmarking all but selected folder or first in groups with it",
+      "message": "En grupos con la carpeta seleccionada, marca todos los demás o el primero"
+   },
+   "buttonMarkFolderButLast": {
+      "description": "Button for unmarking all but selected folder or last in groups with it",
+      "message": "En grupos con la carpeta seleccionada, desmarca todos los demás o el último"
+   },
+   "buttonMarkFolderButNewest": {
+      "description": "Button for unmarking all but selected folder or newest in groups with it",
+      "message": "En grupos con la carpeta seleccionada, desmarca todos los demás o los más nuevos"
+   },
+   "buttonMarkFolderButOldest": {
+      "description": "Button for unmarking all but selected folder or oldest in groups with it",
+      "message": "En grupos con la carpeta seleccionada, desmarca todos los demás o los más antiguos"
+   },
+   "buttonMarkFolderOther": {
+      "description": "Button for marking all but selected folder in groups with it",
+      "message": "Marcar todos, menos los que tengan la carpeta seleccionada"
+   },
+   "buttonMarkSame": {
+      "description": "Button for marking all of the same folders in the same group",
+      "message": "Marcar todas las carpetas idénticas en el mismo grupo"
+   },
+   "buttonMarkSameButFirst": {
+      "description": "Button for marking all but the first of identical folders in the same group",
+      "message": "Marcar todo, pero el primero de las carpetas idénticas en un mismo grupo"
+   },
+   "buttonMarkSameButLast": {
+      "description": "Button for marking all but the last of identical folders in the same group",
+      "message": "Marcar todo, pero el último de las carpetas idénticas en un mismo grupo"
+   },
+   "buttonMarkSameButNewest": {
+      "description": "Button for marking all but the newest of identical folders in the same group",
+      "message": "Marcar todo menos el más nuevo de carpetas idénticas en el mismo grupo"
+   },
+   "buttonMarkSameButOldest": {
+      "description": "Button for marking all but the oldest of identical folders in the same group",
+      "message": "Marcar todo menos el más viejo de carpetas idénticas en el mismo grupo"
+   },
+   "buttonMoveMarked": {
+      "description": "Button for moving marked bookmarks to trash folder. The trash folder name in the text should be {0}",
+      "message": "Mover los marcadores marcados a “{0}”"
+   },
+   "buttonRemoveMarked": {
+      "description": "Button for removing marked bookmarks",
+      "message": "Eliminar marcadores marcados"
+   },
+   "buttonRuleAdd": {
+      "description": "Button for inserting a new rule. The text should be short",
+      "message": "➕"
+   },
+   "buttonRuleDown": {
+      "description": "Button for moving a rule down. The text should be short",
+      "message": "⇩"
+   },
+   "buttonRuleDownFontWeight": {
+      "description": "font-weight property for buttonRuleDown",
+      "message": "bolder"
+   },
+   "buttonRuleSub": {
+      "description": "Button for removing a rule. The text should be short",
+      "message": "✖"
+   },
+   "buttonRuleUp": {
+      "description": "Button for moving a rule up. The text should be short",
+      "message": "⇧"
+   },
+   "buttonRuleUpFontWeight": {
+      "description": "font-weight property for buttonRuleUp",
+      "message": "bolder"
+   },
+   "buttonRulesCleanLocal": {
+      "description": "Button for cleaning local storage. The text should be short",
+      "message": "✖ almacenamiento local"
+   },
+   "buttonRulesCleanSync": {
+      "description": "Button for cleaning sync storage. The text should be short",
+      "message": "✖ almacenamiento sync"
+   },
+   "buttonRulesDefault": {
+      "description": "Button for restoring default rules. The text should be short",
+      "message": "⇐ reglas por defecto"
+   },
+   "buttonRulesRestoreLocal": {
+      "description": "Button for restoring rules from local storage. The text should be short",
+      "message": "⇐ almacenamiento local"
+   },
+   "buttonRulesRestoreSync": {
+      "description": "Button for restoring rules from sync storage. The text should be short",
+      "message": "⇐ almacenamiento sync"
+   },
+   "buttonRulesStoreLocal": {
+      "description": "Button for putting rules to local storage. The text should be short",
+      "message": "⇒ almacenamiento local"
+   },
+   "buttonRulesStoreSync": {
+      "description": "Button for putting rules to sync storage. The text should be short",
+      "message": "⇒ almacenamiento sync"
+   },
+   "buttonStopMoving": {
+      "description": "Button for emergency stop of bookmark moving",
+      "message": "Parar me mover!"
+   },
+   "buttonStopRemoving": {
+      "description": "Button for emergency stop of bookmark removing",
+      "message": "Parar de eliminar!"
+   },
+   "buttonUnmarkAll": {
+      "description": "Button for unmarking all",
+      "message": "Desmarcar todos"
+   },
+   "buttonUnmarkFolder": {
+      "description": "Button for unmarking all of selected folder",
+      "message": "Desmarcar todos de la carpeta seleccionada"
+   },
+   "buttonUnmarkSame": {
+      "description": "Button for unmarking all of the same folders in the same group",
+      "message": "Desmarcar todas las carpetas idénticas en el mismo grupo"
+   },
+   "checkboxExtra": {
+      "description": "Checkbox for displaying the replaced URL content in listing",
+      "message": "Mostrar contenido de URL reemplazado en la lista"
+   },
+   "checkboxFullUrl": {
+      "description": "Checkbox for displaying URL in listing. Explain that the URL will appear as title anyway",
+      "message": "Mostrar URL en el listado. En cualquier caso, la URL aparecerá si pasa el puntero sobre el marcador."
+   },
+   "checkboxRules": {
+      "description": "Checkbox text for switching on/off regexp rules",
+      "message": "Modo experto: use reglas personalizadas para hacer coincidir marcadores similares o ignorar los marcadores al buscar."
+   },
+   "errorNoBookmarkFolderFound": {
+      "description": "Report that no bookmark folder was found",
+      "message": "No se ha encontrado la carpeta de marcadores"
+   },
+   "errorNoBookmarks": {
+      "description": "Report that the extension will not work on that browser",
+      "message": "Esta versión del navegador carece de la API requerida de marcadores. Marcadores Duplicados y extensiones similares no pueden funcionar sin esa API. Lo siento."
+   },
+   "extensionDescription": {
+      "description": "Description of the extension",
+      "message": "Mostrar/Eliminar marcadores duplicados o carpetas vacías"
+   },
+   "extensionName": {
+      "description": "Name of the extension",
+      "message": "Marcadores Duplicados"
+   },
+   "messageCalculateError": {
+      "description": "Report specified error during calculation",
+      "message": "Error: $ERROR$",
+      "placeholders": {
+         "error": {
+            "content": "$1",
+            "example": "error description"
+         }
+      }
+   },
+   "messageCalculating": {
+      "description": "Report that calculation started",
+      "message": "Buscando"
+   },
+   "messageCount": {
+      "description": "Report specified number of marked bookmarks",
+      "message": "$TOTAL$ marcadores marcados",
+      "placeholders": {
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "messageEmpty": {
+      "description": "Report specified number of empty folders",
+      "message": "$TOTAL$ carpetas vacías encontradas",
+      "placeholders": {
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "messageMatches": {
+      "description": "Report specified numbers of matches and groups of all",
+      "message": "$TOTAL$ duplicados (of $ALL$ marcadores) en $GROUPS$ grupos",
+      "placeholders": {
+         "all": {
+            "content": "$3",
+            "example": "1"
+         },
+         "groups": {
+            "content": "$2",
+            "example": "1"
+         },
+         "total": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "messageMoveError": {
+      "description": "Report specified error after moving specified number of bookmarks",
+      "message": "Error despues de mover $TOTAL$ marcadores: $ERROR$",
+      "placeholders": {
+         "error": {
+            "content": "$1",
+            "example": "error description"
+         },
+         "total": {
+            "content": "$2",
+            "example": "0"
+         }
+      }
+   },
+   "messageMoveMarked": {
+      "description": "Report that moving of marked bookmarks started",
+      "message": "Moviendo marcadores marcados"
+   },
+   "messageMoveProgress": {
+      "description": "Report that specified number/total/percentage of bookmarks are moved",
+      "message": "($PERCENTAGE$ %) $TOTAL$ de $TODO$ marcadores movidos",
+      "placeholders": {
+         "percentage": {
+            "content": "$3",
+            "example": "0"
+         },
+         "todo": {
+            "content": "$2",
+            "example": "1"
+         },
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "messageMoveSuccess": {
+      "description": "Report success when moving specified number of bookmarks",
+      "message": "$TOTAL$ marcadores movidos!",
+      "placeholders": {
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "messageNoCount": {
+      "description": "Report that marks are not counted for speed reasons",
+      "message": "El número de marcadores seleccionados no mostrado por razones de velocidad"
+   },
+   "messageRemoveError": {
+      "description": "Report specified error after removing specified number of bookmarks",
+      "message": "Error después de eliminar $TOTAL$ marcadores: $ERROR$",
+      "placeholders": {
+         "error": {
+            "content": "$1",
+            "example": "error description"
+         },
+         "total": {
+            "content": "$2",
+            "example": "0"
+         }
+      }
+   },
+   "messageRemoveMarked": {
+      "description": "Report that removal of marked bookmarks started",
+      "message": "Eliminando marcadores marcados"
+   },
+   "messageRemoveProgress": {
+      "description": "Report that specified number/total/percentage of bookmarks are removed",
+      "message": "($PERCENTAGE$ %) $TOTAL$ de $TODO$ marcadores borrados",
+      "placeholders": {
+         "percentage": {
+            "content": "$3",
+            "example": "0"
+         },
+         "todo": {
+            "content": "$2",
+            "example": "1"
+         },
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "messageRemoveSuccess": {
+      "description": "Report success when removing specified number of bookmarks",
+      "message": "$TOTAL$ marcadores borrados!",
+      "placeholders": {
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "messageSingles": {
+      "description": "Report specified number of non-dupe bookmarks",
+      "message": "$TOTAL$ marcadores no duplicados (de $ALL$ marcadores) encontrados",
+      "placeholders": {
+         "all": {
+            "content": "$2",
+            "example": "1"
+         },
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "optionNonFolder": {
+      "description": "Name of the non-folder. It might indicate that buttons for markings appear if another name is selected.",
+      "message": "-- Seleccione una carpeta para obtener los botones correspondientes para marcar --"
+   },
+   "optionSameFolder": {
+      "description": "Name of a special folder selection: Identical folders in the same group",
+      "message": "-- Carpetas idénticas en el mismo grupo --"
+   },
+   "radioFilter": {
+      "description": "Radio button for filtering a bookmark. The text should be short",
+      "message": "Filtro"
+   },
+   "radioOff": {
+      "description": "Radio button for ignoring the rule. The text should be short",
+      "message": "Apagado"
+   },
+   "radioUrl": {
+      "description": "Radio button for preprocessing a URL. The text should be short",
+      "message": "Modificar"
+   },
+   "regExpTrashFolder": {
+      "description": "A regular expression matching trashFolder; symbols like .?\\[]()* should be quoted by \\ or surrounded by []",
+      "message": "Duplicado"
+   },
+   "ruleName": {
+      "description": "Input field for matching the name. The text should be short",
+      "message": "El nombre coincide"
+   },
+   "ruleNameNegation": {
+      "description": "Input field for not matching the name. The text should be short",
+      "message": "El nombre no coincide"
+   },
+   "ruleReplace": {
+      "description": "Input field for the replacement text for the regular expression matches. The text should be short",
+      "message": "por"
+   },
+   "ruleSearch": {
+      "description": "Input field for the search part of the URL. The text should be short",
+      "message": "Reemplazo de coincidencias de URL"
+   },
+   "ruleUrl": {
+      "description": "Input field for matching the URL. The text should be short",
+      "message": "La URL coincide"
+   },
+   "ruleUrlNegation": {
+      "description": "Input field for matching the URL. The text should be short",
+      "message": "La URL no coincide"
+   },
+   "titleButtonListDupes": {
+      "description": "Explain that the list of bookmark dupes will be (re)calculated, and how bookmark dupes are defined",
+      "message": "(Re)calcule la lista de duplicados de marcadores. Dos marcadores se consideran duplicados si sus URL coinciden. En modo experto, las reglas de preprocesamiento (sustitución) de URL seleccionadas se aplican antes de comparar las URL."
+   },
+   "titleButtonListEmpty": {
+      "description": "Explain that the list of empty folders will be (re)calculated, and that the result might falsely contain live bookmarks",
+      "message": "(Re)calcule la lisa de varpetas vacías. El resultado, falsamente, puede contener marcadores dinámicos."
+   },
+   "titleButtonListSingles": {
+      "description": "Explain that the list of all non-dupe bookmarks will be (re)calculated, and how bookmark dupes are defined",
+      "message": "(Re) calcule la lista de marcadores no duplicados. Dos marcadores se consideran duplicados si sus URL coinciden. En modo experto, las reglas de preprocesamiento (sustitución) de URL seleccionadas se aplican antes de comparar las URL."
+   },
+   "titleButtonMarkAll": {
+      "description": "Explain that all bookmarks will be marked",
+      "message": "Marcar todos los marcadores."
+   },
+   "titleButtonMarkButFirst": {
+      "description": "Explain that additionally the first bookmark in each group will be unmarked",
+      "message": "Además, el primer marcador en cada grupo estará sin marcar."
+   },
+   "titleButtonMarkButLast": {
+      "description": "Explain that additionally the last bookmark in each group will be unmarked",
+      "message": "Además, el último marcador en cada grupo será desmarcado."
+   },
+   "titleButtonMarkButNewest": {
+      "description": "Explain that additionally the newest bookmark in each group will be unmarked",
+      "message": "Además, el marcador más nuevo de cada grupo se desmarcará."
+   },
+   "titleButtonMarkButOldest": {
+      "description": "Explain that additionally the oldest bookmark in each group will be unmarked",
+      "message": "Además, el marcador más antiguo de cada grupo será desmarcado."
+   },
+   "titleButtonMarkFolder": {
+      "description": "Explain that all bookmarks of selected folder will be marked",
+      "message": "Seleccionar todos los marcadores de la carpeta seleccionada."
+   },
+   "titleButtonMarkFolderButFirst": {
+      "description": "Explain that in groups with selected folder all bookmarks from that folder will be marked and all others unmarked; if there are no others, the first is unmarked",
+      "message": "En grupos con la carpeta seleccionada, marca todos los marcadores de esa carpeta y desmarca todos los demás. Si no hay otros, desmarca el primero."
+   },
+   "titleButtonMarkFolderButLast": {
+      "description": "Explain that in groups with selected folder all bookmarks from that folder will be marked and all others unmarked; if there are no others, the last is unmarked",
+      "message": "En grupos con la carpeta seleccionada, marca todos los marcadores de esa carpeta y desmarca todos los demás. Si no hay otros, desmarca el último."
+   },
+   "titleButtonMarkFolderButNewest": {
+      "description": "Explain that in groups with selected folder all bookmarks from that folder will be marked and all others unmarked; if there are no others, the newest is unmarked",
+      "message": "En grupos con la carpeta seleccionada, marca todos los marcadores de esa carpeta y desmarca todos los demás. Si no hay otros, desmarca el más nuevo."
+   },
+   "titleButtonMarkFolderButOldest": {
+      "description": "Explain that in groups with selected folder all bookmarks from that folder will be marked and all others unmarked; if there are no others, the oldest is unmarked",
+      "message": "En grupos con la carpeta seleccionada, marca todos los marcadores de esa carpeta y desmarca todos los demás. Si no hay otros, desmarca el más antiguo."
+   },
+   "titleButtonMarkFolderOther": {
+      "description": "Explain that all bookmarks of selected folder will be unmarked",
+      "message": "Además, los marcadores de la carpeta seleccionada serán desmarcados."
+   },
+   "titleButtonMarkSame": {
+      "description": "Explain that all bookmarks of identical folders in the same group will be marked",
+      "message": "Marcar todos los marcadores de carpetas idénticas en el mismo grupo."
+   },
+   "titleButtonMarkSameButFirst": {
+      "description": "Explain that additionally for identical folders in the same group the first will be unmarked",
+      "message": "Además, el primero de las carpetas idénticas en el mismo grupo se desmarcará."
+   },
+   "titleButtonMarkSameButLast": {
+      "description": "Explain that additionally for identical folders in the same group the last will be unmarked",
+      "message": "Además, el último de las carpetas idénticas en el mismo grupo se desmarcará."
+   },
+   "titleButtonMarkSameButNewest": {
+      "description": "Explain that additionally for identical folders in the same group the newest will be unmarked",
+      "message": "Adicionalmente, el más nuevo de carpetas idénticas en el mismo grupo se desmarcará."
+   },
+   "titleButtonMarkSameButOldest": {
+      "description": "Explain that additionally for identical folders in the same group the oldest will be unmarked",
+      "message": "Adicionalmente, el más viejo de carpetas idénticas en el mismo grupo se desmarcará."
+   },
+   "titleButtonRemoveMarked": {
+      "description": "Explain that bookmarks refer to those of last update of the list",
+      "message": "Los marcadores marcados se refieren a los obtenidos la última vez que se pulsó el botón para obtener la lista."
+   },
+   "titleButtonRuleAdd": {
+      "description": "Explain that a new rule will be inserted",
+      "message": "Intertar una nueva regla."
+   },
+   "titleButtonRuleDown": {
+      "description": "Explain that the rule will be moved down",
+      "message": "La regla se moverá hacia abajo."
+   },
+   "titleButtonRuleSub": {
+      "description": "Explain that the rule will be removed",
+      "message": "Eliminar esta regla."
+   },
+   "titleButtonRuleUp": {
+      "description": "Explain that the rule will be moved up",
+      "message": "La regla se moverá hacia arriba."
+   },
+   "titleButtonRulesCleanLocal": {
+      "description": "Explain that the browser's local storage area will be cleaned from stored rules",
+      "message": "Se limpiarán las reglas almacenadas dentro del área de almacenamiento local del navegador. Las reglas almacenadas se perderán."
+   },
+   "titleButtonRulesCleanSync": {
+      "description": "Explain that the browser's sync storage area will be cleaned from stored rules",
+      "message": "Se limpiarán las reglas almacenadas dentro del área de almacenamiento sync del navegador. Las reglas almacenadas se perderán."
+   },
+   "titleButtonRulesDefault": {
+      "description": "Explain that current rules will be replaced by default rules",
+      "message": "Restaurar las reglas que se muestran actualmente por las reglas por defecto."
+   },
+   "titleButtonRulesRestoreLocal": {
+      "description": "Explain that current rules will be replaced by those from the browser's local storage area",
+      "message": "Reemplaza las reglas que se muestran actualmente por las del área de almacenamiento local del navegador.."
+   },
+   "titleButtonRulesRestoreSync": {
+      "description": "Explain that current rules will be replaced by those from the browser's sync storage area",
+      "message": "Reemplaza las reglas que se muestran actualmente por las del área de almacenamiento sync del navegador."
+   },
+   "titleButtonRulesStoreLocal": {
+      "description": "Explain that current rules will replace those in the browser's local storage area",
+      "message": "Coloca las reglas actuales en el área de almacenamiento local del navegador, posiblemente reemplazando las reglas almacenadas anteriormente."
+   },
+   "titleButtonRulesStoreSync": {
+      "description": "Explain that current rules will replace those in the browser's sync storage area",
+      "message": "Coloca las reglas actuales en el área de almacenamiento sync del navegador, posiblemente reemplazando las reglas almacenadas anteriormente."
+   },
+   "titleButtonUnmarkAll": {
+      "description": "Explain that all bookmarks will be unmarked",
+      "message": "Desmarcar todos los marcadores."
+   },
+   "titleButtonUnmarkFolder": {
+      "description": "Explain that all bookmarks of selected folder will be unmarked",
+      "message": "Desmarcar todos los marcadores de la carpeta seleccionada."
+   },
+   "titleButtonUnmarkSame": {
+      "description": "Explain that all bookmarks of identical folders in the same group will be unmarked",
+      "message": "Desmarcar todos los marcadores de carpetas idénticas en el mismo grupo."
+   },
+   "titleCheckboxRules": {
+      "description": "Explain what regular expresssions are used for",
+      "message": "Con esta opción, se pueden ignorar los marcadores o se pueden encontrar marcadores similares. Los detalles se especifican en términos de expresiones regulares."
+   },
+   "titleMessageEmpty": {
+      "description": "Explain that the list might falsely contain live bookmarks",
+      "message": "La lista puede contener falsamente marcadores vivos."
+   },
+   "titleMessageMatches": {
+      "description": "Explain how bookmark dupes are defined",
+      "message": "Dos marcadores se consideran duplicados si sus URL coinciden. En modo experto, las reglas de preprocesamiento (sustitución) de URL seleccionadas se aplican antes de comparar las URL."
+   },
+   "titleMessageSingles": {
+      "description": "Explain that list of non-dupe bookmarks is shown",
+      "message": "Lista de no duplicados"
+   },
+   "titleRadioFilter": {
+      "description": "Explain that by choosing that button the corresponding bookmark will be ignored",
+      "message": "Los marcadores que coincidan con los criterios serán ignorados."
+   },
+   "titleRadioOff": {
+      "description": "Explain that by choosing that button the rule has no effect",
+      "message": "Esta regla no tiene efecto."
+   },
+   "titleRadioUrl": {
+      "description": "Explain that by choosing that button the url of matching bookmarks will be preprocessed",
+      "message": "Antes de comprobar las direcciones URL para encontrar duplicados de marcador, la dirección URL del juego marcadores se preprocesará de acuerdo con la regla especificada."
+   },
+   "titleRuleName": {
+      "description": "Explain that bookmarks whose name matches the regular expression will be selected and that folders names are separated by \\0 or \\x00",
+      "message": "La regla se aplica a un marcador si la ruta del marcador (carpetas + nombre) coincide con la expresión regular. El separador de carpetas es \\0 o \\x00."
+   },
+   "titleRuleNameNegation": {
+      "description": "Explain that bookmarks whose names does not match the regular expression will be selected and that folders names are separated by \\0 or \\x00",
+      "message": "La regla se aplica a un marcador si la ruta del marcador (carpetas + nombre) no coincide con la expresión regular. El separador de carpetas es \\0 o \\x00."
+   },
+   "titleRuleReplace": {
+      "description": "Explain that the text will be used as replacement text for the regular expression matches",
+      "message": "El texto de reemplazo para la expresión regular coincide. Se pueden usar símbolos como $$& o $$1 para referirse a la coincidencia o un contenido de corchete. Los textos especiales \\L$$& y \\U$$& significan una versión en mayúsculas y minúsculas de las coincidencias, respectivamente. Los textos especiales $$URL, $$NAME y $$TITLE significan la URL original (sin modificar) y el nombre completo / título del marcador (con / sin ruta), respectivamente. The latter three can be preceeded or followed by $$& to prepend or append the original match"
+   },
+   "titleRuleSearch": {
+      "description": "Explain that the corresponding parts of the URL will be replaced for comparison",
+      "message": "Al comparar las URL, las partes que coincidan con la expresión regular serán reemplazadas por el texto posterior."
+   },
+   "titleRuleUrl": {
+      "description": "Explain that bookmarks whose URL matches the regular expression will be selected",
+      "message": "La regla se aplica a un marcador si su URL coincide con la expresión regular."
+   },
+   "titleRuleUrlNegation": {
+      "description": "Explain that bookmarks whose URL does not match the regular expression will be selected",
+      "message": "La regla se aplica a un marcador si su URL no coincide con la expresión regular."
+   },
+   "titleSelectFolder": {
+      "description": "Explain that selecting a folder will provide corresponding buttons for marking",
+      "message": "Si se selecciona una carpeta, aparecerán los botones correspondientes para el marcado."
+   },
+   "trashFolder": {
+      "description": "The name of the trash folder. Should match regExpTrashFolder",
+      "message": "Duplicado"
+   },
+   "warningExpertStrong": {
+      "description": "First part of warning to enable expert mode: strong",
+      "message": "⚠ "
+   },
+   "warningExpertText": {
+      "description": "Second part of warning to enable expert mode: normal",
+      "message": "No habilite el modo experto si no se entiende completamente las consecuencias!"
+   },
+   "warningRemoveMarked": {
+      "description": "Text in front of button for removing marked bookmarks",
+      "message": "⚠"
+   }
+}

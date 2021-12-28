@@ -1,0 +1,34 @@
+{
+   "appDesc": {
+      "description": "",
+      "message": "Hepsi bir arada yer imi düzenleyicisi"
+   },
+   "in": {
+      "description": "",
+      "message": "içinde"
+   },
+   "openRaindrop": {
+      "description": "",
+      "message": "Aç Raindrop.io web-site"
+   },
+   "openSidebar": {
+      "description": "",
+      "message": "Aç kenar çubuğu"
+   },
+   "saveImage": {
+      "description": "",
+      "message": "Kaydet fotoğraf"
+   },
+   "saveLink": {
+      "description": "",
+      "message": "Kaydet bağlantı"
+   },
+   "savePage": {
+      "description": "",
+      "message": "Oluştur yeni yer imi"
+   },
+   "saveVideo": {
+      "description": "",
+      "message": "Kaydet video"
+   }
+}

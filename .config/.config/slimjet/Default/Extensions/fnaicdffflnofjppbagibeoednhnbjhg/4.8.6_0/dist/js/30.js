@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfloccus=self.webpackChunkfloccus||[]).push([[30],{3030:(s,c,e)=>{e.r(c),e.d(c,{SplashScreenWeb:()=>h});var a=e(29895);class h extends a.Uw{async show(s){}async hide(s){}}}}]);

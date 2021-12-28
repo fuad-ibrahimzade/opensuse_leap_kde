@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Bookmark Manager die helpt bij Organization, synchroniseren in verschillende browsers en platforms"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Bookmark Manager Speed ​​Dial | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Lege pagina"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome Standaard (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Aangepast ..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "Aangepaste URL hier"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Selecteer nieuw tabblad gedrag"
+   },
+   "option_search": {
+      "message": "Toon Papaly resulteert in search"
+   },
+   "option_title": {
+      "message": "Papaly Opties"
+   }
+}

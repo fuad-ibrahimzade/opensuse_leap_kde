@@ -1,0 +1,25 @@
+/*
+The user already has the extension installed.
+Modify https://papaly.com/* when the user already has the extension.
+*/
+
+.promote-extension {
+  /* Hide the Extension "Install Now" part */
+  /* Used in user_shared_view_01a.html.erb */
+  display: none !important;
+}
+
+.chrome {
+  display: block !important;
+}
+.no-xtn, .firefox, .no-chrome {
+  display: none !important;
+}
+
+/* Used to hook up one-click import */
+.populate-option.populate-option-bookmark-file {
+  display: none !important;
+}
+.populate-option.populate-option-chrome-bookmarks.empty-board-option-chrome {
+  display: inline !important;
+}

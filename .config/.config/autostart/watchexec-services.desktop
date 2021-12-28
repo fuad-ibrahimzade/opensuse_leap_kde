@@ -1,0 +1,11 @@
+[Desktop Entry]
+Comment=
+Exec=/home/qaqulya/.local/bin/watchexec-services
+GenericName[en_US]=
+GenericName=
+MimeType=
+Name=watchexec-services
+Path=
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true

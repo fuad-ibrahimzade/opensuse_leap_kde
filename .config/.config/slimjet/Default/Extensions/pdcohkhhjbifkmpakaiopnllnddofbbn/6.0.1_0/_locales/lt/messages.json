@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Pažymėti direktorius, kuris padeda su organizacijos, sinchronizavimas per naršyklių ir platformų"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Pažymėti direktorius Speed ​​Dial | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Tuščias puslapis"
+   },
+   "option_newtab_chrome": {
+      "message": "&quot;Chrome&quot; pagal nutylėjimą ( &quot;Google&quot;)"
+   },
+   "option_newtab_custom": {
+      "message": "Individualizuotos ..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "Pasirinktinis URL čia"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Pasirinkite naują skirtuką elgesį"
+   },
+   "option_search": {
+      "message": "Rodyti Papaly rezultatų ieškant"
+   },
+   "option_title": {
+      "message": "Papaly Nustatymai"
+   }
+}

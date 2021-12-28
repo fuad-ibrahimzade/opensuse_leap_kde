@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Διαχείριση σελιδοδεικτών που βοηθά με τον Οργανισμό, Συγχρονισμός σε όλους τους φυλλομετρητές και πλατφόρμες"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Διαχ Speed ​​Dial | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Κενή σελίδα"
+   },
+   "option_newtab_chrome": {
+      "message": "Προεπιλογή Chrome (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Έθιμο..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "Προσαρμοσμένη διεύθυνση URL εδώ"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Επιλέξτε νέα συμπεριφορά καρτέλα"
+   },
+   "option_search": {
+      "message": "Εμφάνιση Papaly οδηγεί στην αναζήτηση"
+   },
+   "option_title": {
+      "message": "Papaly Επιλογές"
+   }
+}

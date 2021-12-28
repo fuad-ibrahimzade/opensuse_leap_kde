@@ -1,0 +1,308 @@
+.button {
+	padding: 6px;
+	border: 1px solid #444;
+	cursor:pointer;
+}
+
+.buttonInactive {
+	background: white !important;
+}
+
+#export_input,
+#import_input {
+	display: none;	
+}
+
+#jsbuttonOn,
+#buttonOn {
+	background: #9C9;	
+	margin-left: 20px;
+	border-right: 0px !important;
+}
+
+#jsbuttonOff,
+#buttonOff {
+	border-left: 0px !important;
+	background: tomato;	
+}
+
+#testTable,
+#defaultTable,
+#settingsTable {
+	border: 0px solid #fff;
+	width: 1024px;
+}
+
+#defaultTable,
+#settingsTable {
+	border-spacing: 0px;
+}
+
+#legend > td {
+	border-bottom:1px solid #333;
+	-webkit-user-select: none;
+	padding-bottom: 5px;
+}
+#explanationTable td {
+	vertical-align: top;	
+}
+
+#testTable td,
+#settingsTable td,
+#defaultTable td {
+	font-size: 14px;	
+}
+
+.site {
+	border: 1px solid #ccc;
+	/*-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;*/
+	white-space: nowrap;
+	display: block;
+	vertical-align: middle;
+	padding: 2px 2px 2px 2px;
+	font-size: 12px;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #333;
+	width:100%;
+}
+
+.inActive {
+	color: #888;
+	background: #eee !important;
+}
+
+.siteTD {
+	border-right: 2px solid #fff;
+	width: 681px;
+}
+.center {
+	vertical-align: middle;
+	text-align: center;
+	border: 4px solid #fff;
+	cursor:pointer;
+	-webkit-user-select: none;
+
+}
+.hide {
+	display: none;	
+}
+.normal,
+.specific,
+.block {
+	width: 80px;
+	font-size: 12px;
+}
+
+.normal {
+	background: #9C9;
+}
+
+.block {
+	background: tomato;
+}
+
+.specific {
+	background: #FFE3C6;
+}
+
+.specificActive {
+	border-radius: 10px 10px 0px 0px;
+	border-top: 3px;
+	border-right: 2px;
+	border-left: 2px;
+	border-bottom: 0px;
+	border-style: solid;
+	border-color: #fff;
+}
+
+.specificRow {
+	background: #FFE3C6;
+	border: 0px solid #FFE3C6;	
+	border-radius: 20px;
+}
+
+.specificButton {
+	font-size: 12px;
+	cursor: pointer;
+	border-left: 2px solid white;
+	padding: 6px;
+}
+
+.specificButton:hover {
+	color: darkred;
+}
+
+.refererTD {
+	width: 720px;
+	padding: 1px 5px 0px 5px;
+}
+
+input {
+	background: #fff;
+}
+
+.refererTD > input {
+	border-radius: 8px;	
+	padding-left: 6px;
+}
+
+
+#testFilter {
+	border: 1px solid #ccc;
+	padding: 2px;
+	-webkit-user-select: none;
+	cursor:default;
+	font-size:12px;
+}
+
+#log {
+	border: 1px solid #ccc;
+	margin: 10px 60px 30px 60px;
+	padding: 10px;
+	height: 500px;
+	overflow: scroll;
+}
+
+.deleteDummy {
+	padding-right: 17px;
+	border-top: 7px solid #fff;
+	cursor:pointer;
+}
+
+#deletelog,
+.delete {
+	background: url("skin/delete.png") no-repeat;
+	cursor:pointer;
+}
+
+.delete {
+
+	padding-right: 17px;
+	border-top: 7px solid #fff;
+
+}
+
+#deletelog{
+	display: block;
+	width: 12px;
+	height: 12px;
+	position: relative;
+	left: 42px;
+	top: 26px;
+}
+
+.logButtonActive {
+	background: #9C9 !important;
+	border: 1px solid #fff !important;
+	color: black !important;
+}
+
+#contextButton,
+#logButton {
+	display: inline-block;
+	border: 1px solid tomato;
+}
+
+#contextButton,
+#logButton,
+.isTo,
+.isFrom,
+.is3rd,
+.isRegExp,
+.isFilterOption {
+	font-size: 11px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	vertical-align: middle;
+	text-align: center;
+	background: #ECECFF;
+	width: 47px;
+	color: #888;
+}
+.isTo,
+.isFrom,
+.is3rd,
+.isRegExp,
+.isFilterOption {
+	border: 4px solid #fff;	
+}
+
+.isToActive,
+.isFromActive,
+.is3rdActive,
+.isRegExpActive,
+.isFilterOptionActive {
+	color: #000 !important;
+	background: #B3D9FF !important;
+}
+
+
+.colorTip{
+	/* This class is assigned to the color tip span by jQuery */
+
+	display:none;
+	position:absolute;
+	left:50%;
+	top:-30px;
+	padding:6px;
+
+	background-color:white;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px;
+	font-style:normal;
+	line-height:1;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0 0 1px white;
+	white-space:nowrap;
+
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+}
+
+.pointyTip,.pointyTipShadow{
+	/* Setting a thick transparent border on a 0x0 div to create a triangle */
+	border:6px solid transparent;
+	bottom:-12px;
+	height:0;
+	left:50%;
+	margin-left:-6px;
+	position:absolute;
+	width:0;
+}
+
+.pointyTipShadow{
+	/* The shadow tip is 1px larger, so it acts as a border to the tip */
+	border-width:7px;
+	bottom:-14px;
+	margin-left:-7px;
+}
+
+.colorTipContainer{
+	position:relative;
+	text-decoration:none !important;
+}
+
+.black .pointyTip{ border-top-color:#333;}
+.black .pointyTipShadow{ border-top-color:#111;}
+.black .colorTip{
+	background-color:#333;
+	border:1px solid #111;
+	color:#fcfcfc;
+	text-shadow:none;
+}
+
+
+#donateBox {
+	position: absolute;
+	top: 10px;
+	width: 200px;
+	right: 10px;
+	padding: 5px;
+	background: rgba(242, 242, 242,0.8);
+	box-shadow: 0px 1px 6px 1px rgb(161, 161, 161);
+	text-align: center;
+}

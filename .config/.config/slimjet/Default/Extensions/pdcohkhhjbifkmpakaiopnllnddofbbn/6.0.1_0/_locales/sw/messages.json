@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Bookmark Meneja ambayo husaidia kwa Shirika, kusawazisha katika browsers na majukwaa"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Bookmark Meneja Speed ​​Dial | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "tupu Kwanza"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome Default (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Desturi ..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "URL hapa"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Kuchagua tab tabia mpya"
+   },
+   "option_search": {
+      "message": "Show Papaly matokeo katika search"
+   },
+   "option_title": {
+      "message": "Chaguzi Papaly"
+   }
+}

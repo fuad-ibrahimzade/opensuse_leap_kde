@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>appName</title>
+    <link rel="stylesheet" href="styles/flaticon.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body id="WindowView">
+    <webview class="background webview" id="panel-container" src="about:blank" partition="persist:framelessapps" frameborder="0"></webview>
+    <div id="buttons" class="position">
+        <webview id="document-favicon" partition="persist:framelessapps" frameborder="0" allowtransparency></webview><span id="document-title">appName</span>
+        <div class="actions">
+            <button class="window-button ml-0" title="Zoom in" id="zoom-in-window-button">
+                +
+            </button>
+            <button class="window-button ml-0" title="Reset zoom" id="zoom-reset-window-button">
+                0
+            </button>
+            <button class="window-button ml-0" title="Zoom out" id="zoom-out-window-button">
+                -
+            </button>
+            <button class="window-button" title="Set aspect ratio to 16:9" id="aspect-window-button">
+                <svg class="icon">
+                    <use href="assets/icons.svg#aspect" />
+                </svg>
+            </button>
+            <button class="window-button pinned" title="Toggle window stay-on-top" id="pin-window-button">
+                <svg class="icon">
+                    <use href="assets/icons.svg#push-pin" />
+                </svg>
+            </button>
+            <button class="window-button" title="Minimize" id="minimize-window-button">
+                <svg class="icon">
+                    <use href="assets/icons.svg#line" />
+                </svg>
+            </button>
+            <button class="window-button" title="Settings" id="settings-window-button">
+                <svg class="icon">
+                    <use href="assets/icons.svg#cogwheel" />
+                </svg>
+            </button>
+            <button class="window-button" title="Close" id="close-window-button">
+                <svg class="icon">
+                    <use href="assets/icons.svg#close" />
+                </svg>
+            </button>
+        </div>
+        <div class="drag-handle"></div>
+    </div>
+<script defer src="scripts/google-analytics-bundle.js"></script>
+<script defer src="scripts/window.js"></script>
+</body>
+</html>

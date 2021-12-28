@@ -1,0 +1,23 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "scripts/background.js" ]
+      }
+   },
+   "author": "Martijn Cornips",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "assets/icon-128.png",
+      "16": "assets/icon-16.png",
+      "32": "assets/icon-32.png",
+      "48": "assets/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhJY8aoA/Qqfb1ZNJEn2y7oBhluGsHcgQXNrzCzhr6OWqQQsEn+TUa4P8Zuwjs4Yq7Zj3zH8ZeltG7nXdVCS+dGZY2LQgsHSHmdJ5P8EMqtsLPTudUTo6k8ID0m94KLhoZ8D6ppa7TRhIDCB2wkp4/Lun4l0ZRopHf1JSxumapD5lcRt1OQrdgPn+4ljdM8hA2/WWcGb/40t7EQ626NGzEKUfabwcj3Y2ONK9BDUB6pCQxMVYvpW7yxqY08/FDUIkJxesFoMIE52xngr+5MJhW06BiF1C/NOmMw+MlG1HWXX300JPdHmeEKpxej27MACvvhgyVSCMk8A2TTY+M9CBNwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "40",
+   "name": "__MSG_appName__",
+   "permissions": [ "webview", "storage", "contextMenus", "alwaysOnTopWindows", "unlimitedStorage", "browser" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.4"
+}

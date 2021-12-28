@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Bookmark Manager, der hjælper med organisationen, Synkronisering tværs browsere og platforme"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Bogmærkeadministrator Speed ​​Dial | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Blank side"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome Standard (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Brugerdefinerede..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "Tilpasset URL her"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Vælg ny fane adfærd"
+   },
+   "option_search": {
+      "message": "Vis Papaly resulterer i søgning"
+   },
+   "option_title": {
+      "message": "Papaly Options"
+   }
+}

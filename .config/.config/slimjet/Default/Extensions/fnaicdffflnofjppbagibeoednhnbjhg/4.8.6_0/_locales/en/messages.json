@@ -1,0 +1,513 @@
+{
+   "DescriptionAccountDeleted": {
+      "message": "This account was deleted"
+   },
+   "DescriptionAdaptergoogledrive": {
+      "message": "Sync bookmarks via an encrypted file that is stored in your Google Drive. It can sync http, ftp, data and javascript bookmarks."
+   },
+   "DescriptionAdapternextcloud": {
+      "message": "The legacy option is compatible with at least version v0.11 of the Bookmarks app. It will emulate folders using tags containing the folder path. It is not recommended to use this for new accounts."
+   },
+   "DescriptionAdapternextcloudfolders": {
+      "message": "The option 'Nextcloud Bookmarks' is compatible with at least version v0.14 of the Bookmarks app. It can only sync http and ftp bookmarks."
+   },
+   "DescriptionAdapterwebdav": {
+      "message": "The WebDAV option syncs your bookmarks by storing them in an XBEL file in the provided WebDAV share. There is no accompanying web UI for this option and you can use it with any WebDAV-compatible server. It can sync http, ftp, data and javascript bookmarks."
+   },
+   "DescriptionAllowredirects": {
+      "message": "Enable this option, if you get redirect errors during syncing, which you believe to be unwarranted."
+   },
+   "DescriptionBookmarksfile": {
+      "message": "a path to the bookmarks file relative to your WebDAV URL (all folders in the path must already exist). e.g. personal_stuff/bookmarks.xbel"
+   },
+   "DescriptionBookmarksfilegoogle": {
+      "message": "the file name of the bookmarks file that will reside in your Google Drive (make sure this name is unique in your Drive)"
+   },
+   "DescriptionChoosefolder": {
+      "message": "Set an existing folder to sync"
+   },
+   "DescriptionClientcert": {
+      "message": "Enable this option if your server requires a client certificate or cookies for authentication. This may cause unintended side effects, as floccus will share cookies with your normal browser profile."
+   },
+   "DescriptionExport": {
+      "message": "Select accounts below that you would like to export to a file, so you can easily re-create the same accounts on a different device or browser."
+   },
+   "DescriptionExtension": {
+      "message": "Sync your bookmarks across browsers via Nextcloud, WebDAV or Google Drive"
+   },
+   "DescriptionFailsafe": {
+      "message": "Sometimes configuration errors or software bugs can cause the unintended removal of data, which is then lost. To prevent that from happening, floccus will not delete more than 50% of your bookmarks in one go unless you disable this failsafe here."
+   },
+   "DescriptionFilesPermission": {
+      "message": "Make sure you give floccus permission to not only use the bookmarks app but the Nextcloud files app as well."
+   },
+   "DescriptionFunddevelopment": {
+      "message": "Work on floccus is fuelled by a voluntary subscription model. If you think what I do is worthwhile, and if you can spare a few coins each month without hardship, please support my work. Also, please consider giving floccus a rating on the addon store of your choice. Thank you!💙"
+   },
+   "DescriptionGithubsponsors": {
+      "message": "Make a regular donation via GitHub sponsors to support the project"
+   },
+   "DescriptionImport": {
+      "message": "Import a file with exported accounts here to re-create accounts exported on a different device or browser. Please make sure to set the correct sync folders again after importing."
+   },
+   "DescriptionLiberapay": {
+      "message": "Make a regular donation via Liberapay to support the project"
+   },
+   "DescriptionLocalfolder": {
+      "message": "This is the local bookmarks folder in this browser that will be synced to the server. Note that some browser don't allow creating new items under the root folder (e.g. Firefox and Google Chrome)"
+   },
+   "DescriptionLoggedingoogle": {
+      "message": "You have connected your Google account to store the bookmark sync file in your Google Drive."
+   },
+   "DescriptionLogingoogle": {
+      "message": "Connect your Google account to store the bookmark sync file in your Google Drive."
+   },
+   "DescriptionNestedSync": {
+      "message": "You can nest accounts so that a parent folder belongs to account A and a sub folder to account A and B. Do you want to allow other accounts to sync this account's folder as well?"
+   },
+   "DescriptionNoAccount": {
+      "message": "Create a new account to sync your bookmarks or import accounts from a different device or browser."
+   },
+   "DescriptionOpencollective": {
+      "message": "Make a regular donation via OpenCollective to support the project"
+   },
+   "DescriptionParallelsync": {
+      "message": "Tick this box to process multiple folders in parallel in order to speed the synchronization. This feature is experimental and makes it harder to read the debug logs."
+   },
+   "DescriptionPassphrase": {
+      "message": "Set a passphrase for encrypting your bookmarks file, if you set no passphrase, no encryption will be run."
+   },
+   "DescriptionPaypal": {
+      "message": "Make a one-time donation via paypal to support the project"
+   },
+   "DescriptionRemoveaccount": {
+      "message": "Delete this account (this will not remove your bookmarks)"
+   },
+   "DescriptionReset": {
+      "message": "Reset synchronized folder to create a new one"
+   },
+   "DescriptionResetcache": {
+      "message": "Tick this box to reset the cache so that the next synchronization run is guaranteed not to delete any data and merely merges server and local bookmarks together"
+   },
+   "DescriptionServerfolder": {
+      "message": "This is the path prefix under which this account will operate on the server. Leave this empty to use no prefix at all."
+   },
+   "DescriptionSetkey": {
+      "message": "When you set a pass phrase you will have to enter this pass phrase everytime you start your browser if you want to access and synchronize your bookmarks."
+   },
+   "DescriptionStrategy": {
+      "message": "This option determines how to synchronize the bookmarks tree on the server with the one in this browser. Usually you will want to keep changes to both trees if they are compatible, but sometimes you might want to force the local version onto the server, or vice versa."
+   },
+   "DescriptionSyncinterval": {
+      "message": "The timespan between two sync runs in minutes. Default is 15 minutes."
+   },
+   "DescriptionUpdated": {
+      "message": "Congrats, the latest update of floccus has arrived on your machine!"
+   },
+   "DescriptionWebdavurl": {
+      "message": "e.g. with nextcloud: https://example.com/remote.php/webdav/"
+   },
+   "Error001": {
+      "message": "E001: Folder to create in doesn't exist"
+   },
+   "Error002": {
+      "message": "E002: Bookmark to update doesn't exist anymore"
+   },
+   "Error003": {
+      "message": "E003: Folder to move out of doesn't exist. This is an anomaly. Congratulations."
+   },
+   "Error004": {
+      "message": "E004: Folder to move into doesn't exist"
+   },
+   "Error005": {
+      "message": "E005: Folder to create in doesn't exist"
+   },
+   "Error006": {
+      "message": "E006: Folder to update doesn't exist"
+   },
+   "Error007": {
+      "message": "E007: Folder to move doesn't exist"
+   },
+   "Error008": {
+      "message": "E008: Folder to move out of doesn't exist"
+   },
+   "Error009": {
+      "message": "E009: Folder to move into doesn't exist"
+   },
+   "Error010": {
+      "message": "E010: Could not find folder to order"
+   },
+   "Error011": {
+      "message": "E011: Item in folder ordering is not an actual child: {0}"
+   },
+   "Error012": {
+      "message": "E012: Folder ordering is missing some of the folder's children"
+   },
+   "Error013": {
+      "message": "E013: Folder to remove doesn't exist"
+   },
+   "Error014": {
+      "message": "E014: Parent folder to remove folder from of doesn't exist"
+   },
+   "Error015": {
+      "message": "E015: Unexpected response data from server"
+   },
+   "Error016": {
+      "message": "E016: Request timed out. Check your server configuration"
+   },
+   "Error017": {
+      "message": "E017: Network error: Check your network connection and your account details"
+   },
+   "Error018": {
+      "message": "E018: Couldn't authenticate with the server."
+   },
+   "Error019": {
+      "message": "E019: HTTP status {0}. Failed {1} request. Check your server configuration and log."
+   },
+   "Error020": {
+      "message": "E020: Could not parse server response. Is the bookmarks app installed on your server?"
+   },
+   "Error021": {
+      "message": "E021: Inconsistent server state. Folder is present in childorder list but not in folder tree"
+   },
+   "Error022": {
+      "message": "E022: Folder {0} supposedly contains non-existent bookmark {1}"
+   },
+   "Error023": {
+      "message": "E023: Unable to clear lock file, consider deleting {0} manually."
+   },
+   "Error024": {
+      "message": "E024: HTTP status {0} while trying to determine status of lock file {1}"
+   },
+   "Error025": {
+      "message": "E025: Bookmarks file setting mustn't begin with a slash: '/'"
+   },
+   "Error026": {
+      "message": "E026: HTTP status {0}. Failed to fetch bookmarks"
+   },
+   "Error027": {
+      "message": "E027: Sync process was interrupted"
+   },
+   "Error028": {
+      "message": "E028: Couldn't authenticate with the server."
+   },
+   "Error029": {
+      "message": "E029: Failsafe: The current sync run would delete {0}% of your bookmarks. Refusing to execute. Disable this failsafe in the account settings if you want to proceed anyway."
+   },
+   "Error030": {
+      "message": "E030: Failed to decrypt bookmarks file. The passphrase may be wrong or the file may be corrupted."
+   },
+   "Error031": {
+      "message": "E031: Could not authenticate with Google Drive. Please connect floccus with your google account again."
+   },
+   "Error032": {
+      "message": "E032: OAuth error. Token validation error. Please reconnect your Google Account."
+   },
+   "Error033": {
+      "message": "E033: Redirect detected. Please make sure the server supports the selected sync method and URL you entered is correct doesn't redirect to a different location. If the redirect is part of your setup, you can disable this check in the settings."
+   },
+   "Error034": {
+      "message": "E034: Bookmarks file is unreadable. Did you forget to set an encryption passphrase?"
+   },
+   "LabelAccountDeleted": {
+      "message": "Account deleted"
+   },
+   "LabelAdaptergoogledrive": {
+      "message": "Google Drive"
+   },
+   "LabelAdapternextcloud": {
+      "message": "Nextcloud Bookmarks (legacy)"
+   },
+   "LabelAdapternextcloudfolders": {
+      "message": "Nextcloud Bookmarks"
+   },
+   "LabelAdapterwebdav": {
+      "message": "XBEL file in WebDAV share"
+   },
+   "LabelAddaccount": {
+      "message": "Add account"
+   },
+   "LabelAddbookmark": {
+      "message": "Add bookmark"
+   },
+   "LabelAddfolder": {
+      "message": "Add folder"
+   },
+   "LabelAllowredirects": {
+      "message": "Allow redirects in Server URL"
+   },
+   "LabelAutosync": {
+      "message": "Auto-sync"
+   },
+   "LabelBookmarksfile": {
+      "message": "Bookmarks file path"
+   },
+   "LabelCancel": {
+      "message": "Cancel"
+   },
+   "LabelCancelsync": {
+      "message": "Cancel sync"
+   },
+   "LabelChooseadapter": {
+      "message": "How do you want to sync?"
+   },
+   "LabelChoosefolder": {
+      "message": "Choose folder"
+   },
+   "LabelClientcert": {
+      "message": "Send client credentials"
+   },
+   "LabelDebuglogs": {
+      "message": "Debug logs"
+   },
+   "LabelDeleteitem": {
+      "message": "Delete"
+   },
+   "LabelEditbookmark": {
+      "message": "Edit bookmark"
+   },
+   "LabelEditfolder": {
+      "message": "Edit folder"
+   },
+   "LabelEdititem": {
+      "message": "Edit"
+   },
+   "LabelExport": {
+      "message": "Export accounts"
+   },
+   "LabelFailsafe": {
+      "message": "Failsafe"
+   },
+   "LabelFailsafeoff": {
+      "message": "Disabled. Allow the removal of more than 50% of my local bookmarks without confirming with me."
+   },
+   "LabelFailsafeon": {
+      "message": "Enabled. Don't delete more than 50% of my local bookmarks without asking me first. (Recommended)"
+   },
+   "LabelFolderNotFound": {
+      "message": "Folder not found"
+   },
+   "LabelFunddevelopment": {
+      "message": "Fund development"
+   },
+   "LabelGithubsponsors": {
+      "message": "GitHub sponsors"
+   },
+   "LabelImport": {
+      "message": "Import accounts"
+   },
+   "LabelImportExport": {
+      "message": "Import/Export Accounts"
+   },
+   "LabelKey": {
+      "message": "Enter your unlock passphrase"
+   },
+   "LabelKey2": {
+      "message": "Enter your passphrase a second time"
+   },
+   "LabelLiberapay": {
+      "message": "Liberapay"
+   },
+   "LabelLocalfolder": {
+      "message": "Local folder"
+   },
+   "LabelLoginFlowError": {
+      "message": "Nextcloud login flow failed."
+   },
+   "LabelLoginFlowStart": {
+      "message": "Sign in with Nextcloud login flow"
+   },
+   "LabelLoginFlowStop": {
+      "message": "Abort Nextcloud login flow"
+   },
+   "LabelLogingoogle": {
+      "message": "Login with Google"
+   },
+   "LabelNestedSync": {
+      "message": "Nested accounts"
+   },
+   "LabelNestedSyncNo": {
+      "message": "No, ignore this account's folder in other accounts"
+   },
+   "LabelNestedSyncYes": {
+      "message": "Yes, include this account's folder in other accounts"
+   },
+   "LabelNewAccount": {
+      "message": "New Account"
+   },
+   "LabelNewfolder": {
+      "message": "Newly created folder"
+   },
+   "LabelNextcloudurl": {
+      "message": "Nextcloud URL"
+   },
+   "LabelNoAccount": {
+      "message": "No accounts here"
+   },
+   "LabelNobookmarks": {
+      "message": "No bookmarks here"
+   },
+   "LabelOpencollective": {
+      "message": "OpenCollective"
+   },
+   "LabelOpenintab": {
+      "message": "Open in tab"
+   },
+   "LabelOptions": {
+      "message": "Options"
+   },
+   "LabelOptionsDangerous": {
+      "message": "Dangerous actions"
+   },
+   "LabelOptionsFolderMapping": {
+      "message": "Folder mapping"
+   },
+   "LabelOptionsServerDetails": {
+      "message": "Server details"
+   },
+   "LabelOptionsSyncBehavior": {
+      "message": "Sync behavior"
+   },
+   "LabelOptionsscreen": {
+      "description": "Title of the options screen. The placeholder holds the account type.",
+      "message": "{0} options"
+   },
+   "LabelParallelsync": {
+      "message": "Speed up synchronization"
+   },
+   "LabelPassphrase": {
+      "message": "Passphrase"
+   },
+   "LabelPassword": {
+      "message": "Password"
+   },
+   "LabelPaypal": {
+      "message": "Paypal"
+   },
+   "LabelReleaseNotes": {
+      "message": "Read release notes"
+   },
+   "LabelRemoveaccount": {
+      "message": "Remove account"
+   },
+   "LabelRemovedkey": {
+      "message": "Pass phrase removed"
+   },
+   "LabelRemovekey": {
+      "message": "Remove pass phrase"
+   },
+   "LabelReset": {
+      "message": "Reset"
+   },
+   "LabelResetCache": {
+      "message": "Trigger sync from scratch"
+   },
+   "LabelRootfolder": {
+      "message": "Root folder"
+   },
+   "LabelSave": {
+      "message": "Save"
+   },
+   "LabelSearch": {
+      "message": "Search bookmarks"
+   },
+   "LabelSearchfolder": {
+      "message": "Search {0}"
+   },
+   "LabelSecurecredentials": {
+      "message": "Secure your credentials"
+   },
+   "LabelSecuredcredentials": {
+      "message": "Your credentials are secure"
+   },
+   "LabelSelect": {
+      "message": "Select"
+   },
+   "LabelServerfolder": {
+      "message": "Server folder"
+   },
+   "LabelSetkey": {
+      "message": "Set a pass phrase for floccus"
+   },
+   "LabelSlugline": {
+      "message": "Private Bookmark Sync"
+   },
+   "LabelStrategy": {
+      "message": "Synchronization strategy"
+   },
+   "LabelStrategydefault": {
+      "message": "Merge local and remote changes (recommended)"
+   },
+   "LabelStrategyoverwrite": {
+      "message": "Always revert upstream remote changes and push local changes"
+   },
+   "LabelStrategyslave": {
+      "message": "Always revert local changes and pull upstream remote changes"
+   },
+   "LabelSyncDown": {
+      "message": "Pull sync"
+   },
+   "LabelSyncDownOnce": {
+      "message": "Pull sync once"
+   },
+   "LabelSyncNormal": {
+      "message": "Normal sync"
+   },
+   "LabelSyncTabs": {
+      "message": "Sync Tabs"
+   },
+   "LabelSyncUp": {
+      "message": "Push sync"
+   },
+   "LabelSyncUpOnce": {
+      "message": "Push sync once"
+   },
+   "LabelSyncinterval": {
+      "message": "Synchronization interval"
+   },
+   "LabelSyncnow": {
+      "message": "Sync now"
+   },
+   "LabelTabs": {
+      "message": "Tabs"
+   },
+   "LabelUnlock": {
+      "message": "Unlock floccus"
+   },
+   "LabelUntitledfolder": {
+      "message": "Untitled folder"
+   },
+   "LabelUpdated": {
+      "message": "Floccus was updated"
+   },
+   "LabelUsername": {
+      "message": "Username"
+   },
+   "LabelWebdavurl": {
+      "message": "WebDAV URL"
+   },
+   "LegacyAdapterDeprecation": {
+      "message": "This legacy account type is deprecated and will soon be removed. Please switch to the new nextcloud sync method. Improved performance and accuracy await you."
+   },
+   "StatusAllgood": {
+      "message": "All good"
+   },
+   "StatusDisabled": {
+      "message": "Disabled"
+   },
+   "StatusError": {
+      "message": "Error"
+   },
+   "StatusFailsafeoff": {
+      "message": "Failsafe disabled. You are at risk for unintended data loss. It is recommended to enable the failsafe in the account settings."
+   },
+   "StatusLastsynced": {
+      "message": "Last synchronized: {0} ago"
+   },
+   "StatusNeversynced": {
+      "message": "Not synchronized, yet"
+   },
+   "StatusSyncing": {
+      "message": "Syncing"
+   }
+}

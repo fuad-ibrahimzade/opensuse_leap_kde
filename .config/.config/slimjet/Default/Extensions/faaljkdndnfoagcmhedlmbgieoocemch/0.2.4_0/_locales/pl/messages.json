@@ -1,0 +1,94 @@
+{
+   "appAlertSomethingWrong": {
+      "description": "The text shown when something goes wrong.",
+      "message": "Coś poszło nie tak :("
+   },
+   "appAlertWrongUrl": {
+      "description": "The text shown when a entered URL is not valid.",
+      "message": "Wprowadzony adres URL jest nieprawidłowy."
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Chcesz pracować i jednocześnie przeglądać internet lub oglądać wideo lecz nie masz możliwości podzielenia ekranu? Flobro jest dla ciebie!"
+   },
+   "appLabelClose": {
+      "description": "The text of tooltip of the close button.",
+      "message": "Zamknij"
+   },
+   "appLabelImproveByTracking": {
+      "description": "The text of the tracking option on the settings page.",
+      "message": "Pomóż w rozwoju aplikacji udostępniając anonimowe dane"
+   },
+   "appLabelMinimize": {
+      "description": "The text of tooltip of the minimize button.",
+      "message": "Zminimalizuj"
+   },
+   "appLabelResizeWebview": {
+      "description": "The text of the option to fit (resize) webview when title bar appears.",
+      "message": "Dopasuj rozmiar strony gdy pojawia się menu"
+   },
+   "appLabelSave": {
+      "description": "The label of save button on the settings page.",
+      "message": "Zapisz"
+   },
+   "appLabelSettings": {
+      "description": "The text of tooltip of the settings button.",
+      "message": "Ustawienia"
+   },
+   "appLabelTitleBarTimout": {
+      "description": "The text of the option handling the timeout in milliseconds before title bar disappears again.",
+      "message": "Czas przed zniknięciem menu"
+   },
+   "appLabelUrl": {
+      "description": "The text of label-element of URL field on the settings page.",
+      "message": "Adres URL"
+   },
+   "appMiscConsiderTracking": {
+      "description": "Text shown in console when user disables tracking.",
+      "message": "Rozważ włączenie udostępniania danych, pomogą one w rozwoju aplikacji i pozwolą rozwiązywać błędy nawet wtedy kiedy nie będziesz miał czasu ich zgłosić. Wszystkie zbierane dane są anonimowe. Aplikacja NIGDY nie zbiera prywatnych danych!"
+   },
+   "appMiscYouAreAmazing": {
+      "description": "Text shown in console when user enables tracking.",
+      "message": "Jesteś wspaniały! Dzięki Tobie możemy z każdym dniem ulepszać Flobro, dziękujemy!"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Flobro, niezależne okno dla twojej przeglądarki"
+   },
+   "appPlaceholderUrl": {
+      "description": "The label of the URL field on the settings page.",
+      "message": "Wprowadź pełny adres URL"
+   },
+   "appShortName": {
+      "description": "The short title of the application, displayed in the web store.",
+      "message": "Flobro"
+   },
+   "appTxtCredits": {
+      "description": "The title of credits area.",
+      "message": "Informacje"
+   },
+   "appTxtFrom": {
+      "description": "Lowercase word for 'from'.",
+      "message": ", zaczerpnięte z"
+   },
+   "appTxtIconsDesignedBy": {
+      "description": "The text to credit the icon designer.",
+      "message": "Projekt ikon:"
+   },
+   "appTxtIssues": {
+      "description": "The text for the link to issues in credits area.",
+      "message": "Zgłoś błąd"
+   },
+   "appTxtOptions": {
+      "description": "The title of the options area on the settings page.",
+      "message": "Opcje"
+   },
+   "appTxtSettings": {
+      "description": "The title of the settings page.",
+      "message": "Ustawienia"
+   },
+   "appTxtVisitProjectWebsite": {
+      "description": "The text for the link to Github in credits area.",
+      "message": "Odwiedź stronę projektu"
+   }
+}

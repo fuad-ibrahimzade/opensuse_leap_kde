@@ -1,0 +1,19 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "description": "Moves created bookmarks to the top of their folder.",
+   "homepage_url": "https://googledrive.com/host/0B9_ds1FPyRuZYTFDeE1SNHdPc0E/",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhTCO91D4UPcjqjDWrtucY2AMOeR6538uJzmuj2qzv9DRAVFagGGcrwK71ayLt4TI3h2b7lfCiY8raZJ2TpnY/lrEo7w8TMf9CnNJeMkSw96FJw95BcaTL8wYz1p2PHzXA/5gGKT3S33+NLWXZ1Xvu6VqG/w0Ns4Pjqr5Yq6c/vbQZHYnE/GRoLgzoBbPHAaPEJsYoZX/RYm+3pg4Xu/R1eEeMomJLpiYiT8XnbCkp2oJjn1vqzDydMegCNih/2t8ctmu9TWFUL236nYH9DmokpMz5uMXQ0W4Yxw6QUB/EZNJBwxEfjZtvomWUDjSjL2wpWxXhVIYq/Xy8Xro05dhbQIDAQAB",
+   "manifest_version": 2,
+   "name": "Bookmarks Reorderer",
+   "offline_enabled": true,
+   "options_page": "options.html",
+   "permissions": [ "bookmarks", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.1"
+}

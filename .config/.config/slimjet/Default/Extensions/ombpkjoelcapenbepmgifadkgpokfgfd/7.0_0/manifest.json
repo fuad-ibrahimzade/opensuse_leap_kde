@@ -1,0 +1,33 @@
+{
+   "author": "Martin Väth",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "browser_style": true,
+      "default_icon": {
+         "128": "data/icons/128.png",
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuW1Ic3k7NdY2g57DJy1eEIKw5MSxNbC+nbfDXN1Ti1jXAq6JlmbWW0zqPM/Q+qU20Lkqn7ZV8crG6VvL9w8ZVbPz5KrmzBMFv21Lk4cweqp1DuIPQm5qnkFiJn+hTspgpq8SihI8uLmuU6nkx31tDJx54tdzyKERCXJqSLHbI48nyM29Xjgp20skoUbY6cOpJZ7frCHfChBAodjyAg6cO2amngXm+qEJOLvnQKFKQLIV8T00c8JsQOJV6NOesiPw1738MP6LTjGo1biln369ianoRH/64gvZmpv4irqeu9tciYvw/uy9zDfrBFlMm5+QAl0GcRlgIyb+vPGf3g1B8wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extensionName__",
+   "options_ui": {
+      "page": "data/options/index.html"
+   },
+   "permissions": [ "bookmarks", "storage" ],
+   "short_name": "bookmarkdupes",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.0"
+}

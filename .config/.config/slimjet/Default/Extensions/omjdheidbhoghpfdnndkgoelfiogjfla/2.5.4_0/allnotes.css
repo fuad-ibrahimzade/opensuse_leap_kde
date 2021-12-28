@@ -1,0 +1,68 @@
+table, #tag-cloud{
+  min-width: 600px;
+  max-width: 80%;
+  display: block;
+  table-layout: fixed;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+td.urlTD {
+  min-width: 200px;
+}
+
+td.notesTD {
+  min-width: 200px;
+}
+
+/* Don't collpase multiple whitespace into one for date div. */
+.date-div {
+  white-space: pre;  
+}
+
+.buttons {
+  width: 200px;
+  word-wrap: normal;
+  word-break: normal;
+}
+
+button.editB, button.deleteB, button.decryptB {
+  margin-right: 5px;
+  width: 60px;
+}
+
+button.decryptB {
+  color: green;
+}
+
+#tag-cloud {
+  line-height: 140%;
+  padding-bottom: 5px;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  padding: 2px;
+}
+
+a, .tag-link {
+  font-size: 95%;
+  color: #1873CC;
+}
+
+a:hover, .tag-link:hover {
+  color: #1E90FF;
+  text-decoration: underline;
+}
+
+.tag-link {
+  font-weight: 500;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.selected-tag {
+  font-size: 95%;
+  background-color: #F8FC83;
+}

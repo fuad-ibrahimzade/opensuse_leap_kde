@@ -1,0 +1,34 @@
+{
+   "appDesc": {
+      "description": "",
+      "message": "Alles-in-1 bladwijzer manager"
+   },
+   "in": {
+      "description": "",
+      "message": "in"
+   },
+   "openRaindrop": {
+      "description": "",
+      "message": "Open Raindrop.io web-site"
+   },
+   "openSidebar": {
+      "description": "",
+      "message": "Open zijbalk"
+   },
+   "saveImage": {
+      "description": "",
+      "message": "Opslaan foto"
+   },
+   "saveLink": {
+      "description": "",
+      "message": "Opslaan link"
+   },
+   "savePage": {
+      "description": "",
+      "message": "Maken nieuwe bladwijzer"
+   },
+   "saveVideo": {
+      "description": "",
+      "message": "Opslaan inhoud"
+   }
+}

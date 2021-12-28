@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "מנהל סימניות מסייעים עם ארגון, סינכרון בין פלטפורמות ודפדפנים"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "חיוג מהיר מנהל סימניות | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "עמוד ריק"
+   },
+   "option_newtab_chrome": {
+      "message": "ברירת Chrome (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "המותאם אישית..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "כתובת אתר מותאם אישית כאן"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "בחר התנהגות כרטיסייה חדשה"
+   },
+   "option_search": {
+      "message": "הצג Papaly תוצאות בחיפוש"
+   },
+   "option_title": {
+      "message": "אפשרויות Papaly"
+   }
+}

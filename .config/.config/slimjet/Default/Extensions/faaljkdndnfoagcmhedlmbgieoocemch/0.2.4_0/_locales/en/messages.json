@@ -1,0 +1,94 @@
+{
+   "appAlertSomethingWrong": {
+      "description": "The text shown when something goes wrong.",
+      "message": "Something went wrong."
+   },
+   "appAlertWrongUrl": {
+      "description": "The text shown when a entered URL is not valid.",
+      "message": "The entered value is not recognized as a valid URL."
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Do you want to work and simultaneously view a video or a webpage, but splitting your screen is no option? Then you need Flobro!"
+   },
+   "appLabelClose": {
+      "description": "The text of tooltip of the close button.",
+      "message": "Close"
+   },
+   "appLabelImproveByTracking": {
+      "description": "The text of the tracking option on the settings page.",
+      "message": "Improve app with anonymous data"
+   },
+   "appLabelMinimize": {
+      "description": "The text of tooltip of the minimize button.",
+      "message": "Minimize"
+   },
+   "appLabelResizeWebview": {
+      "description": "The text of the option to fit (resize) webview when title bar appears.",
+      "message": "Fit webview when title bar appears"
+   },
+   "appLabelSave": {
+      "description": "The label of save button on the settings page.",
+      "message": "Save"
+   },
+   "appLabelSettings": {
+      "description": "The text of tooltip of the settings button.",
+      "message": "Settings"
+   },
+   "appLabelStayOnTop": {
+      "description": "The text of the option to fit (resize) webview when title bar appears.",
+      "message": "Default stay-on-top"
+   },
+   "appLabelTitleBarTimout": {
+      "description": "The text of the option handling the timeout in milliseconds before title bar disappears again.",
+      "message": "Timeout before title bar disappearance"
+   },
+   "appLabelUrl": {
+      "description": "The text of label-element of URL field on the settings page.",
+      "message": "URL"
+   },
+   "appMiscConsiderTracking": {
+      "description": "Text shown in console when user disables tracking.",
+      "message": "Consider turning tracking on. I use tracking to improve the app. Thanks to tracking I can see what errors occur without you having to submit an error report. The app NEVER collects personal data."
+   },
+   "appMiscYouAreAmazing": {
+      "description": "Text shown in console when user enables tracking.",
+      "message": "You are amazing! Thanks to you I can make this app better every time!"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Flobro"
+   },
+   "appPlaceholderUrl": {
+      "description": "The label of the URL field on the settings page.",
+      "message": "Enter full URL"
+   },
+   "appTxtCredits": {
+      "description": "The title of credits area.",
+      "message": "Credits"
+   },
+   "appTxtFrom": {
+      "description": "Lowercase word for 'from'.",
+      "message": "from"
+   },
+   "appTxtIconsDesignedBy": {
+      "description": "The text to credit the icon designer.",
+      "message": "Icons designed by"
+   },
+   "appTxtIssues": {
+      "description": "The text for the link to issues in credits area.",
+      "message": "Report an issues"
+   },
+   "appTxtOptions": {
+      "description": "The title of the options area on the settings page.",
+      "message": "Options"
+   },
+   "appTxtSettings": {
+      "description": "The title of the settings page.",
+      "message": "Settings"
+   },
+   "appTxtVisitProjectWebsite": {
+      "description": "The text for the link to Github in credits area.",
+      "message": "Visit project website"
+   }
+}

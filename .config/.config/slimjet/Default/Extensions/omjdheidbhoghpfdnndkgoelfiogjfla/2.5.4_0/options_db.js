@@ -1,0 +1,2 @@
+var Options=function(){};Options.prototype.get=function(a){var b=this.getAll();if(b)return b[a]};Options.prototype.getAll=function(){var a=this.getSource();return a?JSON.parse(a):{}};Options.prototype.set=function(a,b){var c=this.getSource();c=c?JSON.parse(c):{};c[a]=b;this.setSource(c)};Options.prototype.getSource=function(){return localStorage.options};Options.prototype.setSource=function(a){"string"!==typeof a&&(a=JSON.stringify(a));localStorage.options=a};
+Options.prototype.remove=function(a){var b=this.getSource();b=b?JSON.parse(b):{};delete b[a];this.setSource(b)};

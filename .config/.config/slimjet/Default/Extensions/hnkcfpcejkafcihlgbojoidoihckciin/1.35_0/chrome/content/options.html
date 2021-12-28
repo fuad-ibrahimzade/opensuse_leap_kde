@@ -1,0 +1,174 @@
+<html>
+<head>
+    <title>Referer Control Settings</title>
+    <link type="text/css" rel="stylesheet" href="options.css"/>
+	
+</head>
+
+<body style="font-family:Arial, Helvetica, sans-serif; font-size: 14px;">
+<div align="center" style="width:100%;">
+    <img src="skin/logo.png">
+    <br><br><br><br>
+    <table style="width: 1024px;">
+        <tr>
+            <td style="width: 374px; position: relative;">
+                <div>Referer Control status:<span><span id="buttonOn" class="button buttonOn">active</span><span
+                        id="buttonOff" class="button">inactive</span></span></div>
+                <div style="position: absolute;font-size: 12px;bottom: 0px;">Block Javascript Referer:<span><span id="jsbuttonOn" class="button buttonOn">active</span><span
+                        id="jsbuttonOff" class="button">inactive</span></span></div>
+            </td>
+            <td style="font-size: 12px; width: 650px;">You can set the referer to be sent on a per-site basis. Each
+                filter comes with four options:<br>
+
+                <table id="explanationTable" style="font-size: 12px; width: 650px; padding-left: 20px">
+                    <tr>
+                        <td style="width: 60px;"><i>to</i></td>
+                        <td>If you do not want to let this site know where you are coming from.</td>
+                    </tr>
+                    <tr>
+                        <td><i>from</i></td>
+                        <td>To hide that you are originating from this site.</td>
+                    </tr>
+                    <tr>
+                        <td><i>3rd</i></td>
+                        <td>Only requests from third parties are filtered.<br><span style="color: #888">google.com requesting google.com/calendar &rarr;
+                            first party request<br>  google.com requesting bing.com &rarr; third party request <br> google.com requesting maps.google.com &rarr;
+                            third party request</span></td>
+                    </tr>
+                    <tr>
+                        <td><i>RegEx</i></td>
+                        <td>Interprets your filter as a regular expression. For advanced users.</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">There are three referer options:</td>
+                    </tr>
+                    <tr>
+                        <td><i>Normal</i></td>
+                        <td>do not change referer - use this to whitelist sites when using the default action</td>
+                    </tr>
+                    <tr>
+                        <td><i>Custom</i></td>
+                        <td>set up a custom referer to send</td>
+                    </tr>
+                    <tr>
+                        <td><i>Block</i></td>
+                        <td>do not send any referer at all</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+<br><br>
+
+<table id="settingsTable" align="center">
+    <tr id="legend" style="text-align:center;">
+        <td style="border-bottom: 0px !important"></td>
+        <td colspan="5" style="border-right: 8px solid #fff;border-left: 2px solid #fff;">site filter</td>
+        <td colspan="3" style="border-left: 7px solid #fff;border-right: 8px solid #fff;">referer setting</td>
+    </tr>
+</table>
+<br>
+
+<div align="center" style="font-size:12px;">You can use * in a site filter as a wildcard (if RegEx is disabled). <br>
+    <span style="color: tomato">Caution:</span> <span style="color: #666">http://google.com</span> does not match <span
+            style="color: #666">http://www.google.com</span> (and vice versa).<br>If you want to match all subdomains
+    use <span style="color: #666">google.com</span> (omitting <span style="color: #666">http://</span>) or use an
+    asterisk <span style="color: #666">http://*google.com</span>.<br>Site filters are executed from bottom to top -
+    first hit wins.
+</div>
+<br><br>
+
+<table id="defaultTable" align="center">
+
+    <tr style="text-align:center;">
+        <td colspan="4">default referer for all other sites:</td>
+    </tr>
+    <tr id="defaultAction">
+        <td class="hide"><input class="site" value="dummy"></td>
+        <td name="normal" filter="normal" class="normal center">Normal</td>
+        <td name="specific" filter="specific" class="specific inActive center">Custom</td>
+        <td name="block" filter="block" class="block inActive center">Block</td>
+        <td name="3rd" id="dA3rd" class="isFilterOption isFilterOptionActive"
+            title="filter third party referer only (if deactivated and default action is not 'Normal', some sites may stop working!)">
+            3rd
+        </td>
+    </tr>
+    <tr class="hide" id="defaultAction_specific">
+        <td colspan="3" class="specificRow">
+            <table class="specificTable">
+                <tr>
+                    <td class="refererTD"><input type="text" rel="site" autocomplete="off" maxlength="1000" class="site"
+                                                 value="" role="textbox"></td>
+                    <td name="URL" title="use the requested url as referer" class="specificButton">url</td>
+                    <td name="TARGET_HOST" title="use the hostname of the target page as referer"
+                        class="specificButton">target&nbsp;host
+                    </td>
+                    <td name="REFERER_HOST" title="use the hostname of the referer as referer" class="specificButton">
+                        referer&nbsp;host
+                    </td>
+                    <td name="RANDOM" title="use a randomly generated domain as referer" class="specificButton">random
+                    </td>
+                <tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<br><br>
+<table id="testTable" align="center">
+    <tr style="text-align:center;">
+        <td colspan="2">test your site filter:</td>
+    </tr>
+    <tr id="testAction">
+        <td class="siteTD"><input id="testSite" type="text" rel="site" autocomplete="off" maxlength="1000" class="site"
+                                  value="enter site to test against" role="textbox"></td>
+        <td class="siteTD">
+            <div id="testFilter">used filter</div>
+        </td>
+    </tr>
+    <tr style="text-align:center;">
+        <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr style="text-align:center;">
+        <td colspan="2">Import / export your site filters:&emsp;<span><span id="export" class="button">export</span>&emsp;<span
+                id="import" class="button">import</span></span></td>
+    </tr>
+    <tr style="text-align:center;">
+        <td colspan="2"><br><br><span id="loadSync" class="button">Load your site filters from Google / Mozilla Cloud Sync</span> (if
+            you use multiple devices or reinstalled Referer Control)
+        </td>
+    </tr>
+    <tr style="text-align:center;">
+        <td colspan="2"><br><input id="export_input" type="text" rel="site" autocomplete="off" class="site"
+                                   role="textbox" readonly="readonly">
+            <input id="import_input" type="text" rel="site" autocomplete="off" class="site" role="textbox"
+                   value=" < paste your exported string here and click import again >"></td>
+    </tr>
+</table>
+<br><br><br>
+
+<div style="margin-left:30px;">
+    Context Menu entry:&emsp;&emsp;<span id="contextButton"
+                                         title="Use Context Menu entry to access Referer Control (on / off)"></span><br><br>
+
+    Activity log: &emsp;&emsp;<span id="logButton" title="activity log on / off"></span><br><span style="color: #888">(use this to see if your filters are working as intended - the log auto updates while you are browsing)</span>
+</div>
+<span id="deletelog" title="clear log"></span>
+
+<div id="log"></div>
+<br><br>
+
+<br><br><br>
+For bug reports please send a message to info@keepa.com.
+
+<script charset="UTF-8" type="text/javascript" src="jquery.js"></script>
+<script charset="UTF-8" type="text/javascript" src="options.js"></script>
+	
+</body>
+
+</html>

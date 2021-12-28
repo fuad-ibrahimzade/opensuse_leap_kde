@@ -1,0 +1,45 @@
+<!-- Auto-expands if a section is empty -->
+<div id="papaly-embedded-module" class="<%= shortcuts_count ? (items_count ? '' : 'speed-dial-expanded') : 'inbox-expanded' %>" speed-dial="<%= !!shortcuts_count %>" inbox="<%= !!items_count %>">
+  <div id="header">
+    <%= link_to(img_tag(chrome.extension.getURL('assets/logo-b.png'), 'Papaly logo'), 'https://papaly.com', { target: '_blank', id: 'papaly-logo' }) %>
+    <div id="close-module-button">
+    </div>
+  </div>
+  <div id="link-bar">
+    <div id="speed-dial-section">
+      <div class="inner-section">
+        <ul>
+          <% shortcuts.forEach(function(shortcut) { %>
+          <li class="shortcut-module" title="<%= shortcut.title %>">
+            <a href="<%= shortcut.url %>">
+              <div class="shortcut-icon" style="<%= shortcut.icon %>">
+              </div>
+            </a>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
+    </div>
+    <div id="inbox-section">
+      <div class="inner-section">
+        <ul>
+          <% items.forEach(function(item) { %>
+          <li class="item-bookmark" title="<%= item.title %>">
+            <a href="<%= item.url %>">
+              <div class="item-icon" style="<%= item.icon %>"></div>
+              <div class="item-name"><%= item.name %></div>
+            </a>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="link-bar-controls">
+    <div id="papaly-expand">+ Show more</div>
+    <div id="papaly-collapse">- Collapse </div>
+  </div>
+  <div id="embedded-settings">
+    <span id="disable-bookmarks">Disable bookmarks from search</span>
+  </div>
+</div>

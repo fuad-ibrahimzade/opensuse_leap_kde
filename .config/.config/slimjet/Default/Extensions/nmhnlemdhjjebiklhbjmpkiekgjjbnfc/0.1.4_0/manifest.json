@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+
+   },
+   "description": "Sort bookmarks all at once.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhpdbz7qbAEq/fcm4mdS1JHNtA4e1ZRno/WKX9y1fTw3pl9pN+PHa5JwvXrTIj65MozvQ1KnvNLXmRHajq1E3tlnEWvoaZLxGR2PulpQHdl9WF8E04LLANWRlQtcQEQen2Dgpuxb+f0lZgYW19w+5WIkNu0I+hPq6ov88cJa43y0WqAWdZWG7EnhTYIR/8rggpivpSDyuQJcBlciqoow9/i0+UJOKVzME0jT+6pSpXurFIB0tochu03dmvpcwKu0S4ISjCNwGAsv97ax06DcEgdyUFVAQPYycwosrxcsW8FWzmNfu6q2KKqOyF4AUAr6IvJKrgUpHmvmG7vaQuhO5zQIDAQAB",
+   "manifest_version": 2,
+   "name": "Sortmark",
+   "options_page": "options.html",
+   "permissions": [ "bookmarks" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.4"
+}

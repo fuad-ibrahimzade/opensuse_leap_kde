@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "fd5ddeb373082232",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f84483bcdda99f9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "protected/Test.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "447f1d0682029625",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cd26626ef495797",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23f2bcf409de3705",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ed38e4843f139794",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "37c2c7c4cfbf8d0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6021569756b0e50c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2149e913025ff5f5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "protected/Test.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3f84483bcdda99f9",
+  "lastOpenFiles": [
+    "protected/Test.md",
+    "job-related/cari-jobs.md",
+    "job-related/cari-courses.md",
+    "core/gnome-extensions-sync.md",
+    "core/miq.md",
+    "core/obnc.md",
+    "core/mic.md",
+    "Untitled.md",
+    "Untitled/obnc.md"
+  ]
+}

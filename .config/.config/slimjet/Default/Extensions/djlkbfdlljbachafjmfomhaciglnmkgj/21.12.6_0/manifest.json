@@ -1,0 +1,34 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "scripts/background.js" ]
+   },
+   "browser_action": {
+      "browser_style": true,
+      "default_icon": {
+         "128": "images/128.png",
+         "16": "images/16.png",
+         "32": "images/32.png",
+         "48": "images/48.png"
+      },
+      "default_popup": "pages/popup.html",
+      "default_title": "__MSG_browserActionTitle__"
+   },
+   "content_security_policy": "script-src 'self' https://unpkg.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "homepage_url": "https://github.com/gautamkrishnar/motrix-webextension",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgBmAn0MBQAqwKWMmge4AJvodiMi21eqlTcgfReMThJzy/aTXiZAoYTkJLxjytq/cva8Ekl7gChCvEzrhVgkvbEDTdwZnTawSdOizdbL9VGKGQWdnJpexW8DWXhrWPIQRJsEzQTQM8NMlQUJyL98hwDw6vhR+W+u2XIobsqYD68OM4KPPGkxAGM/tLmJ1shSK4eYqS70AFYQtj08Sms2g5IsOhFPiPJM1fr+L4+tP3K3hqrk4GW3m+qJ3kQu/qKU3hxfjAlQZB82XQqxpwo7ssTFch06IB9aL1eINOHuM8x0ONPb94zihFvClNFhlFEsTbUQowdBH0g7RkG7ubR0PjQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "downloads", "downloads.shelf", "notifications", "storage" ],
+   "short_name": "__MSG_appShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "21.12.6"
+}

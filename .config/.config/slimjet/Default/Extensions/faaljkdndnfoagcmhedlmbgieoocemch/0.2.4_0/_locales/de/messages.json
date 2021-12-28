@@ -1,0 +1,82 @@
+{
+   "appAlertSomethingWrong": {
+      "description": "The text shown when something goes wrong.",
+      "message": "Etwas ist schief gelaufen."
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Manchmal ist es schön ein schwebendes browser Fenster offen zu haben. Mit dem schwebenden Browser Fenster ist das möglich!"
+   },
+   "appLabelClose": {
+      "description": "The text of tooltip of the close button.",
+      "message": "Schließen"
+   },
+   "appLabelImproveByTracking": {
+      "description": "The text of label-element of tracking field on the options page.",
+      "message": "App verbessern mit anonymen Nutzungsdaten"
+   },
+   "appLabelMinimize": {
+      "description": "The text of tooltip of the minimize button.",
+      "message": "Minimieren"
+   },
+   "appLabelSave": {
+      "description": "The label of save button on the options page.",
+      "message": "Speichern"
+   },
+   "appLabelSettings": {
+      "description": "The text of tooltip of the settings button.",
+      "message": "Einstellungen"
+   },
+   "appLabelUrl": {
+      "description": "The text of label-element of URL field on the options page.",
+      "message": "URL"
+   },
+   "appMiscConsiderTracking": {
+      "description": "Text shown in console when user disables tracking.",
+      "message": "Überlege Tracking einzuschalten. Ich nutze es um die App zu verbessern. Dank Tracking kann ich sehen welche Fehler auftreten, ohne dass du sie übermitteln musst. Die App wird NIEMALS persönliche Informationen sammeln."
+   },
+   "appMiscYouAreAmazing": {
+      "description": "Text shown in console when user enables tracking.",
+      "message": "Du bist klasse! Dank dir wird die App jedes mal ein bisschen besser!"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Flobro, Schwebendes Browser Fenster"
+   },
+   "appPlaceholderUrl": {
+      "description": "The label of the URL field on the options page.",
+      "message": "Vollständige URL eingeben"
+   },
+   "appShortName": {
+      "description": "The short title of the application, displayed in the web store.",
+      "message": "Flobro"
+   },
+   "appTxtCredits": {
+      "description": "The title of credits area.",
+      "message": "Danksagungen"
+   },
+   "appTxtFrom": {
+      "description": "Lowercase word for 'from'.",
+      "message": "von"
+   },
+   "appTxtIconsDesignedBy": {
+      "description": "The text to credit the icon designer.",
+      "message": "Ikonen entworfen von"
+   },
+   "appTxtIssues": {
+      "description": "The text for the link to issues in credits area.",
+      "message": "Ein Problem melden"
+   },
+   "appTxtOptions": {
+      "description": "The title of the options area on the options page.",
+      "message": "Optionen"
+   },
+   "appTxtSettings": {
+      "description": "The title of the options page.",
+      "message": "Einstellungen"
+   },
+   "appTxtVisitProjectWebsite": {
+      "description": "The text for the link to Github in credits area.",
+      "message": "Projekt-Website Besuchen"
+   }
+}

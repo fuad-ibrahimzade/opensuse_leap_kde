@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Менеджер закладок, який допомагає з організацією, Синхронізація між браузерами і платформами"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "Закладка Швидкість Менеджер набору | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "Порожня сторінка"
+   },
+   "option_newtab_chrome": {
+      "message": "Chrome за замовчуванням (Google)"
+   },
+   "option_newtab_custom": {
+      "message": "Призначені для користувача ..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "Призначений для користувача URL тут"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "Виберіть нову поведінку вкладок"
+   },
+   "option_search": {
+      "message": "Показати результати Papaly в пошуку"
+   },
+   "option_title": {
+      "message": "Papaly Опції"
+   }
+}

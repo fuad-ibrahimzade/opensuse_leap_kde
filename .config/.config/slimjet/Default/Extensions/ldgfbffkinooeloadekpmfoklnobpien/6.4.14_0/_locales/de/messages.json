@@ -1,0 +1,34 @@
+{
+   "appDesc": {
+      "description": "",
+      "message": "All-in-One-Lesezeichen-Manager"
+   },
+   "in": {
+      "description": "",
+      "message": "in"
+   },
+   "openRaindrop": {
+      "description": "",
+      "message": "Öffnen Raindrop.io web-seite"
+   },
+   "openSidebar": {
+      "description": "",
+      "message": "Öffnen seitenleiste"
+   },
+   "saveImage": {
+      "description": "",
+      "message": "Speichern foto"
+   },
+   "saveLink": {
+      "description": "",
+      "message": "Speichern link"
+   },
+   "savePage": {
+      "description": "",
+      "message": "Erstellen neues lesezeichen"
+   },
+   "saveVideo": {
+      "description": "",
+      "message": "Speichern video"
+   }
+}

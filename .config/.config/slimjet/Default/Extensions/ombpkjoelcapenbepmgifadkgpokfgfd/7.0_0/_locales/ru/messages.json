@@ -1,0 +1,604 @@
+{
+   "buttonListDupes": {
+      "description": "Button for listing dupes",
+      "message": "Дубли"
+   },
+   "buttonListEmpty": {
+      "description": "Button for listing empty folders",
+      "message": "Пустые папки"
+   },
+   "buttonListSingles": {
+      "description": "Button for listing all non-dupe bookmarks",
+      "message": "НЕ-дубли"
+   },
+   "buttonMarkAll": {
+      "description": "Button for marking all",
+      "message": "Отметить все"
+   },
+   "buttonMarkButFirst": {
+      "description": "Button for marking all but first",
+      "message": "В каждой группе выбрать все кроме верхней"
+   },
+   "buttonMarkButLast": {
+      "description": "Button for marking all but last",
+      "message": "В каждой группе выбрать все кроме нижней"
+   },
+   "buttonMarkButNewest": {
+      "description": "Button for marking all but newest",
+      "message": "В каждой группе выбрать все кроме новейшей"
+   },
+   "buttonMarkButOldest": {
+      "description": "Button for marking all but oldest",
+      "message": "В каждой группе выбрать все кроме старейшей"
+   },
+   "buttonMarkFolder": {
+      "description": "Button for marking all of the selected folder",
+      "message": "Отметить все из выбраной папки"
+   },
+   "buttonMarkFolderButFirst": {
+      "description": "Button for unmarking all but selected folder or first in groups with it",
+      "message": "Где есть закладки из выбраной папки - отметить только их (или искл. верхнюю)"
+   },
+   "buttonMarkFolderButLast": {
+      "description": "Button for unmarking all but selected folder or last in groups with it",
+      "message": "Где есть закладки из выбраной папки - отметить только их (или искл. нижнюю)"
+   },
+   "buttonMarkFolderButNewest": {
+      "description": "Button for unmarking all but selected folder or newest in groups with it",
+      "message": "Где есть закладки из выбраной папки - отметить только их (или искл. новейшую)"
+   },
+   "buttonMarkFolderButOldest": {
+      "description": "Button for unmarking all but selected folder or oldest in groups with it",
+      "message": "Где есть закладки из выбраной папки - отметить только их (или искл. старейшую)"
+   },
+   "buttonMarkFolderOther": {
+      "description": "Button for marking all but selected folder in groups with it",
+      "message": "Где есть закладки из выбраной папки - выбрать всё кроме них."
+   },
+   "buttonMarkSame": {
+      "description": "Button for marking all of the same folders in the same group",
+      "message": "Отметить все идентичные папки в одной группе"
+   },
+   "buttonMarkSameButFirst": {
+      "description": "Button for marking all but the first of identical folders in the same group",
+      "message": "Отметить все идентичные папки в одной группе, кроме верхних"
+   },
+   "buttonMarkSameButLast": {
+      "description": "Button for marking all but the last of identical folders in the same group",
+      "message": "Отметить все идентичные папки в одной группе, кроме нижних"
+   },
+   "buttonMarkSameButNewest": {
+      "description": "Button for marking all but the newest of identical folders in the same group",
+      "message": "Отметить все идентичные папки в одной группе, кроме новейших"
+   },
+   "buttonMarkSameButOldest": {
+      "description": "Button for marking all but the oldest of identical folders in the same group",
+      "message": "Отметить все идентичные папки в одной группе, кроме старейших"
+   },
+   "buttonMoveMarked": {
+      "description": "Button for moving marked bookmarks to trash folder. The trash folder name in the text should be {0}",
+      "message": "Переместить отмеченные закладки в “{0}”"
+   },
+   "buttonRemoveMarked": {
+      "description": "Button for removing marked bookmarks",
+      "message": "Удалить отмеченные закладки"
+   },
+   "buttonRuleAdd": {
+      "description": "Button for inserting a new rule. The text should be short",
+      "message": "➕"
+   },
+   "buttonRuleDown": {
+      "description": "Button for moving a rule down. The text should be short",
+      "message": "⇩"
+   },
+   "buttonRuleDownFontWeight": {
+      "description": "font-weight property for buttonRuleDown",
+      "message": "bolder"
+   },
+   "buttonRuleSub": {
+      "description": "Button for removing a rule. The text should be short",
+      "message": "✖"
+   },
+   "buttonRuleUp": {
+      "description": "Button for moving a rule up. The text should be short",
+      "message": "⇧"
+   },
+   "buttonRuleUpFontWeight": {
+      "description": "font-weight property for buttonRuleUp",
+      "message": "bolder"
+   },
+   "buttonRulesCleanLocal": {
+      "description": "Button for cleaning local storage. The text should be short",
+      "message": "Очистка хранилища  "
+   },
+   "buttonRulesCleanSync": {
+      "description": "Button for cleaning sync storage. The text should be short",
+      "message": "Оч.Синхр.хранилище"
+   },
+   "buttonRulesDefault": {
+      "description": "Button for restoring default rules. The text should be short",
+      "message": "Вост.правила по умолч."
+   },
+   "buttonRulesRestoreLocal": {
+      "description": "Button for restoring rules from local storage. The text should be short",
+      "message": "Восстановить правила"
+   },
+   "buttonRulesRestoreSync": {
+      "description": "Button for restoring rules from sync storage. The text should be short",
+      "message": "Вост.синхр.хранилище"
+   },
+   "buttonRulesStoreLocal": {
+      "description": "Button for putting rules to local storage. The text should be short",
+      "message": "Сохранить правила     "
+   },
+   "buttonRulesStoreSync": {
+      "description": "Button for putting rules to sync storage. The text should be short",
+      "message": "Сохр.синхр.хранилище"
+   },
+   "buttonStopMoving": {
+      "description": "Button for emergency stop of bookmark moving",
+      "message": "Остановить перемещение!"
+   },
+   "buttonStopRemoving": {
+      "description": "Button for emergency stop of bookmark removing",
+      "message": "Прекратить удаление!"
+   },
+   "buttonUnmarkAll": {
+      "description": "Button for unmarking all",
+      "message": "Снять все отметки"
+   },
+   "buttonUnmarkFolder": {
+      "description": "Button for unmarking all of selected folder",
+      "message": "Снять отметку со всех из выбраной папки"
+   },
+   "buttonUnmarkSame": {
+      "description": "Button for unmarking all of the same folders in the same group",
+      "message": "Снять отметку со всех идентичных папок в одной группе"
+   },
+   "checkboxExtra": {
+      "description": "Checkbox for displaying the replaced URL content in listing",
+      "message": "Отображать заменённое содержимое URL-ов в списке"
+   },
+   "checkboxFullUrl": {
+      "description": "Checkbox for displaying URL in listing. Explain that the URL will appear as title anyway",
+      "message": "Показывать URL-ы в списке. В любом случае URL-адрес появится, если вы наведете курсор на закладку."
+   },
+   "checkboxRules": {
+      "description": "Checkbox text for switching on/off regexp rules",
+      "message": "Экспертный режим: используйте собственные правила, чтобы находить или игнорировать закладки во время поиска."
+   },
+   "errorNoBookmarkFolderFound": {
+      "description": "Report that no bookmark folder was found",
+      "message": "Папки с закладками не найдены"
+   },
+   "errorNoBookmarks": {
+      "description": "Report that the extension will not work on that browser",
+      "message": "В этой версии браузера отсутствует требуемый API закладок. Bookmark Dupes (и другие подобные аддоны) не работает без этого API. Извините."
+   },
+   "extensionDescription": {
+      "description": "Description of the extension",
+      "message": "Поиск, отображение и удаление дублей закладок и пустых папок"
+   },
+   "extensionName": {
+      "description": "Name of the extension",
+      "message": "Bookmark Dupes"
+   },
+   "messageCalculateError": {
+      "description": "Report specified error during calculation",
+      "message": "Ошибка: $ERROR$",
+      "placeholders": {
+         "error": {
+            "content": "$1",
+            "example": "описание ошибки"
+         }
+      }
+   },
+   "messageCalculating": {
+      "description": "Report that calculation started",
+      "message": "Поиск"
+   },
+   "messageCount": {
+      "description": "Report specified number of marked bookmarks",
+      "message": "$TOTAL$ закладок отмечено",
+      "placeholders": {
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "messageEmpty": {
+      "description": "Report specified number of empty folders",
+      "message": "$TOTAL$ пустых папок найдено",
+      "placeholders": {
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "messageMatches": {
+      "description": "Report specified numbers of matches and groups of all",
+      "message": "$TOTAL$ (из $ALL$) дублей в $GROUPS$ группах",
+      "placeholders": {
+         "all": {
+            "content": "$3",
+            "example": "1"
+         },
+         "groups": {
+            "content": "$2",
+            "example": "1"
+         },
+         "total": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "messageMoveError": {
+      "description": "Report specified error after moving specified number of bookmarks",
+      "message": "Ошибка после перемещения $TOTAL$ закладок: $ERROR$",
+      "placeholders": {
+         "error": {
+            "content": "$1",
+            "example": "описание ошибки"
+         },
+         "total": {
+            "content": "$2",
+            "example": "0"
+         }
+      }
+   },
+   "messageMoveMarked": {
+      "description": "Report that moving of marked bookmarks started",
+      "message": "Началось перемещение закладок"
+   },
+   "messageMoveProgress": {
+      "description": "Report that specified number/total/percentage of bookmarks are moved",
+      "message": "($PERCENTAGE$ %) $TOTAL$ из $TODO$ закладок перемещено",
+      "placeholders": {
+         "percentage": {
+            "content": "$3",
+            "example": "0"
+         },
+         "todo": {
+            "content": "$2",
+            "example": "1"
+         },
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "messageMoveSuccess": {
+      "description": "Report success when moving specified number of bookmarks",
+      "message": "$TOTAL$ закладок перемещено!",
+      "placeholders": {
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "messageNoCount": {
+      "description": "Report that marks are not counted for speed reasons",
+      "message": "Для ускорения аддона число отмеченных закладок не отображается"
+   },
+   "messageRemoveError": {
+      "description": "Report specified error after removing specified number of bookmarks",
+      "message": "Ошибка после удаления $TOTAL$ закладок: $ERROR$",
+      "placeholders": {
+         "error": {
+            "content": "$1",
+            "example": "описание ошибки"
+         },
+         "total": {
+            "content": "$2",
+            "example": "0"
+         }
+      }
+   },
+   "messageRemoveMarked": {
+      "description": "Report that removal of marked bookmarks started",
+      "message": "Удаление отмеченных закладок..."
+   },
+   "messageRemoveProgress": {
+      "description": "Report that specified number/total/percentage of bookmarks are removed",
+      "message": "($PERCENTAGE$ %) $TOTAL$ из $TODO$ закладок удалено",
+      "placeholders": {
+         "percentage": {
+            "content": "$3",
+            "example": "0"
+         },
+         "todo": {
+            "content": "$2",
+            "example": "1"
+         },
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "messageRemoveSuccess": {
+      "description": "Report success when removing specified number of bookmarks",
+      "message": "$TOTAL$ закладок удалено!",
+      "placeholders": {
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "messageSingles": {
+      "description": "Report specified number of non-dupe bookmarks",
+      "message": "$TOTAL$ (из $ALL$) закладок-НЕ-дублей найдено",
+      "placeholders": {
+         "all": {
+            "content": "$2",
+            "example": "1"
+         },
+         "total": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "optionNonFolder": {
+      "description": "Name of the non-folder. It might indicate that buttons for markings appear if another name is selected.",
+      "message": "-- Выберите папку чтобы увидеть кнопки маркировки её закладок --"
+   },
+   "optionSameFolder": {
+      "description": "Name of a special folder selection: Identical folders in the same group",
+      "message": "-- Идентичные папки в одной группе --"
+   },
+   "radioFilter": {
+      "description": "Radio button for filtering a bookmark. The text should be short",
+      "message": "Фильтр  "
+   },
+   "radioOff": {
+      "description": "Radio button for ignoring the rule. The text should be short",
+      "message": "Выкл.  "
+   },
+   "radioUrl": {
+      "description": "Radio button for preprocessing a URL. The text should be short",
+      "message": "Замена  "
+   },
+   "regExpTrashFolder": {
+      "description": "A regular expression matching trashFolder; symbols like .?\\[]()* should be quoted by \\ or surrounded by []",
+      "message": "Dupes"
+   },
+   "ruleName": {
+      "description": "Input field for matching the name. The text should be short",
+      "message": "Соответст. имён"
+   },
+   "ruleNameNegation": {
+      "description": "Input field for not matching the name. The text should be short",
+      "message": "Несоответствие"
+   },
+   "ruleReplace": {
+      "description": "Input field for the replacement text for the regular expression matches. The text should be short",
+      "message": "соответствие на:"
+   },
+   "ruleSearch": {
+      "description": "Input field for the search part of the URL. The text should be short",
+      "message": "Заменить ↓ URL"
+   },
+   "ruleUrl": {
+      "description": "Input field for matching the URL. The text should be short",
+      "message": "Соответств. URL"
+   },
+   "ruleUrlNegation": {
+      "description": "Input field for matching the URL. The text should be short",
+      "message": "Несоответствие"
+   },
+   "titleButtonListDupes": {
+      "description": "Explain that the list of bookmark dupes will be (re)calculated, and how bookmark dupes are defined",
+      "message": "(Пере)определить список дублей. Две закладки считаются дублями, если их URL-ы одинаковы. В Экспертном режиме, выбранные правила предварительной обработки (замены) применяются перед сравнением URL-ов."
+   },
+   "titleButtonListEmpty": {
+      "description": "Explain that the list of empty folders will be (re)calculated, and that the result might falsely contain live bookmarks",
+      "message": "(Пере)определить список пустых папок. Результат может ошибочно содержать Живые закладки (RSS)."
+   },
+   "titleButtonListSingles": {
+      "description": "Explain that the list of all non-dupe bookmarks will be (re)calculated, and how bookmark dupes are defined",
+      "message": "(Пере)определить список закладок-НЕ-дублей. Две закладки считаются дублями, если их URL-ы одинаковы. В Экспертном режиме, выбранные правила предварительной обработки (замены) применяются перед сравнением URL-ов."
+   },
+   "titleButtonMarkAll": {
+      "description": "Explain that all bookmarks will be marked",
+      "message": "Отметить все закладки."
+   },
+   "titleButtonMarkButFirst": {
+      "description": "Explain that additionally the first bookmark in each group will be unmarked",
+      "message": "В каждой группе дублей будут выбраны все закладки кроме верхней."
+   },
+   "titleButtonMarkButLast": {
+      "description": "Explain that additionally the last bookmark in each group will be unmarked",
+      "message": "В каждой группе дублей будут выбраны все закладки кроме нижней."
+   },
+   "titleButtonMarkButNewest": {
+      "description": "Explain that additionally the newest bookmark in each group will be unmarked",
+      "message": "В каждой группе дублей будут выбраны все закладки кроме новейшей."
+   },
+   "titleButtonMarkButOldest": {
+      "description": "Explain that additionally the oldest bookmark in each group will be unmarked",
+      "message": "В каждой группе дублей будут выбраны все закладки кроме старейшей."
+   },
+   "titleButtonMarkFolder": {
+      "description": "Explain that all bookmarks of selected folder will be marked",
+      "message": "Отметить все закладки из выбраной папки."
+   },
+   "titleButtonMarkFolderButFirst": {
+      "description": "Explain that in groups with selected folder all bookmarks from that folder will be marked and all others unmarked; if there are no others, the first is unmarked",
+      "message": "В группах дублей, где есть закладки из выбраной папки, будут выбраны только они (или исключена верхняя, если других нет)."
+   },
+   "titleButtonMarkFolderButLast": {
+      "description": "Explain that in groups with selected folder all bookmarks from that folder will be marked and all others unmarked; if there are no others, the last is unmarked",
+      "message": "В группах дублей, где есть закладки из выбраной папки, будут выбраны только они (или исключена нижняя, если других нет)."
+   },
+   "titleButtonMarkFolderButNewest": {
+      "description": "Explain that in groups with selected folder all bookmarks from that folder will be marked and all others unmarked; if there are no others, the newest is unmarked",
+      "message": "В группах дублей, где есть закладки из выбраной папки, будут выбраны только они (или исключена новейшая, если других нет)."
+   },
+   "titleButtonMarkFolderButOldest": {
+      "description": "Explain that in groups with selected folder all bookmarks from that folder will be marked and all others unmarked; if there are no others, the oldest is unmarked",
+      "message": "В группах дублей, где есть закладки из выбраной папки, будут выбраны только они (или исключена старейшая, если других нет)."
+   },
+   "titleButtonMarkFolderOther": {
+      "description": "Explain that all bookmarks of selected folder will be unmarked",
+      "message": "В группах дублей где есть закладки из выбраной папки будет выбрано всё, кроме них."
+   },
+   "titleButtonMarkSame": {
+      "description": "Explain that all bookmarks of identical folders in the same group will be marked",
+      "message": "Отметить все закладки из идентичных папок в одной группе"
+   },
+   "titleButtonMarkSameButFirst": {
+      "description": "Explain that additionally for identical folders in the same group the first will be unmarked",
+      "message": "Будут отмечены все идентичные папки в одной группе, кроме самых верхних."
+   },
+   "titleButtonMarkSameButLast": {
+      "description": "Explain that additionally for identical folders in the same group the last will be unmarked",
+      "message": "Будут отмечены все идентичные папки в одной группе, кроме самых нижних."
+   },
+   "titleButtonMarkSameButNewest": {
+      "description": "Explain that additionally for identical folders in the same group the newest will be unmarked",
+      "message": "Будут отмечены все идентичные папки в одной группе, кроме самых новых."
+   },
+   "titleButtonMarkSameButOldest": {
+      "description": "Explain that additionally for identical folders in the same group the oldest will be unmarked",
+      "message": "Будут отмечены все идентичные папки в одной группе, кроме самых старых."
+   },
+   "titleButtonRemoveMarked": {
+      "description": "Explain that bookmarks refer to those of last update of the list",
+      "message": "Закладки отмечены с тех пор, как вы в последний раз нажимали кнопку, вычисляя список."
+   },
+   "titleButtonRuleAdd": {
+      "description": "Explain that a new rule will be inserted",
+      "message": "Добавить новое правило."
+   },
+   "titleButtonRuleDown": {
+      "description": "Explain that the rule will be moved down",
+      "message": "Правило будет перемещено вниз."
+   },
+   "titleButtonRuleSub": {
+      "description": "Explain that the rule will be removed",
+      "message": "Удалить это правило."
+   },
+   "titleButtonRuleUp": {
+      "description": "Explain that the rule will be moved up",
+      "message": "Правило будет перемещено вверх."
+   },
+   "titleButtonRulesCleanLocal": {
+      "description": "Explain that the browser's local storage area will be cleaned from stored rules",
+      "message": "Локальное хранилище браузера будет очищено от сохраненных правил. Сохранённые правила будут утеряны."
+   },
+   "titleButtonRulesCleanSync": {
+      "description": "Explain that the sync browser's storage area will be cleaned from stored rules",
+      "message": "Хранилище синхронизации браузера будет очищено от сохранённых правил. Сохранённые правила будут утеряны."
+   },
+   "titleButtonRulesDefault": {
+      "description": "Explain that current rules will be replaced by default rules",
+      "message": "Заменить текущие правила правилами по умолчанию."
+   },
+   "titleButtonRulesRestoreLocal": {
+      "description": "Explain that current rules will be replaced by those from the browser's local storage area",
+      "message": "Правила будут заменены теми, что хранятся в локальном хранилище браузера."
+   },
+   "titleButtonRulesRestoreSync": {
+      "description": "Explain that current rules will be replaced by those from the browser's sync storage area",
+      "message": "Заменить текущие правила теми, которые находятся в хранилище синхронизации браузера."
+   },
+   "titleButtonRulesStoreLocal": {
+      "description": "Explain that current rules will replace those in the browser's local storage area",
+      "message": "Текущие правила будут сохранены в локальном хранилище браузера, возможно перезапишутся ранее сохранённые правила."
+   },
+   "titleButtonRulesStoreSync": {
+      "description": "Explain that current rules will replace those in the browser's sync storage area",
+      "message": "Текущие правила будут сохранены в хранилище синхронизации браузера, возможно перезапишутся ранее сохранённые правила."
+   },
+   "titleButtonUnmarkAll": {
+      "description": "Explain that all bookmarks will be unmarked",
+      "message": "Снять все отметки c закладок."
+   },
+   "titleButtonUnmarkFolder": {
+      "description": "Explain that all bookmarks of selected folder will be unmarked",
+      "message": "Снять отметку со всех закладок из выбраной папки."
+   },
+   "titleButtonUnmarkSame": {
+      "description": "Explain that all bookmarks of identical folders in the same group will be unmarked",
+      "message": "Снять отметку со всех закладок из идентичных папок в одной группе."
+   },
+   "titleCheckboxRules": {
+      "description": "Explain what regular expresssions are used for",
+      "message": "С помощью этой опции можно игнорировать или находить подобные закладки, в соответствии с правилами. Подробности указано в терминах регулярных выражений."
+   },
+   "titleMessageEmpty": {
+      "description": "Explain that the list might falsely contain live bookmarks",
+      "message": "Этот список может ошибочно содержать Живые закладки (RSS)."
+   },
+   "titleMessageMatches": {
+      "description": "Explain how bookmark dupes are defined",
+      "message": "Две закладки считаются дублями, если их URL-ы одинаковы. В Экспертном режиме, выбранные правила предварительной обработки (замены) применяются к URL-ам до их сравнения."
+   },
+   "titleMessageSingles": {
+      "description": "Explain that list of non-dupe bookmarks is shown",
+      "message": "Список закладок-НЕ-дублей"
+   },
+   "titleRadioFilter": {
+      "description": "Explain that by choosing that button the corresponding bookmark will be ignored",
+      "message": "Закладки, соответствующие критериям будут игнорироваться."
+   },
+   "titleRadioOff": {
+      "description": "Explain that by choosing that button the rule has no effect",
+      "message": "Это правило не действует."
+   },
+   "titleRadioUrl": {
+      "description": "Explain that by choosing that button the url of matching bookmarks will be preprocessed",
+      "message": "Перед проверкой URL, чтобы найти дубли закладок, URL-ы соответствующих закладок будут предварительно обработанны в соответствии с указанным правилом."
+   },
+   "titleRuleName": {
+      "description": "Explain that bookmarks whose name matches the regular expression will be selected and that folders names are separated by \\0 or \\x00",
+      "message": "Правило применяется к закладкам, если путь к ним (папки + имя) соответствует регулярному выражению. Разделитель для папок это \\0 или \\x00."
+   },
+   "titleRuleNameNegation": {
+      "description": "Explain that bookmarks whose names does not match the regular expression will be selected and that folders names are separated by \\0 or \\x00",
+      "message": "Правило применяется к закладкам, если путь к ним (папки + имя) несоответствует регулярному выражению. Разделитель для папок это \\0 или \\x00."
+   },
+   "titleRuleReplace": {
+      "description": "Explain that the text will be used as replacement text for the regular expression matches",
+      "message": "Текст замены по соответствию регулярному выражению. Символы типа $$& или $$1 могут использоваться для обозначения соответствий или содержимого скобок (). Специальные тексты \\L$$& и \\U$$& означают нижний и верхний регистр соответствий. Специальные тексты $$URL, $$NAME, $$TITLE означают начальные (немодифицированные) URL-ы и полные названия/заголовки закладок (с/без пути) соответственно. The latter three can be preceeded or followed by $$& to prepend or append the original match"
+   },
+   "titleRuleSearch": {
+      "description": "Explain that the corresponding parts of the URL will be replaced for comparison",
+      "message": "Если сравниваемые URL-ы содержат части, соответствующие регулярному выражению, они будут заменены указанным в правиле текстом."
+   },
+   "titleRuleUrl": {
+      "description": "Explain that bookmarks whose URL matches the regular expression will be selected",
+      "message": "Правило применяется к закладкам, если их адреса совпадают с регулярным выражением."
+   },
+   "titleRuleUrlNegation": {
+      "description": "Explain that bookmarks whose URL does not match the regular expression will be selected",
+      "message": "Правило применяется к закладкам, если их адреса несовпадают с регулярным выражением."
+   },
+   "titleSelectFolder": {
+      "description": "Explain that selecting a folder will provide corresponding buttons for marking",
+      "message": "Если папка выбрана, отображаются кнопки для маркировки её закладок."
+   },
+   "trashFolder": {
+      "description": "The name of the trash folder. Should match regExpTrashFolder",
+      "message": "Дубли"
+   },
+   "warningExpertStrong": {
+      "description": "First part of warning to enable expert mode: strong",
+      "message": "⚠ "
+   },
+   "warningExpertText": {
+      "description": "Second part of warning to enable expert mode: normal",
+      "message": "Не включайте экспертный режим, если не понимаете последствия!"
+   },
+   "warningRemoveMarked": {
+      "description": "Text in front of button for removing marked bookmarks",
+      "message": "⚠"
+   }
+}

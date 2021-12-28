@@ -1,0 +1,34 @@
+{
+   "appDesc": {
+      "description": "",
+      "message": "ऑल-इन-वन बुकमार्क प्रबंधक"
+   },
+   "in": {
+      "description": "",
+      "message": "में"
+   },
+   "openRaindrop": {
+      "description": "",
+      "message": "खोले Raindrop.io web-साइट"
+   },
+   "openSidebar": {
+      "description": "",
+      "message": "खोले साइडबार"
+   },
+   "saveImage": {
+      "description": "",
+      "message": "सहेजे चित्र"
+   },
+   "saveLink": {
+      "description": "",
+      "message": "सहेजे लिंक"
+   },
+   "savePage": {
+      "description": "",
+      "message": "बनाना नया बुकमार्क"
+   },
+   "saveVideo": {
+      "description": "",
+      "message": "सहेजे वीडियो"
+   }
+}

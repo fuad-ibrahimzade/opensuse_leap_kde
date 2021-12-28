@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "مدير المرجعية التي تساعد في المنظمة، المزامنة عبر المتصفحات ومنصات"
+   },
+   "appDetail": {
+      "message": "To be added later"
+   },
+   "appName": {
+      "message": "المرجعية سرعة مدير الاتصال الهاتفي | Papaly"
+   },
+   "option_newtab_blank": {
+      "message": "صفحة فارغة"
+   },
+   "option_newtab_chrome": {
+      "message": "الكروم افتراضي (جوجل)"
+   },
+   "option_newtab_custom": {
+      "message": "عرف..."
+   },
+   "option_newtab_custom_custom_url": {
+      "message": "URL مخصص هنا"
+   },
+   "option_newtab_papaly": {
+      "message": "Papaly"
+   },
+   "option_newtab_title": {
+      "message": "تحديد السلوك علامة تبويب جديدة"
+   },
+   "option_search": {
+      "message": "أظهرت النتائج Papaly بحثا"
+   },
+   "option_title": {
+      "message": "خيارات Papaly"
+   }
+}
